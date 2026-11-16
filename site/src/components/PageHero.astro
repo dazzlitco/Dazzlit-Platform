@@ -28,5 +28,16 @@ const { data } = entry;
         {ctaDisplay(data.cta)}
       </a>
     </div>
+    {
+      data.heroImage && (
+        <img
+          src={data.heroImage}
+          alt={data.heroImageAlt ?? ''}
+          width="1200"
+          height="675"
+          class="mt-8 aspect-[16/9] w-full rounded-2xl object-cover shadow-lg"
+        />
+      )
+    }
   </div>
 </header>

@@ -4,6 +4,8 @@ url: "/contact/"
 title: "Contact / Free Proposal"
 metaTitle: "Contact / Free Proposal | Dazzlit"
 metaDescription: "Contact / Free Proposal from Dazzlit: data-driven digital marketing built to grow traffic, leads and revenue. See results and get a free proposal."
+heroImage: "/images/contact-rooftop-terrace.webp"
+heroImageAlt: "Rooftop terrace with lounge seating overlooking a city at dusk"
 primaryKeyword: "contact dazzlit"
 secondaryKeywords: []
 schema:

@@ -4,6 +4,8 @@ url: "/about/"
 title: "About Dazzlit"
 metaTitle: "About Dazzlit | Dazzlit"
 metaDescription: "About Dazzlit from Dazzlit: data-driven digital marketing built to grow traffic, leads and revenue. See results and get a free proposal."
+heroImage: "/images/about-studio-hero.webp"
+heroImageAlt: "Modern open-plan studio interior with floor-to-ceiling windows overlooking a city at sunset"
 primaryKeyword: "about dazzlit"
 secondaryKeywords: []
 schema:
