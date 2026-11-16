@@ -4,6 +4,8 @@ url: "/services/social-media-advertising/"
 title: "Social Media Advertising Services"
 metaTitle: "Social Media Advertising Services | Dazzlit"
 metaDescription: "Social Media Advertising Services from Dazzlit: data-driven paid social built to grow traffic, leads and revenue. See results and get a free proposal."
+heroImage: "/images/hub-social-media-advertising.webp"
+heroImageAlt: "Wall of glowing screens in a modern atrium at dusk"
 primaryKeyword: "paid social agency"
 secondaryKeywords:
   - "social media advertising agency"

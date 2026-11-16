@@ -4,6 +4,8 @@ url: "/services/web-design-development/"
 title: "Web Design & Development Services"
 metaTitle: "Web Design & Development Services | Dazzlit"
 metaDescription: "Web Design & Development Services from Dazzlit: data-driven web design built to grow traffic, leads and revenue. See results and get a free proposal."
+heroImage: "/images/hub-web-design.webp"
+heroImageAlt: "Minimal desk with a laptop and design sketches by a window over the city"
 primaryKeyword: "web design company"
 secondaryKeywords:
   - "web design agency"

@@ -4,6 +4,8 @@ url: "/services/social-media-marketing/"
 title: "Social Media Marketing Services"
 metaTitle: "Social Media Marketing Services | Dazzlit"
 metaDescription: "Social Media Marketing Services from Dazzlit: data-driven social media marketing built to grow traffic, leads and revenue. See results and get a free…"
+heroImage: "/images/hub-social-media-marketing.webp"
+heroImageAlt: "Lively rooftop gathering at dusk, people as distant silhouettes"
 primaryKeyword: "social media management"
 secondaryKeywords:
   - "social media marketing agency"
