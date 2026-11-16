@@ -48,6 +48,7 @@
 ## Recent sessions
 | Session | Date | What happened | Register |
 |---|---|---|---|
+| S-22 | 16 Nov 2026 | Homepage hero + insight images: 4 AI-generated WebP images (hero desktop/mobile, 2 insight cards) wired into the homepage, verified and pushed to `develop` | R-046 |
 | S-21 | 16 Nov 2026 | Merge `develop` into `main` (owner approved) — Wave 1 complete on `main` | R-045 |
 | S-20 | 16 Nov 2026 | Phase 2, Wave 1: pricing + 7 site pages + all 41 service pages written (body copy + FAQ answers), verified and pushed to `develop` — Wave 1 complete | R-044 |
 | S-19 | 16 Nov 2026 | Phase 2, Wave 1: all 19 service hubs written (body copy + FAQ answers), verified and pushed to `develop` | R-043 |
@@ -71,6 +72,7 @@
 | S-01 | 28–29 Sep 2026 | Setup, keyword research, validation, content plan v1 (864 pages) | R-001 – R-013 |
 
 ## Changelog
+- **2026-11-16:** Homepage hero images live on `develop`: 4 AI-generated WebP images per the photo brief (hero desktop 4:5 + mobile crop, 2 insight cards), wired into the homepage with a two-column hero layout. Build passes, link check 11,512 links 0 broken, Lighthouse on the homepage 97/97/100/100. Images uploaded via the GitHub website (commit c3c43f8); code pushed via API (commit 9f5e746). 23 of the 27 brief images remain.
 - **2026-11-16:** `develop` merged into `main` (owner approved, PR #2, merge commit 3222a21). `main` now has all 69 Wave 1 pages written. If the Cloudflare Pages project is connected, this deploys the full Wave 1 site to the production Pages URL; dazzlit.com DNS is untouched.
 - **2026-11-16:** Wave 1 complete: pricing page, 7 site pages and all 41 service pages written, verified and pushed to `develop` (commit 2056881). Build passes (75 pages), link check 11,509 links 0 broken, content check clean, Lighthouse on a service page 100/93/100/100. Still missing: photos, prices, client/specialist counts, client logo row, contract terms. Two items need the owner's decision: the Graphic Design page brief mixes graphic design with video production, and the Digital PR "no long-term contract" claim is unconfirmed.
 - **2026-11-16:** All 19 Wave 1 service hubs written (2,000–2,800 words each, with FAQ answers), verified and pushed to `develop`. Still missing: photos, prices, client/specialist counts, client logo row, contract terms.
