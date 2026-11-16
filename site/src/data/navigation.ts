@@ -8,6 +8,7 @@ export interface NavLink {
 
 export interface NavGroup {
   heading: string;
+  description?: string;
   links: NavLink[];
 }
 
@@ -23,6 +24,7 @@ export const MARKETS: NavLink[] = [
 export const SOLUTION_GROUPS: NavGroup[] = [
   {
     heading: 'Search & AI visibility',
+    description: 'Rank on Google and get recommended by ChatGPT, Gemini and Perplexity.',
     links: [
       { label: 'SEO', href: '/services/seo/' },
       { label: 'Local SEO', href: '/services/local-seo/' },
@@ -33,6 +35,7 @@ export const SOLUTION_GROUPS: NavGroup[] = [
   },
   {
     heading: 'Paid media',
+    description: 'Google Ads and paid social managed for profit, not clicks.',
     links: [
       { label: 'PPC Management', href: '/services/ppc-management/' },
       { label: 'Social Media Advertising', href: '/services/social-media-advertising/' },
@@ -40,6 +43,7 @@ export const SOLUTION_GROUPS: NavGroup[] = [
   },
   {
     heading: 'Social & content',
+    description: 'Content, video and PR that people share and journalists cite.',
     links: [
       { label: 'Social Media Marketing', href: '/services/social-media-marketing/' },
       { label: 'Content Marketing', href: '/services/content-marketing/' },
@@ -49,6 +53,7 @@ export const SOLUTION_GROUPS: NavGroup[] = [
   },
   {
     heading: 'Web & conversion',
+    description: 'Fast websites and journeys that turn visits into leads.',
     links: [
       { label: 'Web Design & Development', href: '/services/web-design-development/' },
       { label: 'Conversion Rate Optimization', href: '/services/conversion-rate-optimization/' },
@@ -57,6 +62,7 @@ export const SOLUTION_GROUPS: NavGroup[] = [
   },
   {
     heading: 'Commerce',
+    description: 'Store management and growth on Shopify, Amazon and marketplaces.',
     links: [
       { label: 'eCommerce Management', href: '/services/ecommerce-management/' },
       { label: 'eCommerce Marketing', href: '/services/ecommerce-marketing/' },
@@ -65,6 +71,7 @@ export const SOLUTION_GROUPS: NavGroup[] = [
   },
   {
     heading: 'Reputation',
+    description: 'More five-star reviews and a search result page you’re proud of.',
     links: [
       { label: 'Online Reputation Management', href: '/services/reputation-management/' },
       { label: 'Review Generation', href: '/services/review-generation/' },

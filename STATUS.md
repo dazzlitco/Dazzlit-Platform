@@ -1,7 +1,7 @@
 # STATUS – Dazzlit platform
 
 **Last updated:** 16 Nov 2026
-**Current phase:** Phase 1 complete, templates done. Next: Phase 2, Wave 1 — homepage first, then hubs, pricing, site pages and the 41 service pages, one cluster at a time.
+**Current phase:** Phase 2, Wave 1 — homepage done. Next: the 19 service hubs, then pricing, site pages and the 41 service pages, one cluster at a time.
 **Live site:** not yet. dazzlit.com still runs the old WordPress install on Hostinger.
 
 ## Where we are
@@ -36,9 +36,9 @@
 | **Total** | **91** | **167** | **465** | **342** | **1,065** | |
 
 ## Next actions
-1. **Owner:** review the templates on GitHub (`develop` branch) and confirm Phase 2 can start with the homepage.
-2. **Owner:** generate the Wave 1 photos from `docs/PHOTO_BRIEF.md` (F-02b) and supply the proof assets for the homepage: 3 case studies, client logo row, partner badges, 3 testimonials, client/specialist stats, comparison-table contract terms. No photos or proof are in the site yet.
-3. **Claude:** Phase 2, Wave 1 — homepage first, then the 19 hubs, pricing, site pages and the 41 service pages, one cluster at a time.
+1. **Owner:** review the homepage on GitHub (`develop` branch) and confirm the next cluster — the 19 service hubs.
+2. **Owner:** still to supply: the 27 Wave 1 photos from `docs/PHOTO_BRIEF.md` (F-02b), client/specialist counts, the client logo row, and comparison-table contract terms. No photos are in the site yet.
+3. **Claude:** Phase 2, Wave 1 — the 19 service hubs next, then pricing, site pages and the 41 service pages, one cluster at a time.
 
 ## Open decisions
 - **D-08:** API providers. Deferred until development is finished.
@@ -47,6 +47,7 @@
 ## Recent sessions
 | Session | Date | What happened | Register |
 |---|---|---|---|
+| S-17 | 16 Nov 2026 | Phase 2, Wave 1: homepage built (all 16 sections) with owner-supplied proof, pushed to GitHub `develop` only | R-041 |
 | S-16 | 16 Nov 2026 | CI workflow + PNG/ICO logo files uploaded to GitHub `develop` via the website (API still blocked) | R-040 |
 | S-15 | 16 Nov 2026 | Templates T1–T15 built, all 69 Wave 1 pages rendering (75 pages total); pushed to GitHub `develop` only | R-039 |
 | S-14 | 16 Nov 2026 | Phase 1, step 7: legal/utility pages, cookie consent and analytics wiring, tested; pushed to GitHub `develop` only | R-038 |
@@ -65,6 +66,7 @@
 | S-01 | 28–29 Sep 2026 | Setup, keyword research, validation, content plan v1 (864 pages) | R-001 – R-013 |
 
 ## Changelog
+- **2026-11-16:** Phase 2, Wave 1 homepage done: all 16 sections in the mockup's order, with the owner-supplied case studies, testimonials, team and partner badges, pushed to `develop` only. The owner confirmed the supplied content is real and the files' fictional-sample disclaimers are wrong. Still missing: photos, client/specialist counts, client logo row, contract terms.
 - **2026-11-16:** The CI workflow and the PNG/ICO logo files are now in the repo on `develop`, uploaded through the GitHub website (commits b126157, 77e6ecf, d98d391). The API route was retried first and still fails the same way — 403 for workflow files, UTF-8 only for the push tool. The workflow has not run on GitHub yet; it runs on the next push.
 - **2026-11-16:** Templates T1–T15 done: all 69 Wave 1 pages now render (75 pages total), pushed to `develop` only. Phase 1 is complete and the templates are ready; next is Phase 2, Wave 1, homepage first.
 - **2026-11-16:** Phase 1 complete: step 7 done (legal/utility pages, cookie consent, analytics wiring), pushed to `develop` only. Phase 1 is now all 7 steps; next is the 15 page templates, then Wave 1.
