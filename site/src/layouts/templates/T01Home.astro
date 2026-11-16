@@ -4,8 +4,8 @@
 // case studies, testimonials and team profiles are the owner's supplied
 // content (owner confirmed 2026-11-16 that it is real and the files'
 // fictional-sample disclaimers are wrong). Partner badges are the owner's
-// WebP conversions in site/public/badges/. Still missing: hero and team
-// photos (not supplied — the hero uses the brand gradient and chevron motif
+// Hero images in site/public/images/ (AI-generated per docs/PHOTO_BRIEF.md, WebP). Team
+// photos not used — the team section uses initials avatars.
 // instead), client/specialist counts, the client logo row, and the
 // comparison-table contract terms. The newsletter subscribe box is parked
 // until after deployment.
@@ -207,12 +207,16 @@ const insights = [
     title: 'SEO Trends: What’s Changing in 2026',
     text: 'AI answers, zero-click results and what still ranks.',
     href: '/blog/seo-trends/',
+    image: '/images/insight-brand-across-markets.webp',
+    imageAlt: 'City skyline across a river at dusk, with long reflections on the water',
   },
   {
     category: 'AI',
     title: 'AI Marketing Statistics (2026 Data)',
     text: 'How brands and buyers are using AI, in numbers.',
     href: '/resources/statistics/ai-statistics/',
+    image: '/images/insight-creativity-performance.webp',
+    imageAlt: 'Curved modern building facade with balconies against a violet and orange dusk sky',
   },
   {
     category: 'Paid media',
@@ -226,23 +230,40 @@ const insights = [
 <BaseLayout title={data.metaTitle} description={data.metaDescription} canonicalPath={data.url}>
   <main>
     <!-- 1. Hero -->
-    <section class="mx-auto max-w-3xl px-6 py-16 text-center">
-      <p class="text-sm font-bold uppercase tracking-wide text-violet-600">Global digital marketing agency</p>
-      <h1 class="mt-4 text-5xl font-extrabold">
-        Reach your <span class="text-violet">next market.</span>
-      </h1>
-      <p class="mt-6 text-lg text-slate">
-        Customers now search on Google, ask ChatGPT, scroll TikTok and shop on Amazon. Dazzlit puts your brand in
-        front of them everywhere they look, in every market you want to win.
-      </p>
-      <div class="mt-8 flex flex-wrap justify-center gap-4">
-        <Button href="/contact/">Get a free proposal</Button>
-        <Button href="/contact/" variant="secondary">Submit an RFP</Button>
+    <section class="mx-auto max-w-7xl px-6 py-16">
+      <div class="grid items-center gap-10 md:grid-cols-2">
+        <div class="text-center md:text-left">
+          <p class="text-sm font-bold uppercase tracking-wide text-violet-600">Global digital marketing agency</p>
+          <h1 class="mt-4 text-5xl font-extrabold">
+            Reach your <span class="text-violet">next market.</span>
+          </h1>
+          <p class="mt-6 text-lg text-slate">
+            Customers now search on Google, ask ChatGPT, scroll TikTok and shop on Amazon. Dazzlit puts your brand in
+            front of them everywhere they look, in every market you want to win.
+          </p>
+          <div class="mt-8 flex flex-wrap justify-center gap-4 md:justify-start">
+            <Button href="/contact/">Get a free proposal</Button>
+            <Button href="/contact/" variant="secondary">Submit an RFP</Button>
+          </div>
+          <p class="mt-10 text-sm font-bold uppercase tracking-wide text-slate">Where we get you found</p>
+          <p class="mt-3 text-sm text-slate">
+            Google · ChatGPT · Gemini · Perplexity · YouTube · Instagram · TikTok · LinkedIn · Amazon · App Store
+          </p>
+        </div>
+        <div>
+          <picture>
+            <source media="(min-width: 768px)" srcset="/images/hero-waterfront.webp" />
+            <img
+              src="/images/hero-waterfront-mobile.webp"
+              alt="Glass towers on a waterfront at dusk, seen from a curved glass terrace"
+              width="1000"
+              height="750"
+              fetchpriority="high"
+              class="aspect-[4/3] w-full rounded-2xl object-cover shadow-xl md:aspect-[4/5]"
+            />
+          </picture>
+        </div>
       </div>
-      <p class="mt-10 text-sm font-bold uppercase tracking-wide text-slate">Where we get you found</p>
-      <p class="mt-3 text-sm text-slate">
-        Google · ChatGPT · Gemini · Perplexity · YouTube · Instagram · TikTok · LinkedIn · Amazon · App Store
-      </p>
       <div aria-hidden="true" class="mx-auto mt-10 h-3 max-w-xl rounded-full bg-gradient-to-r from-violet via-orange to-violet"></div>
     </section>
 
@@ -671,13 +692,27 @@ const insights = [
       <div class="mt-6 grid gap-6 md:grid-cols-3">
         {
           insights.map((article) => (
-            <article class="rounded-2xl border border-line bg-white p-6">
-              <p class="text-xs font-bold uppercase tracking-wide text-violet-600">{article.category}</p>
-              <h3 class="mt-3 font-display text-lg font-bold text-navy">{article.title}</h3>
-              <p class="mt-2 text-slate">{article.text}</p>
-              <a href={article.href} class="mt-4 inline-block font-bold text-violet-600">
-                Read the article →
-              </a>
+            <article class="overflow-hidden rounded-2xl border border-line bg-white">
+              {
+                article.image && (
+                  <img
+                    src={article.image}
+                    alt={article.imageAlt}
+                    width="1000"
+                    height="625"
+                    loading="lazy"
+                    class="h-44 w-full object-cover"
+                  />
+                )
+              }
+              <div class="p-6">
+                <p class="text-xs font-bold uppercase tracking-wide text-violet-600">{article.category}</p>
+                <h3 class="mt-3 font-display text-lg font-bold text-navy">{article.title}</h3>
+                <p class="mt-2 text-slate">{article.text}</p>
+                <a href={article.href} class="mt-4 inline-block font-bold text-violet-600">
+                  Read the article →
+                </a>
+              </div>
             </article>
           ))
         }
