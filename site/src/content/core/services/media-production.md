@@ -4,6 +4,8 @@ url: "/services/media-production/"
 title: "Video & Media Production Services"
 metaTitle: "Video & Media Production Services | Dazzlit"
 metaDescription: "Video & Media Production Services from Dazzlit: data-driven video production built to grow traffic, leads and revenue. See results and get a free proposal."
+heroImage: "/images/hub-media-production.webp"
+heroImageAlt: "Professional camera on a gimbal on a rooftop at sunset"
 primaryKeyword: "video production"
 secondaryKeywords:
   - "video production company"

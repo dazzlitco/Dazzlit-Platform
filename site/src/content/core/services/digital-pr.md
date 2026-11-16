@@ -4,6 +4,8 @@ url: "/services/digital-pr/"
 title: "Digital PR Services"
 metaTitle: "Digital PR Services | Dazzlit"
 metaDescription: "Digital PR Services from Dazzlit: data-driven digital PR built to grow traffic, leads and revenue. See results and get a free proposal."
+heroImage: "/images/hub-digital-pr.webp"
+heroImageAlt: "Modern press-conference room with an empty stage and city backdrop"
 primaryKeyword: "digital pr agency"
 secondaryKeywords:
   - "pr agency"
