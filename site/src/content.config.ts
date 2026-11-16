@@ -16,6 +16,12 @@ const pageSchema = z.object({
     .array(z.object({ anchor: z.string(), url: z.string() }))
     .default([]),
   faqs: z.array(z.string()).default([]),
+  // FAQ answers, written in Phase 2 (one per question in `faqs`). When
+  // present, TemplateShell renders them in the FAQ accordion, which also
+  // emits the FAQPage JSON-LD.
+  faqAnswers: z
+    .array(z.object({ question: z.string(), answer: z.string() }))
+    .default([]),
   cta: z.string(),
   wave: z.number(),
   status: z.string(),

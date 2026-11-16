@@ -201,16 +201,34 @@ searchIntent: "Navigational"
 funnelStage: "BOFU – hire / buy"
 ---
 
-<!-- Content scaffold generated from data/pages-by-wave/wave-1.csv. Body copy is written in Phase 2, one cluster at a time. -->
+## Resources Hub – the short answer
 
-## Resources Hub – the short answer (snippet-ready, 40–60 words)
+The Dazzlit resources section brings together guides, checklists, templates, calculators, examples and statistics for marketers — practical material on search, paid media, social, content, email, analytics and AI, built to be used rather than just read, and updated as the platforms change.
 
 ## Why it matters / context
 
+Marketing changes fast, and the gap between knowing what to do and knowing how to do it is where most plans stall. A guide that explains the idea is useful; a checklist that walks through the work, a template that can be copied, or a calculator that gives a number to act on is more useful still. That is what this section is for: material that helps a marketer, a founder or a small team do the job better, whether or not they ever hire Dazzlit.
+
+The material covers the whole marketing funnel. Early-funnel resources help with positioning, buyer personas and the customer journey. Mid-funnel resources cover the channels themselves — search, paid media, social, content and email — and the marketing mix that holds them together. Late-funnel resources cover measurement: KPIs, attribution, GA4, ROI, ROAS, customer acquisition cost and lifetime value, and how to report them so the numbers are trusted.
+
 ## Key factors & examples
+
+Use resources the way they are built to be used. A checklist is a working document: go through it against your own site, ads or emails, and fix what it finds. A template is a starting point: fill it with your own words and numbers rather than copying it as it stands. A calculator is only as good as the numbers you put in, so bring your real costs, conversion rates and first-party data, and treat the result as a guide to a decision, not a promise.
+
+The strongest resources are the ones that match a decision you have to make. If you are choosing channels, start with the guides that compare them and the statistics that show what each one typically delivers. If you are fixing a problem, start with the checklists and the examples that show what good looks like. If you are reporting results, start with the analytics material, so the story you tell is built on measurement rather than opinion.
 
 ## Mistakes to avoid
 
+The first mistake is collecting resources instead of using them. A library of saved guides that are never opened is not a plan. Pick one resource that matches the next decision you have to make, and work through it.
+
+The second is trusting a single source. Platforms change, and a tactic that worked last year may not work now. Check the date, check the source, and test anything important on your own traffic before you commit budget to it.
+
+The third is confusing activity with progress. Reading about omnichannel marketing or brand positioning is not the same as doing it. Use the resource to make one change, measure it, and then decide what to do next.
+
 ## FAQs
 
-## CTA → Digital Marketing services
+There are no fixed answers here because the right resource depends on the question you are trying to answer. If you need a recommendation rather than a library, use the proposal form on the contact page — tell us your goal and we will come back with a written plan.
+
+## Get a free proposal
+
+Tell us where you want to grow. We will come back with a written plan: channels, markets, budget and the results to expect.
