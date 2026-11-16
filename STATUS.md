@@ -1,8 +1,8 @@
 # STATUS – Dazzlit platform
 
 **Last updated:** 16 Nov 2026
-**Current phase:** Phase 2, Wave 1 — complete and merged into `main`. Next: Wave 2 (138 pages) when the owner says so.
-**Live site:** not yet. dazzlit.com still runs the old WordPress install on Hostinger.
+**Current phase:** Phase 2, Wave 1 — complete and merged into `main`, including all 27 brief images. Live at https://dazzlit.pages.dev/. Next: SVG icons + CSS motion, then Wave 2 when the owner says so.
+**Live site:** ✅ Live at https://dazzlit.pages.dev/ (Cloudflare Pages, project `dazzlit`, production branch `main`). dazzlit.com still runs the old WordPress install on Hostinger.
 
 ## Where we are
 | Area | State |
@@ -21,7 +21,7 @@
 | Proof (logos, case studies, reviews, badges) | 🔁 Built as marked placeholders; Claude asks for the assets at the start of each build session |
 | GitHub repository | ✅ Provided 16 Nov 2026: `dazzlitco/Dazzlit-Platform` (public, was empty). Scaffold pushed to `main` + `develop` in session S-09 (F-03). |
 | Cloudflare | ⏳ Not set up yet (F-04) |
-| Photography | ⏳ Prompts ready in `docs/PHOTO_BRIEF.md`; owner to generate the Wave 1 images (F-02b) |
+| Photography | ✅ Done 16 Nov 2026: all 27 brief images AI-generated per `docs/PHOTO_BRIEF.md`, converted to WebP and placed (28 files incl. the third insight image); merged into `main` (PR #3) and live on dazzlit.pages.dev. The logo/headline overlay on the share image is still to do. |
 | Build | ✅ Scaffold + shared components built locally 16 Nov 2026: Astro 5.18.2, Tailwind 4.3.5, TypeScript 5.9.3; `npm run build` passes, 75 pages (all 69 Wave 1 pages written with body copy + FAQ answers). Link check 11,509 links, 0 broken; content check 112 files, 0 problems; Lighthouse on a service page 100/93/100/100. The CI workflow (`.github/workflows/build.yml`) and the PNG/ICO logo files are now in the repo on `develop` (uploaded via the GitHub website on 2026-11-16 — the GitHub App API still returns 403 for workflow files and rejects binary files). |
 
 ## Page plan
@@ -36,10 +36,10 @@
 | **Total** | **91** | **167** | **465** | **342** | **1,065** | |
 
 ## Next actions
-1. **Owner:** still to supply: the 27 Wave 1 photos from `docs/PHOTO_BRIEF.md` (F-02b), client/specialist counts, the client logo row, comparison-table contract terms, and prices for the two pricing pages. No photos or prices are in the site yet.
+1. **Owner:** still to supply: client/specialist counts, the client logo row, comparison-table contract terms, and prices for the two pricing pages. All 27 brief images are done and live; no photos are outstanding.
 2. **Owner:** two brief/content decisions needed — (a) the Graphic Design page (MED-S09) brief is internally inconsistent: title/URL say graphic design but its meta description, FAQs and entities are all video production; (b) confirm the Digital PR "month to month, no long-term contract" claim and that media spend is billed separately from the agency fee.
-3. **Owner:** Cloudflare Pages project creation (settings sent 16 Nov 2026) and the D1 database ID, so the site can deploy and the proposal form can store leads.
-4. **Claude:** Wave 2 (138 pages) when the owner says so.
+3. **Owner:** the D1 database ID, so the proposal form can store leads (the Pages project itself is live; `wrangler.toml` database_id is still empty).
+4. **Claude:** SVG icon set (20 service icons) and CSS-only motion next; Wave 2 (138 pages) when the owner says so.
 
 ## Open decisions
 - **D-08:** API providers. Deferred until development is finished.
@@ -48,6 +48,7 @@
 ## Recent sessions
 | Session | Date | What happened | Register |
 |---|---|---|---|
+| S-29 | 16 Nov 2026 | Merge `develop` into `main` (owner approved, PR #3, merge commit 0a04e4d) — all 27 Wave 1 images now on `main` and live at dazzlit.pages.dev | R-053 |
 | S-28 | 16 Nov 2026 | Batch E — final images (ASO, Marketing Automation, AI Marketing + social share image): all 27 brief images now placed, verified and pushed to `develop` | R-052 |
 | S-27 | 16 Nov 2026 | Batch D hub hero images (eCommerce Marketing, Marketplace Marketing, Reputation Management, Review Generation): 4 more AI-generated WebP images wired into the hub pages, verified and pushed to `develop` | R-051 |
 | S-26 | 16 Nov 2026 | Batch C hub hero images (Media Production, Content Marketing, Digital PR, eCommerce Management): 4 more AI-generated WebP images wired into the hub pages, verified and pushed to `develop` | R-050 |
@@ -78,6 +79,7 @@
 | S-01 | 28–29 Sep 2026 | Setup, keyword research, validation, content plan v1 (864 pages) | R-001 – R-013 |
 
 ## Changelog
+- **2026-11-16:** `develop` merged into `main` (owner approved, PR #3, merge commit 0a04e4d). `main` now has all 27 Wave 1 images (28 WebP files), the hero-image support and the site-wide og:image/twitter:image tags — verified on `main` (28 files in site/public/images/, BaseLayout contains og-share.webp). The merge deploys to the production Pages URL: the site is live at https://dazzlit.pages.dev/ (owner-created project `dazzlit`). CI note: PR checks on the merge commit passed (Build run #38 push and run #39 pull_request, both green). One earlier run (#37, commit 934a50f) failed only on a Lighthouse performance score of 0.89 against the 0.90 minimum — the same code passed the same check twice afterwards (runs #38 and #39), so it was a lab fluctuation, not a code problem.
 - **2026-11-16:** Batch E — all 27 brief images now placed on `develop`: ASO (hand holding a phone against a blurred skyline), Marketing Automation (data-centre corridor with violet/orange accent lights), AI Marketing (light installation with flowing violet-orange ribbons), plus the social share image (wide skyline at dusk, 1200×630, wired as the site-wide og:image and twitter:image in BaseLayout). Build passes, link check 11,535 links 0 broken, Lighthouse on the AI Marketing hub 99/93/100/100, LCP 1.97s, CLS 0. Images uploaded via the GitHub website (commit 6574ea6); code pushed via API (commit 934a50f). Remaining from the images/icons/motion plan: the 20 SVG service icons and the CSS-only motion work; the logo/headline overlay on the share image is still to do.
 - **2026-11-16:** Batch D hub hero images on `develop`: eCommerce Marketing (boutique window at dusk), Marketplace Marketing (parcels on a conveyor in warm light), Reputation Management (glass tower reflecting a clear sunset sky), Review Generation (café terrace with warm string lights). Build passes, link check 11,532 links 0 broken, Lighthouse on the eCommerce Marketing hub 99/93/100/100, LCP 2.06s locally (slow VM; to re-check on the deployed site), CLS 0. Images uploaded via the GitHub website (commit 54d339c); code pushed via API (commit 440e14f). 24 of the 27 brief images placed; only Batch E remains (App Store Optimization, Marketing Automation, AI Marketing, plus the social share image).
 - **2026-11-16:** Batch C hub hero images on `develop`: Media Production (camera on a gimbal on a rooftop at sunset), Content Marketing (library-style workspace with large windows), Digital PR (press-conference room with an empty stage and city backdrop), eCommerce Management (warehouse loading area at dusk). Build passes, link check 11,528 links 0 broken, Lighthouse on the Media Production hub 99/93/100/100, LCP 1.84s, CLS 0. Images uploaded via the GitHub website (commit 703f2be); code pushed via API (commit 39817c6). 20 of the 27 brief images placed; 7 hub heroes plus the social share image remain. Owner chose to leave the 41 service pages imageless (no hub-image reuse).
