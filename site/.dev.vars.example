@@ -1,0 +1,23 @@
+# Local dev variables for wrangler pages dev. Copy to .dev.vars and fill in
+# real values. Never commit .dev.vars, and never put secrets in the repo.
+# Production values are set in the Cloudflare dashboard (Pages → Settings →
+# Environment variables), not here.
+
+# Turnstile (Cloudflare dashboard → Turnstile). The site key is public and
+# is also needed at build time as PUBLIC_TURNSTILE_SITE_KEY.
+PUBLIC_TURNSTILE_SITE_KEY=""
+TURNSTILE_SECRET_KEY=""
+
+# Resend (resend.com) — transactional email for lead alerts and auto-replies.
+# The sender address must be a verified domain/sender in Resend.
+RESEND_API_KEY=""
+RESEND_FROM_EMAIL=""
+# Owner address that receives new proposal requests.
+LEAD_NOTIFICATION_EMAIL=""
+
+# Analytics (public IDs, set at build time). When one is not set, its tag is
+# omitted from the site. GA4 only loads after a visitor accepts cookies.
+PUBLIC_GA4_ID=""
+PUBLIC_CF_BEACON_TOKEN=""
+PUBLIC_GOOGLE_SITE_VERIFICATION=""
+PUBLIC_BING_SITE_VERIFICATION=""

@@ -1,0 +1,173 @@
+---
+const services = ['SEO', 'AI search', 'PPC', 'Social media', 'Web design', 'Content', 'eCommerce', 'Not sure yet'];
+const markets = ['United States', 'United Kingdom', 'Australia', 'Canada', 'UAE', 'Singapore', 'Several markets'];
+const budgets = ['Under $2k', '$2k–5k', '$5k–10k', '$10k–25k', '$25k+'];
+// Turnstile site key is public. When it is not set (local dev), the widget
+// is omitted and the server skips verification — production must set it.
+const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY as string | undefined;
+---
+
+{turnstileSiteKey && <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>}
+
+<form class="rounded-2xl border border-line bg-white p-6 shadow-sm" data-proposal-form novalidate>
+  <div data-step="1">
+    <h3 class="text-xl font-bold">What do you need help with?</h3>
+    <p class="mt-1 text-sm text-slate">Pick all that apply</p>
+    <fieldset class="mt-4 flex flex-wrap gap-2">
+      <legend class="sr-only">Services</legend>
+      {
+        services.map((service) => (
+          <label class="cursor-pointer rounded-full border border-line px-4 py-2 text-sm font-medium has-checked:border-violet has-checked:bg-violet-50 has-checked:text-violet-600">
+            <input type="checkbox" name="services" value={service} class="sr-only" />
+            {service}
+          </label>
+        ))
+      }
+    </fieldset>
+    <p class="mt-3 hidden text-sm font-medium text-orange" data-step-error>
+      Pick at least one service to continue.
+    </p>
+    <button type="button" class="mt-6 rounded-full bg-violet px-6 py-3 font-display text-sm font-bold text-white hover:bg-violet-600" data-next>
+      Next
+    </button>
+  </div>
+
+  <div data-step="2" hidden>
+    <h3 class="text-xl font-bold">Where and how much?</h3>
+    <label class="mt-4 block font-bold" for="proposal-market">Main market</label>
+    <select id="proposal-market" name="market" class="mt-2 w-full rounded-lg border border-line px-3 py-2.5">
+      {markets.map((market) => <option value={market}>{market}</option>)}
+    </select>
+    <fieldset class="mt-6">
+      <legend class="font-bold">Monthly marketing budget</legend>
+      <div class="mt-2 flex flex-wrap gap-2">
+        {
+          budgets.map((budget) => (
+            <label class="cursor-pointer rounded-full border border-line px-4 py-2 text-sm font-medium has-checked:border-violet has-checked:bg-violet-50 has-checked:text-violet-600">
+              <input type="radio" name="budget" value={budget} class="sr-only" />
+              {budget}
+            </label>
+          ))
+        }
+      </div>
+    </fieldset>
+    <div class="mt-6 flex gap-3">
+      <button type="button" class="rounded-full border border-line bg-white px-6 py-3 font-display text-sm font-bold text-navy" data-back>
+        Back
+      </button>
+      <button type="button" class="rounded-full bg-violet px-6 py-3 font-display text-sm font-bold text-white hover:bg-violet-600" data-next>
+        Next
+      </button>
+    </div>
+  </div>
+
+  <div data-step="3" hidden>
+    <h3 class="text-xl font-bold">Where should we send your plan?</h3>
+    <label class="mt-4 block font-bold" for="proposal-name">Name</label>
+    <input id="proposal-name" name="name" type="text" autocomplete="name" required class="mt-2 w-full rounded-lg border border-line px-3 py-2.5" />
+    <label class="mt-4 block font-bold" for="proposal-email">Work email</label>
+    <input id="proposal-email" name="email" type="email" autocomplete="email" required class="mt-2 w-full rounded-lg border border-line px-3 py-2.5" />
+    <label class="mt-4 block font-bold" for="proposal-website">Website</label>
+    <input id="proposal-website" name="website" type="url" autocomplete="url" placeholder="https://" class="mt-2 w-full rounded-lg border border-line px-3 py-2.5" />
+    {
+      turnstileSiteKey && (
+        <div class="cf-turnstile mt-6" data-sitekey={turnstileSiteKey}></div>
+      )
+    }
+    <p class="mt-3 hidden text-sm font-medium text-orange" data-form-error></p>
+    <div class="mt-6 flex gap-3">
+      <button type="button" class="rounded-full border border-line bg-white px-6 py-3 font-display text-sm font-bold text-navy" data-back>
+        Back
+      </button>
+      <button type="submit" class="rounded-full bg-violet px-6 py-3 font-display text-sm font-bold text-white hover:bg-violet-600 disabled:opacity-50" data-submit>
+        Get a free proposal
+      </button>
+    </div>
+  </div>
+  <div data-success hidden>
+    <h3 class="text-xl font-bold">Thanks — your request is in.</h3>
+    <p class="mt-2 text-slate">We have your proposal request and will be in touch soon.</p>
+  </div>
+  <p class="mt-4 text-sm text-slate" data-step-label>Step 1 of 3</p>
+</form>
+<script>
+  const form = document.querySelector('[data-proposal-form]');
+  if (form) {
+    const steps = Array.from(form.querySelectorAll('[data-step]'));
+    const label = form.querySelector('[data-step-label]');
+    const stepError = form.querySelector('[data-step-error]');
+    const formError = form.querySelector('[data-form-error]');
+    const success = form.querySelector('[data-success]');
+    const submitButton = form.querySelector('[data-submit]');
+    let current = 0;
+    const show = (index: number) => {
+      current = index;
+      steps.forEach((step, i) => {
+        (step as HTMLElement).hidden = i !== index;
+      });
+      if (label) label.textContent = `Step ${index + 1} of 3`;
+    };
+    const stepValid = () => {
+      if (current === 0) {
+        const picked = form.querySelectorAll('input[name="services"]:checked').length > 0;
+        stepError?.classList.toggle('hidden', picked);
+        return picked;
+      }
+      return true;
+    };
+    form.querySelectorAll('[data-next]').forEach((button) =>
+      button.addEventListener('click', () => {
+        if (stepValid()) show(Math.min(current + 1, steps.length - 1));
+      }),
+    );
+    form.querySelectorAll('[data-back]').forEach((button) =>
+      button.addEventListener('click', () => show(Math.max(current - 1, 0))),
+    );
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      if (!stepValid()) {
+        show(0);
+        return;
+      }
+      const data = new FormData(form as HTMLFormElement);
+      const turnstile = (window as unknown as { turnstile?: { getResponse: () => string; reset: () => void } }).turnstile;
+      const payload = {
+        services: data.getAll('services'),
+        market: data.get('market'),
+        budget: data.get('budget') ?? '',
+        name: data.get('name'),
+        email: data.get('email'),
+        website: data.get('website') ?? '',
+        source: window.location.pathname,
+        turnstileToken: turnstile ? turnstile.getResponse() : '',
+      };
+      if (submitButton) (submitButton as HTMLButtonElement).disabled = true;
+      if (formError) formError.classList.add('hidden');
+      try {
+        const res = await fetch('/api/proposal', {
+          method: 'POST',
+          headers: { 'content-type': 'application/json' },
+          body: JSON.stringify(payload),
+        });
+        const result = (await res.json()) as { ok?: boolean; error?: string };
+        if (res.ok && result.ok) {
+          steps.forEach((step) => {
+            (step as HTMLElement).hidden = true;
+          });
+          if (label) label.hidden = true;
+          success?.classList.remove('hidden');
+          return;
+        }
+        throw new Error(result.error ?? 'Something went wrong. Please try again.');
+      } catch (error) {
+        if (formError) {
+          formError.textContent = error instanceof Error ? error.message : 'Something went wrong. Please try again.';
+          formError.classList.remove('hidden');
+        }
+        turnstile?.reset();
+      } finally {
+        if (submitButton) (submitButton as HTMLButtonElement).disabled = false;
+      }
+    });
+  }
+</script>

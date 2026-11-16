@@ -1,0 +1,15 @@
+---
+// T12 — Glossary (plan, section 4): A–Z index, term anchors linked to
+// guides. Glossary pages arrive in Wave 3; this template renders the body
+// and the CTA until then.
+import TemplateShell from './TemplateShell.astro';
+import type { TemplateProps } from '../../lib/templates';
+
+type Props = TemplateProps;
+
+const { entry, trail } = Astro.props;
+---
+
+<TemplateShell entry={entry} trail={trail}>
+  <slot />
+</TemplateShell>

@@ -1,0 +1,700 @@
+---
+// T1 — Home (plan, section 4): the full homepage, 16 sections in the
+// approved mockup's order. Section copy is the approved mockup copy; the
+// case studies, testimonials and team profiles are the owner's supplied
+// content (owner confirmed 2026-11-16 that it is real and the files'
+// fictional-sample disclaimers are wrong). Partner badges are the owner's
+// WebP conversions in site/public/badges/. Still missing: hero and team
+// photos (not supplied — the hero uses the brand gradient and chevron motif
+// instead), client/specialist counts, the client logo row, and the
+// comparison-table contract terms. The newsletter subscribe box is parked
+// until after deployment.
+import BaseLayout from '../BaseLayout.astro';
+import Button from '../../components/Button.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import FaqAccordion from '../../components/FaqAccordion.astro';
+import ComparisonTable from '../../components/ComparisonTable.astro';
+import ProposalForm from '../../components/ProposalForm.astro';
+import StatStrip from '../../components/StatStrip.astro';
+import CaseStudyCard from '../../components/CaseStudyCard.astro';
+import PageSchema from '../../components/PageSchema.astro';
+import { SOLUTION_GROUPS, INDUSTRIES, MARKETS } from '../../data/navigation';
+import type { TemplateProps } from '../lib/templates';
+
+type Props = TemplateProps;
+
+const { entry } = Astro.props;
+const { data } = entry;
+
+const faqs = [
+  {
+    question: 'What does a digital marketing agency do?',
+    answer:
+      'A digital marketing agency plans and runs the channels that bring you customers online: search (SEO and AI search), paid ads, social media, content, email and your website. Dazzlit runs these as one plan, so every channel works toward the same leads and sales targets.',
+  },
+  {
+    question: 'How much does digital marketing cost?',
+    answer:
+      'It depends on your goals, your market and how many channels you need. Most clients start with one or two core channels and add more as results come in.',
+  },
+  {
+    question: 'Which countries do you work in?',
+    answer:
+      'We work with brands in the United States, United Kingdom, Australia, Canada, the UAE and Singapore, and plan launches into new markets for clients expanding abroad.',
+  },
+  {
+    question: 'How long does SEO take to show results?',
+    answer:
+      'Most sites see early movement within 3 months and meaningful growth in leads within 6 to 12 months. It depends on your competition, your site’s history and how much content you need.',
+  },
+  {
+    question: 'How do you report on digital marketing performance?',
+    answer:
+      'We report every month on the numbers that matter — leads, sales, revenue and cost per acquisition — not vanity metrics like traffic and rankings. Every channel shares one report, so you can see what each one is contributing.',
+  },
+  {
+    question: 'Can you get my brand recommended by ChatGPT and other AI tools?',
+    answer:
+      'Yes. AI search visibility is part of our SEO work: we make your brand easy for ChatGPT, Gemini and Perplexity to find, understand and cite, and we track how often you appear in their answers.',
+  },
+  {
+    question: 'Do you work with small businesses or only large brands?',
+    answer:
+      'Both. We work with growing small businesses, B2B companies and enterprise brands, and size the team and budget to the goal.',
+  },
+];
+
+const comparisonRows = [
+  {
+    label: 'Channels',
+    dazzlit: '20 services under one team',
+    typicalAgency: '1–3 core channels',
+    freelancers: 'One skill each',
+  },
+  {
+    label: 'Markets',
+    dazzlit: 'US, UK, Australia, Canada, UAE, Singapore',
+    typicalAgency: 'Usually one country',
+    freelancers: 'Local only',
+  },
+  {
+    label: 'AI search',
+    dazzlit: 'ChatGPT, Gemini and Perplexity visibility built into SEO',
+    typicalAgency: 'Often not offered yet',
+    freelancers: 'Rarely offered',
+  },
+  {
+    label: 'Strategy',
+    dazzlit: 'One plan across every channel',
+    typicalAgency: 'A plan per channel',
+    freelancers: 'No shared plan',
+  },
+  {
+    label: 'Reporting',
+    dazzlit: 'Leads, sales and revenue',
+    typicalAgency: 'Traffic and rankings',
+    freelancers: 'Varies',
+  },
+];
+
+const badges = [
+  { src: '/badges/google-partner.webp', alt: 'Google Partner', width: 888, height: 382 },
+  { src: '/badges/meta-partner.webp', alt: 'Meta Business Partner', width: 794, height: 275 },
+  { src: '/badges/microsoft-advertising-partner.webp', alt: 'Microsoft Advertising Partner', width: 1292, height: 459 },
+  { src: '/badges/hubspot-partner.webp', alt: 'HubSpot Partner', width: 655, height: 295 },
+  { src: '/badges/clutch-partner.webp', alt: 'Clutch', width: 862, height: 345 },
+];
+
+const markets = [
+  {
+    name: 'United States',
+    description: 'Our home market, from coast to coast.',
+    cities: ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Austin'],
+  },
+  {
+    name: 'United Kingdom',
+    description: 'London and the UK’s biggest regional cities.',
+    cities: ['London', 'Manchester', 'Birmingham', 'Liverpool'],
+  },
+  {
+    name: 'Australia',
+    description: 'East coast to Perth, in AUD and Australian English.',
+    cities: ['Melbourne', 'Sydney', 'Brisbane', 'Perth'],
+  },
+  {
+    name: 'Canada',
+    description: 'English-speaking Canada, with French support on request.',
+    cities: ['Toronto', 'Vancouver', 'Calgary'],
+  },
+  {
+    name: 'United Arab Emirates',
+    description: 'Search, social and paid media across the Gulf’s fastest-moving market.',
+    cities: ['Dubai', 'Abu Dhabi'],
+  },
+  {
+    name: 'Singapore',
+    description: 'A base for brands growing into Southeast Asia.',
+    cities: ['Singapore'],
+  },
+];
+
+const team = [
+  {
+    name: 'Daniel Carter',
+    initials: 'DC',
+    role: 'Founder & CEO',
+    bio: 'Leads the agency’s vision, client partnerships, and overall business strategy.',
+  },
+  {
+    name: 'Sophia Martinez',
+    initials: 'SM',
+    role: 'Head of Marketing',
+    bio: 'Oversees marketing strategy and coordinates campaigns to help clients grow their businesses.',
+  },
+  {
+    name: 'James Wilson',
+    initials: 'JW',
+    role: 'SEO Specialist',
+    bio: 'Develops search engine optimization strategies to improve organic visibility, rankings, and qualified website traffic.',
+  },
+  {
+    name: 'Emily Davis',
+    initials: 'ED',
+    role: 'Content Strategist',
+    bio: 'Plans content that communicates each client’s value, engages audiences, and supports marketing goals.',
+  },
+  {
+    name: 'Arjun Patel',
+    initials: 'AP',
+    role: 'Paid Ads Specialist',
+    bio: 'Manages paid advertising campaigns, monitors performance, and looks for opportunities to improve return on ad spend.',
+  },
+  {
+    name: 'Olivia Kim',
+    initials: 'OK',
+    role: 'Web Design Lead',
+    bio: 'Leads website design and user experience, creating clear, engaging digital experiences for clients.',
+  },
+];
+
+const testimonials = [
+  {
+    quote:
+      'Working with this team has been a game-changer for our business. Our website traffic has grown significantly, and we’re getting more quality leads than ever before. Their SEO strategy really delivers!',
+    name: 'Michael Anderson',
+    role: 'Business Owner · Home Services',
+    service: 'SEO',
+  },
+  {
+    quote:
+      'We struggled to generate consistent leads before partnering with this agency. Their Google Ads campaigns brought us better-quality inquiries while reducing our advertising costs. Highly recommended!',
+    name: 'Sarah Mitchell',
+    role: 'Marketing Director · Local Business',
+    service: 'Google Ads',
+  },
+  {
+    quote:
+      'The team completely transformed our online presence. Our new website looks amazing, is easy to navigate, and has made it much easier for customers to contact us. The entire process was smooth and professional.',
+    name: 'David Thompson',
+    role: 'Founder · Professional Services',
+    service: 'Web Design',
+  },
+];
+
+const insights = [
+  {
+    category: 'Search',
+    title: 'SEO Trends: What’s Changing in 2026',
+    text: 'AI answers, zero-click results and what still ranks.',
+    href: '/blog/seo-trends/',
+  },
+  {
+    category: 'AI',
+    title: 'AI Marketing Statistics (2026 Data)',
+    text: 'How brands and buyers are using AI, in numbers.',
+    href: '/resources/statistics/ai-statistics/',
+  },
+  {
+    category: 'Paid media',
+    title: 'PPC Statistics & Google Ads Benchmarks',
+    text: 'Click-through, cost-per-click and conversion benchmarks.',
+    href: '/resources/statistics/google-ads-benchmarks/',
+  },
+];
+---
+
+<BaseLayout title={data.metaTitle} description={data.metaDescription} canonicalPath={data.url}>
+  <main>
+    <!-- 1. Hero -->
+    <section class="mx-auto max-w-3xl px-6 py-16 text-center">
+      <p class="text-sm font-bold uppercase tracking-wide text-violet-600">Global digital marketing agency</p>
+      <h1 class="mt-4 text-5xl font-extrabold">
+        Reach your <span class="text-violet">next market.</span>
+      </h1>
+      <p class="mt-6 text-lg text-slate">
+        Customers now search on Google, ask ChatGPT, scroll TikTok and shop on Amazon. Dazzlit puts your brand in
+        front of them everywhere they look, in every market you want to win.
+      </p>
+      <div class="mt-8 flex flex-wrap justify-center gap-4">
+        <Button href="/contact/">Get a free proposal</Button>
+        <Button href="/contact/" variant="secondary">Submit an RFP</Button>
+      </div>
+      <p class="mt-10 text-sm font-bold uppercase tracking-wide text-slate">Where we get you found</p>
+      <p class="mt-3 text-sm text-slate">
+        Google · ChatGPT · Gemini · Perplexity · YouTube · Instagram · TikTok · LinkedIn · Amazon · App Store
+      </p>
+      <div aria-hidden="true" class="mx-auto mt-10 h-3 max-w-xl rounded-full bg-gradient-to-r from-violet via-orange to-violet"></div>
+    </section>
+
+    <!-- 2. Value strip -->
+    <section class="mx-auto max-w-7xl px-6">
+      <div class="grid gap-6 rounded-2xl border border-line bg-white p-8 md:grid-cols-3">
+        <div>
+          <h2 class="text-xl font-bold">Clear strategy</h2>
+          <p class="mt-2 text-slate">The right path forward, market by market.</p>
+        </div>
+        <div>
+          <h2 class="text-xl font-bold">Distinctive creativity</h2>
+          <p class="mt-2 text-slate">Ideas that earn attention in every feed.</p>
+        </div>
+        <div>
+          <h2 class="text-xl font-bold">Measurable progress</h2>
+          <p class="mt-2 text-slate">Reporting on leads, sales and revenue.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Recognition / partner badges -->
+    <section class="mx-auto max-w-7xl px-6 py-12 text-center">
+      <p class="text-sm font-bold uppercase tracking-wide text-slate">Certified by the platforms our clients grow on</p>
+      <ul class="mt-6 flex flex-wrap items-center justify-center gap-8">
+        {
+          badges.map((badge) => (
+            <li>
+              <img
+                src={badge.src}
+                alt={badge.alt}
+                width={badge.width}
+                height={badge.height}
+                loading="lazy"
+                class="h-12 w-auto object-contain"
+              />
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    <!-- 4. Solutions -->
+    <section class="mx-auto max-w-7xl px-6 py-8">
+      <p class="text-sm font-bold uppercase tracking-wide text-violet-600">Solutions</p>
+      <h2 class="mt-2 text-3xl font-extrabold">Every channel your customers use. One team.</h2>
+      <p class="mt-3 max-w-2xl text-slate">
+        Creative that earns attention, data that proves it worked. We plan search, social, paid media, content and
+        commerce together, so short-term sales and long-term brand growth pull the same way.
+      </p>
+      <div class="mt-6 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        {
+          SOLUTION_GROUPS.map((group) => (
+            <div class="rounded-2xl border border-line bg-white p-6">
+              <h3 class="font-display text-lg font-bold text-navy">{group.heading}</h3>
+              {group.description && <p class="mt-2 text-slate">{group.description}</p>}
+              <ul class="mt-3 space-y-2">
+                {group.links.map((link) => (
+                  <li>
+                    <a href={link.href} class="font-medium text-violet-600 hover:underline">
+                      {link.label} →
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))
+        }
+        <div class="rounded-2xl border border-line bg-white p-6">
+          <h3 class="font-display text-lg font-bold text-navy">Industries</h3>
+          <p class="mt-2 text-slate">Specialist playbooks for 17 sectors, from SaaS to healthcare.</p>
+          <ul class="mt-3 space-y-2">
+            <li>
+              <a href="/industries/healthcare/" class="font-medium text-violet-600 hover:underline">
+                Healthcare &amp; Dental →
+              </a>
+            </li>
+            <li>
+              <a href="/industries/law-firms/" class="font-medium text-violet-600 hover:underline">
+                Law Firms →
+              </a>
+            </li>
+            <li>
+              <a href="/industries/saas/" class="font-medium text-violet-600 hover:underline">
+                SaaS &amp; Technology →
+              </a>
+            </li>
+            <li>
+              <a href="/industries/" class="font-medium text-violet-600 hover:underline">
+                All 17 industries →
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="rounded-2xl border border-line bg-white p-6">
+          <h3 class="font-display text-lg font-bold text-navy">Free tools</h3>
+          <p class="mt-2 text-slate">63 free calculators, generators and checkers for marketers.</p>
+          <ul class="mt-3 space-y-2">
+            <li>
+              <a href="/resources/tools/seo-audit/" class="font-medium text-violet-600 hover:underline">
+                SEO Audit →
+              </a>
+            </li>
+            <li>
+              <a href="/resources/tools/roas-calculator/" class="font-medium text-violet-600 hover:underline">
+                ROAS Calculator →
+              </a>
+            </li>
+            <li>
+              <a href="/resources/tools/utm-builder/" class="font-medium text-violet-600 hover:underline">
+                UTM Builder →
+              </a>
+            </li>
+            <li>
+              <a href="/resources/#tools" class="font-medium text-violet-600 hover:underline">
+                All free tools →
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Case studies -->
+    <section class="mx-auto max-w-7xl px-6 py-8">
+      <p class="text-sm font-bold uppercase tracking-wide text-violet-600">Case studies</p>
+      <h2 class="mt-2 text-3xl font-extrabold">Results we can put a number on.</h2>
+      <p class="mt-3 max-w-2xl text-slate">
+        Real strategies. Measurable growth. Meaningful results. Explore how we help businesses turn digital marketing
+        into business growth.
+      </p>
+      <div class="mt-6 grid gap-6 md:grid-cols-3">
+        <CaseStudyCard
+          resultValue="+215%"
+          resultLabel="organic traffic in 6 months"
+          resultValue2="3.2×"
+          resultLabel2="leads"
+          service="SEO"
+          headline="How We Increased Organic Traffic by 215% in 6 Months"
+          summary="Helped a local service business improve its Google rankings, attract qualified visitors, and generate more organic leads."
+          href="/case-studies/"
+        />
+        <CaseStudyCard
+          resultValue="450+"
+          resultLabel="qualified leads"
+          resultValue2="−38%"
+          resultLabel2="cost per lead"
+          service="Paid Advertising"
+          industry="Home services"
+          headline="How We Generated 450+ Qualified Leads Through Google Ads"
+          summary="Built and optimized targeted advertising campaigns to help a home services company acquire more customers at a lower cost."
+          href="/case-studies/"
+        />
+        <CaseStudyCard
+          resultValue="+160%"
+          resultLabel="conversions"
+          resultValue2="+72%"
+          resultLabel2="engagement"
+          service="Web Design"
+          headline="How a Website Redesign Increased Conversions by 160%"
+          summary="Redesigned an outdated business website with a modern user experience, compelling messaging, and conversion-focused landing pages."
+          href="/case-studies/"
+        />
+      </div>
+      <p class="mt-6">
+        <a href="/case-studies/" class="font-bold text-violet-600 hover:underline">
+          All case studies →
+        </a>
+      </p>
+    </section>
+
+    <!-- 6. Process -->
+    <section class="mx-auto max-w-7xl px-6 py-8">
+      <p class="text-sm font-bold uppercase tracking-wide text-violet-600">Our approach</p>
+      <h2 class="mt-2 text-3xl font-extrabold">One direction. Connected execution.</h2>
+      <p class="mt-3 max-w-2xl text-slate">
+        From the first audit to monthly reporting, every channel follows one plan, so your brand moves forward with
+        clarity in every market.
+      </p>
+      <ol class="mt-6 grid gap-6 md:grid-cols-3">
+        <li class="rounded-2xl border border-line bg-white p-6">
+          <p class="font-display text-2xl font-extrabold text-orange">01</p>
+          <h3 class="mt-2 font-display text-lg font-bold text-navy">Discover</h3>
+          <p class="mt-2 text-slate">
+            We audit your channels, research your audience and competitors in each market, and agree the targets that
+            matter.
+          </p>
+        </li>
+        <li class="rounded-2xl border border-line bg-white p-6">
+          <p class="font-display text-2xl font-extrabold text-orange">02</p>
+          <h3 class="mt-2 font-display text-lg font-bold text-navy">Create</h3>
+          <p class="mt-2 text-slate">
+            We build the strategy, creative and content for each market and channel, ready to launch.
+          </p>
+        </li>
+        <li class="rounded-2xl border border-line bg-white p-6">
+          <p class="font-display text-2xl font-extrabold text-orange">03</p>
+          <h3 class="mt-2 font-display text-lg font-bold text-navy">Grow</h3>
+          <p class="mt-2 text-slate">
+            We run, test and improve every month, and report against leads, sales and revenue.
+          </p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- 7. Industries -->
+    <section class="mx-auto max-w-7xl px-6 py-8">
+      <p class="text-sm font-bold uppercase tracking-wide text-violet-600">Industries</p>
+      <h2 class="mt-2 text-3xl font-extrabold">Playbooks for 17 industries.</h2>
+      <p class="mt-3 max-w-2xl text-slate">
+        Each industry has its own buyers, rules and seasons. Our teams bring experience from yours.
+      </p>
+      <ul class="mt-6 flex flex-wrap gap-3">
+        {
+          INDUSTRIES.map((industry) => (
+            <li>
+              <a
+                href={industry.href}
+                class="inline-block rounded-full border border-line bg-white px-4 py-2 text-sm font-medium text-navy hover:border-violet hover:text-violet-600"
+              >
+                {industry.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    <!-- 8. Markets -->
+    <section id="markets" class="mx-auto max-w-7xl px-6 py-8">
+      <p class="text-sm font-bold uppercase tracking-wide text-violet-600">Markets</p>
+      <h2 class="mt-2 text-3xl font-extrabold">One agency. Six markets.</h2>
+      <p class="mt-3 max-w-2xl text-slate">
+        Each client gets a team built around them: the right industry experience, the right channel specialists and
+        working hours that overlap with yours. Local insight, one global standard.
+      </p>
+      <div class="mt-6 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        {
+          markets.map((market) => (
+            <div class="rounded-2xl border border-line bg-white p-6">
+              <h3 class="font-display text-lg font-bold text-navy">{market.name}</h3>
+              <p class="mt-2 text-slate">{market.description}</p>
+              <p class="mt-3 text-sm text-slate">{market.cities.join(' · ')}</p>
+            </div>
+          ))
+        }
+      </div>
+      <p class="mt-6 text-slate">
+        Expanding into a new country? We plan the launch market by market.{' '}
+        <a href="/contact/" class="font-bold text-violet-600 hover:underline">
+          Plan my expansion →
+        </a>
+      </p>
+    </section>
+
+    <!-- 9. Stats -->
+    <section class="mx-auto max-w-7xl px-6 py-8">
+      <StatStrip stats={[{ value: '6', label: 'Markets' }, { value: '20', label: 'Services' }]} />
+    </section>
+
+    <!-- 10. Comparison -->
+    <section class="mx-auto max-w-7xl px-6 py-8">
+      <p class="text-sm font-bold uppercase tracking-wide text-violet-600">Why Dazzlit</p>
+      <h2 class="mt-2 text-3xl font-extrabold">How we compare to the usual options.</h2>
+      <p class="mt-3 max-w-2xl text-slate">
+        Most brands end up juggling a specialist for each channel. Here’s what changes when one team runs all of it.
+      </p>
+      <div class="mt-8">
+        <ComparisonTable rows={comparisonRows} />
+      </div>
+    </section>
+
+    <!-- 11. Team / culture -->
+    <section class="mx-auto max-w-7xl px-6 py-8">
+      <p class="text-sm font-bold uppercase tracking-wide text-violet-600">Our people</p>
+      <h2 class="mt-2 text-3xl font-extrabold">Specialists who own your results.</h2>
+      <p class="mt-3 max-w-2xl text-slate">
+        Great marketing comes from people who are trusted to do their best work. We hire senior specialists, give them
+        room to grow, and keep them close to the clients they serve.
+      </p>
+      <ol class="mt-6 grid gap-6 md:grid-cols-3">
+        <li class="rounded-2xl border border-line bg-white p-6">
+          <p class="font-display text-2xl font-extrabold text-orange">1</p>
+          <h3 class="mt-2 font-display text-lg font-bold text-navy">Specialists, not generalists</h3>
+          <p class="mt-2 text-slate">
+            Each channel is run by someone who does nothing else, from technical SEO to TikTok ads.
+          </p>
+        </li>
+        <li class="rounded-2xl border border-line bg-white p-6">
+          <p class="font-display text-2xl font-extrabold text-orange">2</p>
+          <h3 class="mt-2 font-display text-lg font-bold text-navy">One plan across channels</h3>
+          <p class="mt-2 text-slate">Search, social, paid and content share one strategy and one report.</p>
+        </li>
+        <li class="rounded-2xl border border-line bg-white p-6">
+          <p class="font-display text-2xl font-extrabold text-orange">3</p>
+          <h3 class="mt-2 font-display text-lg font-bold text-navy">Measured on revenue</h3>
+          <p class="mt-2 text-slate">
+            We report on leads, sales and cost per acquisition, not vanity metrics.
+          </p>
+        </li>
+      </ol>
+      <div class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {
+          team.map((member) => (
+            <div class="rounded-2xl border border-line bg-white p-6">
+              <p
+                aria-hidden="true"
+                class="flex h-14 w-14 items-center justify-center rounded-full bg-violet font-display text-lg font-extrabold text-white"
+              >
+                {member.initials}
+              </p>
+              <h3 class="mt-4 font-display text-lg font-bold text-navy">{member.name}</h3>
+              <p class="text-sm font-bold text-violet-600">{member.role}</p>
+              <p class="mt-2 text-slate">{member.bio}</p>
+            </div>
+          ))
+        }
+      </div>
+      <div class="mt-6 flex flex-wrap gap-4">
+        <Button href="/about/">Meet the team</Button>
+        <Button href="/about/" variant="secondary">Careers</Button>
+      </div>
+    </section>
+
+    <!-- 12. Testimonials -->
+    <section class="mx-auto max-w-7xl px-6 py-8">
+      <p class="text-sm font-bold uppercase tracking-wide text-violet-600">Testimonials</p>
+      <h2 class="mt-2 text-3xl font-extrabold">Don’t just take our word for it.</h2>
+      <p class="mt-3 max-w-2xl text-slate">
+        See what our clients say about working with us. We’re proud to build partnerships that deliver real value and
+        lasting results.
+      </p>
+      <div class="mt-6 grid gap-6 md:grid-cols-3">
+        {
+          testimonials.map((testimonial) => (
+            <figure class="rounded-2xl border border-line bg-white p-6">
+              <p aria-label="Rated 5 out of 5 stars" class="text-lg tracking-wide text-orange">
+                ★★★★★
+              </p>
+              <blockquote class="mt-3 text-slate">“{testimonial.quote}”</blockquote>
+              <figcaption class="mt-4">
+                <p class="font-display font-bold text-navy">{testimonial.name}</p>
+                <p class="text-sm text-slate">{testimonial.role}</p>
+                <p class="mt-1 text-xs font-bold uppercase tracking-wide text-violet-600">{testimonial.service}</p>
+              </figcaption>
+            </figure>
+          ))
+        }
+      </div>
+    </section>
+
+    <!-- 13. Let's talk -->
+    <section class="mx-auto max-w-7xl px-6 py-8">
+      <div class="grid gap-10 lg:grid-cols-2">
+        <div>
+          <p class="text-sm font-bold uppercase tracking-wide text-violet-600">Let’s talk</p>
+          <h2 class="mt-2 text-3xl font-extrabold">Let’s talk about better results.</h2>
+          <p class="mt-4 text-slate">
+            Tell us where you want to grow. We’ll come back with a written plan: channels, markets, budget and the
+            results to expect.
+          </p>
+          <p class="mt-4">
+            <a
+              href="https://calendly.com/dazzlit/30min"
+              target="_blank"
+              rel="noopener"
+              class="font-bold text-violet-600 hover:underline"
+            >
+              Book a call instead →
+            </a>
+          </p>
+        </div>
+        <ProposalForm />
+      </div>
+    </section>
+
+    <!-- 14. RFP -->
+    <section class="mx-auto max-w-7xl px-6 py-8">
+      <div class="rounded-2xl bg-navy px-8 py-10 text-white">
+        <p class="text-sm font-bold uppercase tracking-wide text-violet-300">Request for proposal</p>
+        <h2 class="mt-2 font-display text-3xl font-extrabold">Running an agency review? Add us to the list.</h2>
+        <p class="mt-3 max-w-2xl text-white/80">
+          Send your RFP and a senior strategist will answer every question in it, with a team, timeline and budget
+          built for your brief.
+        </p>
+        <div class="mt-6 flex flex-wrap gap-4">
+          <Button href="/contact/">Submit an RFP</Button>
+          <a
+            href="mailto:contact@dazzlit.com"
+            class="inline-flex items-center justify-center rounded-full border border-white/40 px-6 py-3 font-display text-sm font-bold text-white"
+          >
+            Email the RFP team
+          </a>
+        </div>
+        <h3 class="mt-8 font-display text-lg font-bold">What to include for the fastest reply</h3>
+        <ul class="mt-3 grid gap-3 sm:grid-cols-2">
+          <li>
+            <strong>Goals and scope.</strong> The channels and services you’re reviewing.
+          </li>
+          <li>
+            <strong>Markets.</strong> The countries and languages you need covered.
+          </li>
+          <li>
+            <strong>Budget range.</strong> Media and fee budgets, if you have them.
+          </li>
+          <li>
+            <strong>Timeline.</strong> Your decision date and preferred start date.
+          </li>
+          <li>
+            <strong>Format.</strong> Any template, pitch or presentation requirements.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 15. FAQs -->
+    <FaqAccordion items={faqs} />
+
+    <!-- 16. Insights roundup -->
+    <section class="mx-auto max-w-7xl px-6 py-8">
+      <p class="text-sm font-bold uppercase tracking-wide text-violet-600">Insights</p>
+      <h2 class="mt-2 text-3xl font-extrabold">The marketing roundup.</h2>
+      <p class="mt-3 max-w-2xl text-slate">
+        What changed in search, AI and paid media, and what to do about it. Updated monthly by the Dazzlit team.
+      </p>
+      <div class="mt-6 grid gap-6 md:grid-cols-3">
+        {
+          insights.map((article) => (
+            <article class="rounded-2xl border border-line bg-white p-6">
+              <p class="text-xs font-bold uppercase tracking-wide text-violet-600">{article.category}</p>
+              <h3 class="mt-3 font-display text-lg font-bold text-navy">{article.title}</h3>
+              <p class="mt-2 text-slate">{article.text}</p>
+              <a href={article.href} class="mt-4 inline-block font-bold text-violet-600">
+                Read the article →
+              </a>
+            </article>
+          ))
+        }
+      </div>
+      <p class="mt-6">
+        <a href="/blog/" class="font-bold text-violet-600 hover:underline">
+          All insights →
+        </a>
+      </p>
+    </section>
+
+    <CtaBand
+      title="Let’s talk about better results."
+      text="Tell us where you want to grow. We’ll come back with a written plan: channels, markets, budget and the results to expect."
+      secondaryLabel="Submit an RFP"
+      secondaryHref="/contact/"
+    />
+  </main>
+  <PageSchema entry={entry} />
+</BaseLayout>

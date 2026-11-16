@@ -1,0 +1,43 @@
+---
+// Shared shell for the content-page templates (T2–T15). Each template layout
+// is a thin file that renders this shell with its own sections in the
+// beforeBody / afterBody slots. The homepage (T1) has its own layout.
+import BaseLayout from '../BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import PageHero from '../../components/PageHero.astro';
+import RelatedLinks from '../../components/RelatedLinks.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import PageSchema from '../../components/PageSchema.astro';
+import type { PageEntry, Crumb } from '../../lib/templates';
+import { ctaDisplay } from '../../lib/templates';
+
+interface Props {
+  entry: PageEntry;
+  trail: Crumb[];
+}
+
+const { entry, trail } = Astro.props;
+const { data } = entry;
+---
+
+<BaseLayout title={data.metaTitle} description={data.metaDescription} canonicalPath={data.url}>
+  <Breadcrumbs items={trail} />
+  <PageHero entry={entry} />
+  <slot name="beforeBody" />
+  <main class="mx-auto max-w-7xl px-6 py-12">
+    <article class="max-w-3xl space-y-5 text-slate [h2]:mt-10 [h2]:font-display [h2]:text-2xl [h2]:font-bold [h2]:text-navy [p]:leading-relaxed">
+      <slot />
+    </article>
+  </main>
+  <slot name="afterBody" />
+  <RelatedLinks links={data.internalLinks} />
+  <CtaBand
+    title={ctaDisplay(data.cta)}
+    text="Tell us where you want to grow. We’ll come back with a written plan: channels, markets, budget and the results to expect."
+    primaryLabel={ctaDisplay(data.cta)}
+    primaryHref="/contact/"
+    secondaryLabel="Submit an RFP"
+    secondaryHref="/contact/"
+  />
+  <PageSchema entry={entry} />
+</BaseLayout>

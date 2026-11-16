@@ -1,0 +1,30 @@
+---
+import type { PageEntry } from '../lib/templates';
+
+interface Props {
+  links: PageEntry['data']['internalLinks'];
+  heading?: string;
+}
+
+const { links, heading = 'Related' } = Astro.props;
+---
+
+{
+  links.length > 0 && (
+    <section class="mx-auto max-w-7xl px-6 py-10">
+      <h2 class="font-display text-2xl font-bold text-navy">{heading}</h2>
+      <ul class="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        {links.map((link) => (
+          <li>
+            <a
+              href={link.url}
+              class="block rounded-xl border border-line bg-white px-4 py-3 text-sm font-medium text-navy hover:border-violet hover:text-violet-600"
+            >
+              {link.anchor}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )
+}

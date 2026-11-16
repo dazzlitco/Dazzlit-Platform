@@ -1,0 +1,16 @@
+name = "dazzlit-site"
+compatibility_date = "2026-11-16"
+
+# Cloudflare Pages build settings (build command "npm run build", output
+# directory "dist") are set in the Pages project in the Cloudflare
+# dashboard when the project is created (F-04, still pending — the owner
+# creates it) and linked to the dazzlitco/Dazzlit-Platform repo.
+
+[[d1_databases]]
+binding = "DB"
+database_name = "dazzlit-leads"
+migrations_dir = "migrations"
+# database_id is filled in after the D1 database is created in the
+# Cloudflare dashboard (wrangler d1 create dazzlit-leads). It is not
+# invented here — without it, wrangler cannot bind the database.
+database_id = ""

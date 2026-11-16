@@ -1,0 +1,16 @@
+---
+// T3 — Service / industry service / audience (plan, section 4): problem →
+// solution, deliverables, process, proof, pricing, FAQ, CTA. The body (H2
+// sections) carries the problem, deliverables and process copy, written in
+// Phase 2. Proof, pricing and FAQ sections render when their content exists.
+import TemplateShell from './TemplateShell.astro';
+import type { TemplateProps } from '../../lib/templates';
+
+type Props = TemplateProps;
+
+const { entry, trail } = Astro.props;
+---
+
+<TemplateShell entry={entry} trail={trail}>
+  <slot />
+</TemplateShell>

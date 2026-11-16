@@ -1,0 +1,15 @@
+---
+// T8 — Template / checklist download (plan, section 4): preview, download
+// (optional email gate), how to use, example. Downloads live in R2 and are
+// added in Wave 4; this template renders the body and the CTA until then.
+import TemplateShell from './TemplateShell.astro';
+import type { TemplateProps } from '../../lib/templates';
+
+type Props = TemplateProps;
+
+const { entry, trail } = Astro.props;
+---
+
+<TemplateShell entry={entry} trail={trail}>
+  <slot />
+</TemplateShell>

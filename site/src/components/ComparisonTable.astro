@@ -1,0 +1,42 @@
+---
+export interface ComparisonRow {
+  label: string;
+  dazzlit: string;
+  typicalAgency: string;
+  freelancers: string;
+}
+
+interface Props {
+  rows: ComparisonRow[];
+}
+
+const { rows } = Astro.props;
+---
+
+<div class="overflow-x-auto">
+  <table class="w-full min-w-[36rem] border-collapse text-left">
+    <caption class="sr-only">How Dazzlit compares to a typical agency and to freelancers</caption>
+    <thead>
+      <tr class="border-b border-line">
+        <th scope="col" class="py-3 pr-4 font-display font-bold text-navy"><span class="sr-only">Topic</span></th>
+        <th scope="col" class="rounded-t-xl bg-violet px-4 py-3 font-display font-bold text-white">Dazzlit</th>
+        <th scope="col" class="px-4 py-3 font-display font-bold text-navy">Typical agency</th>
+        <th scope="col" class="px-4 py-3 font-display font-bold text-navy">Freelancers</th>
+      </tr>
+    </thead>
+    <tbody>
+      {
+        rows.map((row) => (
+          <tr class="border-b border-line align-top">
+            <th scope="row" class="py-3 pr-4 font-bold text-navy">
+              {row.label}
+            </th>
+            <td class="bg-violet-50 px-4 py-3 text-slate">{row.dazzlit}</td>
+            <td class="px-4 py-3 text-slate">{row.typicalAgency}</td>
+            <td class="px-4 py-3 text-slate">{row.freelancers}</td>
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+</div>

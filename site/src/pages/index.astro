@@ -1,21 +1,17 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+// Homepage — rendered through the T1 template layout. The page itself is
+// built in Phase 2 from the approved homepage mockup; this is the Phase 1
+// preview of the template's sections.
+import { getCollection } from 'astro:content';
+import T01Home from '../layouts/templates/T01Home.astro';
+import { breadcrumbTrail, childrenOf, bodyHeadings } from '../lib/templates';
+
+const core = await getCollection('core');
+const home = core.find((entry) => entry.data.url === '/');
+if (!home) throw new Error('Home entry (/) not found in the core collection.');
+const trail = breadcrumbTrail(core, home);
+const children = childrenOf(core, home.data.url);
+const headings = bodyHeadings(home.body);
 ---
 
-<BaseLayout
-  title="Dazzlit | Global Digital Marketing Agency"
-  description="Dazzlit is a global digital marketing agency: SEO, PPC, social, content, web design, CRO and AI marketing that grow revenue. Get a free proposal."
-  canonicalPath="/"
->
-  <main class="mx-auto max-w-3xl px-6 py-24 text-center">
-    <img src="/dazzlit-logo.svg" alt="Dazzlit" width="180" height="48" class="mx-auto" />
-    <h1 class="mt-10 text-5xl font-extrabold">
-      Reach your <span class="text-violet">next market.</span>
-    </h1>
-    <p class="mt-6 text-lg text-slate">Ideas that travel. Brands that grow.</p>
-    <p class="mt-10 text-slate">
-      Site scaffold — Phase 1. The homepage and service pages are built in
-      Phase 2, from the approved homepage mockup and the Wave 1 briefs.
-    </p>
-  </main>
-</BaseLayout>
+<T01Home entry={home} trail={trail} children={children} headings={headings} />
