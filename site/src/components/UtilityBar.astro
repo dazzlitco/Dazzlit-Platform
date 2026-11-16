@@ -1,0 +1,28 @@
+---
+import { MARKETS } from '../data/navigation';
+---
+
+<div class="bg-navy text-sm text-white">
+  <div class="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-x-6 gap-y-1 px-6 py-2">
+    <p class="text-white/80">Global digital marketing agency · USA · UK · Australia · Canada · UAE · Singapore</p>
+    <div class="flex items-center gap-5">
+      <a href="/contact/" class="font-semibold text-white hover:text-violet-300">Submit an RFP</a>
+      <a href="/about/" class="font-semibold text-white hover:text-violet-300">Careers</a>
+      <label class="flex items-center gap-2">
+        <span class="sr-only">Region</span>
+        <span aria-hidden="true">Region</span>
+        <select
+          name="region"
+          class="rounded-md border border-white/30 bg-navy px-2 py-1 text-sm text-white"
+          aria-label="Region"
+        >
+          {
+            MARKETS.map((market) => (
+              <option value={market.label}>{market.label}</option>
+            ))
+          }
+        </select>
+      </label>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,157 @@
+---
+import UtilityBar from './UtilityBar.astro';
+import { SOLUTION_GROUPS, INDUSTRIES, RESOURCE_LINKS, MARKETS } from '../data/navigation';
+---
+
+<UtilityBar />
+<header class="sticky top-0 z-50 border-b border-line bg-ivory/95 backdrop-blur">
+  <div class="mx-auto flex max-w-7xl items-center justify-between gap-6 px-6 py-4">
+    <a href="/" aria-label="Dazzlit — home">
+      <img src="/dazzlit-logo.svg" alt="Dazzlit" width="150" height="40" />
+    </a>
+    <nav class="hidden items-center gap-6 lg:flex" aria-label="Main">
+      <div class="group relative">
+        <button type="button" class="font-display font-bold text-navy hover:text-violet-600" aria-haspopup="true">
+          Solutions
+        </button>
+        <div class="invisible absolute left-1/2 top-full z-50 w-[42rem] -translate-x-1/2 pt-4 opacity-0 transition group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+          <div class="grid grid-cols-3 gap-6 rounded-2xl border border-line bg-white p-6 shadow-lg">
+            {
+              SOLUTION_GROUPS.map((group) => (
+                <div>
+                  <p class="mb-2 text-xs font-bold uppercase tracking-wide text-slate">{group.heading}</p>
+                  <ul class="space-y-1.5">
+                    {group.links.map((link) => (
+                      <li>
+                        <a href={link.href} class="text-sm font-medium text-navy hover:text-violet-600">
+                          {link.label}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))
+            }
+            <div class="col-span-3 rounded-xl bg-violet-50 p-4">
+              <p class="font-display font-bold text-navy">Free tool</p>
+              <p class="text-sm text-slate">See how visible you are in ChatGPT and Google.</p>
+              <a href="/resources/tools/utm-builder/" class="mt-2 inline-block font-bold text-violet-600">
+                Run the check →
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="group relative">
+        <button type="button" class="font-display font-bold text-navy hover:text-violet-600" aria-haspopup="true">
+          Markets
+        </button>
+        <div class="invisible absolute left-1/2 top-full z-50 w-56 -translate-x-1/2 pt-4 opacity-0 transition group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+          <ul class="space-y-1.5 rounded-2xl border border-line bg-white p-4 shadow-lg">
+            {
+              MARKETS.map((market) => (
+                <li>
+                  <a href={market.href} class="text-sm font-medium text-navy hover:text-violet-600">
+                    {market.label}
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+      </div>
+      <div class="group relative">
+        <button type="button" class="font-display font-bold text-navy hover:text-violet-600" aria-haspopup="true">
+          Industries
+        </button>
+        <div class="invisible absolute left-1/2 top-full z-50 w-64 -translate-x-1/2 pt-4 opacity-0 transition group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+          <ul class="grid grid-cols-2 gap-x-4 gap-y-1.5 rounded-2xl border border-line bg-white p-4 shadow-lg">
+            {
+              INDUSTRIES.map((industry) => (
+                <li>
+                  <a href={industry.href} class="text-sm font-medium text-navy hover:text-violet-600">
+                    {industry.label}
+                  </a>
+                </li>
+              ))
+            }
+            <li class="col-span-2 pt-2">
+              <a href="/industries/" class="text-sm font-bold text-violet-600">
+                All 17 industries →
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="group relative">
+        <button type="button" class="font-display font-bold text-navy hover:text-violet-600" aria-haspopup="true">
+          Resources
+        </button>
+        <div class="invisible absolute left-1/2 top-full z-50 w-56 -translate-x-1/2 pt-4 opacity-0 transition group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+          <ul class="space-y-1.5 rounded-2xl border border-line bg-white p-4 shadow-lg">
+            {
+              RESOURCE_LINKS.map((link) => (
+                <li>
+                  <a href={link.href} class="text-sm font-medium text-navy hover:text-violet-600">
+                    {link.label}
+                  </a>
+                </li>
+              ))
+            }
+            <li class="pt-2">
+              <a href="/blog/" class="text-sm font-bold text-violet-600">
+                Blog →
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <a href="/pricing/" class="font-display font-bold text-navy hover:text-violet-600">Pricing</a>
+      <a href="/about/" class="font-display font-bold text-navy hover:text-violet-600">About</a>
+    </nav>
+    <div class="flex items-center gap-3">
+      <a
+        href="/contact/"
+        class="hidden rounded-full bg-violet px-5 py-2.5 font-display text-sm font-bold text-white transition hover:bg-violet-600 sm:inline-flex"
+      >
+        Get a free proposal
+      </a>
+      <button
+        type="button"
+        class="inline-flex rounded-md border border-line bg-white px-3 py-2 font-display text-sm font-bold text-navy lg:hidden"
+        aria-expanded="false"
+        aria-controls="mobile-nav"
+        data-mobile-menu-button
+      >
+        Menu
+      </button>
+    </div>
+  </div>
+  <nav id="mobile-nav" class="hidden border-t border-line bg-white px-6 py-4 lg:hidden" aria-label="Mobile" data-mobile-menu>
+    <ul class="space-y-3">
+      {
+        SOLUTION_GROUPS.flatMap((group) => group.links).map((link) => (
+          <li>
+            <a href={link.href} class="font-medium text-navy hover:text-violet-600">
+              {link.label}
+            </a>
+          </li>
+        ))
+      }
+      <li><a href="/industries/" class="font-bold text-navy">Industries</a></li>
+      <li><a href="/resources/" class="font-bold text-navy">Resources</a></li>
+      <li><a href="/blog/" class="font-bold text-navy">Blog</a></li>
+      <li><a href="/pricing/" class="font-bold text-navy">Pricing</a></li>
+      <li><a href="/about/" class="font-bold text-navy">About</a></li>
+      <li><a href="/contact/" class="font-bold text-violet-600">Get a free proposal</a></li>
+    </ul>
+  </nav>
+</header>
+<script>
+  const button = document.querySelector('[data-mobile-menu-button]');
+  const menu = document.querySelector('[data-mobile-menu]');
+  button?.addEventListener('click', () => {
+    const open = menu?.classList.toggle('hidden') === false;
+    button.setAttribute('aria-expanded', String(open));
+  });
+</script>

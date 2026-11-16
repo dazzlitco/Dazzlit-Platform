@@ -1,0 +1,26 @@
+---
+// Organization + WebSite schema, site-wide.
+// Only facts from the approved plan are included: name, URL, logo, slogan.
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Organization',
+      '@id': 'https://dazzlit.com/#organization',
+      name: 'Dazzlit',
+      url: 'https://dazzlit.com/',
+      slogan: 'Ideas that travel. Brands that grow.',
+      logo: 'https://dazzlit.com/dazzlit-logo.svg',
+    },
+    {
+      '@type': 'WebSite',
+      '@id': 'https://dazzlit.com/#website',
+      url: 'https://dazzlit.com/',
+      name: 'Dazzlit',
+      publisher: { '@id': 'https://dazzlit.com/#organization' },
+    },
+  ],
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />

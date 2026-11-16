@@ -1,0 +1,45 @@
+---
+export interface Crumb {
+  label: string;
+  href?: string;
+}
+
+interface Props {
+  items: Crumb[];
+}
+
+const { items } = Astro.props;
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: items.map((item, index) => ({
+    '@type': 'ListItem',
+    position: index + 1,
+    name: item.label,
+    ...(item.href ? { item: new URL(item.href, 'https://dazzlit.com').toString() } : {}),
+  })),
+};
+---
+
+<nav aria-label="Breadcrumb" class="mx-auto max-w-7xl px-6 pt-6">
+  <ol class="flex flex-wrap gap-2 text-sm text-slate">
+    {
+      items.map((item, index) => (
+        <li class="flex items-center gap-2">
+          {index > 0 && <span aria-hidden="true">/</span>}
+          {item.href ? (
+            <a href={item.href} class="hover:text-violet-600">
+              {item.label}
+            </a>
+          ) : (
+            <span aria-current="page" class="font-medium text-navy">
+              {item.label}
+            </span>
+          )}
+        </li>
+      ))
+    }
+  </ol>
+</nav>
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />

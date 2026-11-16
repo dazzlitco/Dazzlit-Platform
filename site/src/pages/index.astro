@@ -1,5 +1,77 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Button from '../components/Button.astro';
+import CtaBand from '../components/CtaBand.astro';
+import FaqAccordion from '../components/FaqAccordion.astro';
+import ComparisonTable from '../components/ComparisonTable.astro';
+import ProposalForm from '../components/ProposalForm.astro';
+import StatStrip from '../components/StatStrip.astro';
+
+const faqs = [
+  {
+    question: 'What does a digital marketing agency do?',
+    answer:
+      'A digital marketing agency plans and runs the channels that bring you customers online: search (SEO and AI search), paid ads, social media, content, email and your website. Dazzlit runs these as one plan, so every channel works toward the same leads and sales targets.',
+  },
+  {
+    question: 'How much does digital marketing cost?',
+    answer:
+      'It depends on your goals, your market and how many channels you need. Most clients start with one or two core channels and add more as results come in.',
+  },
+  {
+    question: 'Which countries do you work in?',
+    answer:
+      'We work with brands in the United States, United Kingdom, Australia, Canada, the UAE and Singapore, and plan launches into new markets for clients expanding abroad.',
+  },
+  {
+    question: 'How long does SEO take to show results?',
+    answer:
+      'Most sites see early movement within 3 months and meaningful growth in leads within 6 to 12 months. It depends on your competition, your site’s history and how much content you need.',
+  },
+  {
+    question: 'Can you get my brand recommended by ChatGPT and other AI tools?',
+    answer:
+      'Yes. AI search visibility is part of our SEO work: we make your brand easy for ChatGPT, Gemini and Perplexity to find, understand and cite, and we track how often you appear in their answers.',
+  },
+  {
+    question: 'Do you work with small businesses or only large brands?',
+    answer:
+      'Both. We work with growing small businesses, B2B companies and enterprise brands, and size the team and budget to the goal.',
+  },
+];
+
+const comparisonRows = [
+  {
+    label: 'Channels',
+    dazzlit: '20 services under one team',
+    typicalAgency: '1–3 core channels',
+    freelancers: 'One skill each',
+  },
+  {
+    label: 'Markets',
+    dazzlit: 'US, UK, Australia, Canada, UAE, Singapore',
+    typicalAgency: 'Usually one country',
+    freelancers: 'Local only',
+  },
+  {
+    label: 'AI search',
+    dazzlit: 'ChatGPT, Gemini and Perplexity visibility built into SEO',
+    typicalAgency: 'Often not offered yet',
+    freelancers: 'Rarely offered',
+  },
+  {
+    label: 'Strategy',
+    dazzlit: 'One plan across every channel',
+    typicalAgency: 'A plan per channel',
+    freelancers: 'No shared plan',
+  },
+  {
+    label: 'Reporting',
+    dazzlit: 'Leads, sales and revenue',
+    typicalAgency: 'Traffic and rankings',
+    freelancers: 'Varies',
+  },
+];
 ---
 
 <BaseLayout
@@ -7,15 +79,74 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   description="Dazzlit is a global digital marketing agency: SEO, PPC, social, content, web design, CRO and AI marketing that grow revenue. Get a free proposal."
   canonicalPath="/"
 >
-  <main class="mx-auto max-w-3xl px-6 py-24 text-center">
-    <img src="/dazzlit-logo.svg" alt="Dazzlit" width="180" height="48" class="mx-auto" />
-    <h1 class="mt-10 text-5xl font-extrabold">
-      Reach your <span class="text-violet">next market.</span>
-    </h1>
-    <p class="mt-6 text-lg text-slate">Ideas that travel. Brands that grow.</p>
-    <p class="mt-10 text-slate">
-      Site scaffold — Phase 1. The homepage and service pages are built in
-      Phase 2, from the approved homepage mockup and the Wave 1 briefs.
-    </p>
+  <main>
+    <section class="mx-auto max-w-3xl px-6 py-16 text-center">
+      <p class="text-sm font-bold uppercase tracking-wide text-violet-600">Global digital marketing agency</p>
+      <h1 class="mt-4 text-5xl font-extrabold">
+        Reach your <span class="text-violet">next market.</span>
+      </h1>
+      <p class="mt-6 text-lg text-slate">
+        Customers now search on Google, ask ChatGPT, scroll TikTok and shop on Amazon. Dazzlit puts your brand in
+        front of them everywhere they look, in every market you want to win.
+      </p>
+      <div class="mt-8 flex flex-wrap justify-center gap-4">
+        <Button href="/contact/">Get a free proposal</Button>
+        <Button href="/contact/" variant="secondary">Submit an RFP</Button>
+      </div>
+      <p class="mt-10 text-sm text-slate">
+        Temporary component preview — Phase 1. The homepage is built in Phase 2, from the approved homepage mockup.
+      </p>
+    </section>
+
+    <section class="mx-auto max-w-7xl px-6">
+      <div class="grid gap-6 rounded-2xl border border-line bg-white p-8 md:grid-cols-3">
+        <div>
+          <h2 class="text-xl font-bold">Clear strategy</h2>
+          <p class="mt-2 text-slate">The right path forward, market by market.</p>
+        </div>
+        <div>
+          <h2 class="text-xl font-bold">Distinctive creativity</h2>
+          <p class="mt-2 text-slate">Ideas that earn attention in every feed.</p>
+        </div>
+        <div>
+          <h2 class="text-xl font-bold">Measurable progress</h2>
+          <p class="mt-2 text-slate">Reporting on leads, sales and revenue.</p>
+        </div>
+      </div>
+      <StatStrip stats={[{ value: '6', label: 'Markets' }, { value: '20', label: 'Services' }]} />
+    </section>
+
+    <section class="mx-auto max-w-7xl px-6 py-8">
+      <h2 class="text-3xl font-extrabold">How we compare to the usual options.</h2>
+      <p class="mt-3 max-w-2xl text-slate">
+        Most brands end up juggling a specialist for each channel. Here’s what changes when one team runs all of it.
+      </p>
+      <div class="mt-8">
+        <ComparisonTable rows={comparisonRows} />
+      </div>
+    </section>
+
+    <section class="mx-auto max-w-7xl px-6 py-8">
+      <div class="grid gap-10 lg:grid-cols-2">
+        <div>
+          <p class="text-sm font-bold uppercase tracking-wide text-violet-600">Let’s talk</p>
+          <h2 class="mt-2 text-3xl font-extrabold">Let’s talk about better results.</h2>
+          <p class="mt-4 text-slate">
+            Tell us where you want to grow. We’ll come back with a written plan: channels, markets, budget and the
+            results to expect.
+          </p>
+        </div>
+        <ProposalForm />
+      </div>
+    </section>
+
+    <FaqAccordion items={faqs} />
+
+    <CtaBand
+      title="Let’s talk about better results."
+      text="Tell us where you want to grow. We’ll come back with a written plan: channels, markets, budget and the results to expect."
+      secondaryLabel="Submit an RFP"
+      secondaryHref="/contact/"
+    />
   </main>
 </BaseLayout>
