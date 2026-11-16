@@ -4,6 +4,8 @@ url: "/services/local-seo/"
 title: "Local SEO Services"
 metaTitle: "Local SEO Services | Dazzlit"
 metaDescription: "Local SEO Services from Dazzlit: data-driven local SEO built to grow traffic, leads and revenue. See results and get a free proposal."
+heroImage: "/images/hub-local-seo.webp"
+heroImageAlt: "Warm-lit neighbourhood street corner with shopfronts at dusk"
 primaryKeyword: "local seo services"
 secondaryKeywords:
   - "local seo company"

@@ -4,6 +4,8 @@ url: "/services/link-building/"
 title: "Link Building Services"
 metaTitle: "Link Building Services | Dazzlit"
 metaDescription: "Link Building Services from Dazzlit: data-driven link building built to grow traffic, leads and revenue. See results and get a free proposal."
+heroImage: "/images/hub-link-building.webp"
+heroImageAlt: "Pedestrian bridges connecting two glass towers at dusk"
 primaryKeyword: "link building services"
 secondaryKeywords:
   - "link building agency"

@@ -4,6 +4,8 @@ url: "/services/ppc-management/"
 title: "PPC Management Services"
 metaTitle: "PPC Management Services | Dazzlit"
 metaDescription: "PPC Management Services from Dazzlit: data-driven PPC built to grow traffic, leads and revenue. See results and get a free proposal."
+heroImage: "/images/hub-ppc.webp"
+heroImageAlt: "Busy avenue at dusk with long-exposure traffic streaks"
 primaryKeyword: "ppc agency"
 secondaryKeywords:
   - "ppc management"

@@ -4,6 +4,8 @@ url: "/services/seo/"
 title: "SEO Services"
 metaTitle: "SEO Services | Dazzlit"
 metaDescription: "SEO Services from Dazzlit: data-driven SEO built to grow traffic, leads and revenue. See results and get a free proposal."
+heroImage: "/images/hub-seo.webp"
+heroImageAlt: "Aerial view of a city grid at dusk with light trails"
 primaryKeyword: "seo services"
 secondaryKeywords:
   - "seo agency"
