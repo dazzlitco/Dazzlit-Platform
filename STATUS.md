@@ -1,7 +1,7 @@
 # STATUS – Dazzlit platform
 
 **Last updated:** 16 Nov 2026
-**Current phase:** Phase 1, Foundations — steps 1–6 done (Astro scaffold, design tokens, shared components, CSV scaffolder, CI checks, forms). Design and homepage are approved; development has started.
+**Current phase:** Phase 1, Foundations — all 7 steps done (Astro scaffold, design tokens, shared components, CSV scaffolder, CI checks, forms, legal/utility pages + analytics). Design and homepage are approved; development has started. Next: the 15 page templates, then Wave 1.
 **Live site:** not yet. dazzlit.com still runs the old WordPress install on Hostinger.
 
 ## Where we are
@@ -36,9 +36,9 @@
 | **Total** | **91** | **167** | **465** | **342** | **1,065** | |
 
 ## Next actions
-1. **Owner:** review the form wiring on GitHub (`develop` branch) and confirm step 7 can start. Still needed from the owner before the form goes live: a Cloudflare account (Pages project + D1 + Turnstile keys, F-04), a Resend key and sender address, the owner email for lead alerts, and the CRM choice (D-10).
+1. **Owner:** review the legal pages and consent banner on GitHub (`develop` branch) and confirm the templates can start. The legal copy is drafted and needs the owner's review before go-live. Still needed from the owner: a Cloudflare account (Pages project + D1 + Turnstile keys, F-04), a Resend key and sender address, the owner email for lead alerts (decided once the site is deployed on Cloudflare), and a GA4 ID.
 2. **Owner:** generate the Wave 1 photos from `docs/PHOTO_BRIEF.md` (F-02b). No photos are in the scaffold yet.
-3. **Claude:** legal/utility pages, analytics and consent (Phase 1, step 7), then the 15 page templates (F-07), then Wave 1, one cluster at a time.
+3. **Claude:** the 15 page templates (F-07), then Wave 1, one cluster at a time.
 
 ## Open decisions
 - **D-08:** API providers. Deferred until development is finished.
@@ -47,6 +47,7 @@
 ## Recent sessions
 | Session | Date | What happened | Register |
 |---|---|---|---|
+| S-14 | 16 Nov 2026 | Phase 1, step 7: legal/utility pages, cookie consent and analytics wiring, tested; pushed to GitHub `develop` only | R-038 |
 | S-13 | 16 Nov 2026 | Phase 1, step 6: proposal form wired to Pages Function + Turnstile + D1, tested end to end locally; pushed to GitHub `develop` only | R-037 |
 | S-12 | 16 Nov 2026 | Phase 1, step 5: CI checks (link, content, Lighthouse) passing; pushed to GitHub `develop` only | R-036 |
 | S-11 | 16 Nov 2026 | Phase 1, step 4: CSV → content scaffolder, Wave 1 skeletons (69 pages) verified; build passes; pushed to GitHub `develop` only | R-035 |
@@ -62,6 +63,7 @@
 | S-01 | 28–29 Sep 2026 | Setup, keyword research, validation, content plan v1 (864 pages) | R-001 – R-013 |
 
 ## Changelog
+- **2026-11-16:** Phase 1 complete: step 7 done (legal/utility pages, cookie consent, analytics wiring), pushed to `develop` only. Phase 1 is now all 7 steps; next is the 15 page templates, then Wave 1.
 - **2026-11-16:** Phase 1 step 6 done: proposal form wired to a Pages Function with Turnstile, D1 storage and Resend email, tested end to end locally, pushed to `develop` only. Still needs the owner's Cloudflare account, Turnstile/Resend keys, owner email and CRM choice before it goes live.
 - **2026-11-16:** Phase 1 step 5 done: CI checks (link, content, Lighthouse) all passing locally, pushed to `develop` only. The GitHub workflow file is local only — it cannot be pushed through the GitHub App API (403), so it needs uploading through the GitHub website.
 - **2026-11-16:** Phase 1 step 4 done: CSV scaffolder built, Wave 1 skeletons (69 pages) generated and verified against the CSV, pushed to `develop` only.

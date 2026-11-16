@@ -14,3 +14,10 @@ RESEND_API_KEY=""
 RESEND_FROM_EMAIL=""
 # Owner address that receives new proposal requests.
 LEAD_NOTIFICATION_EMAIL=""
+
+# Analytics (public IDs, set at build time). When one is not set, its tag is
+# omitted from the site. GA4 only loads after a visitor accepts cookies.
+PUBLIC_GA4_ID=""
+PUBLIC_CF_BEACON_TOKEN=""
+PUBLIC_GOOGLE_SITE_VERIFICATION=""
+PUBLIC_BING_SITE_VERIFICATION=""

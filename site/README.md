@@ -37,6 +37,25 @@ is only the H2 headings from the outline). It fails on duplicate URLs,
 missing H1/meta tags, meta tags over length, or internal links not in
 `../data/sitemap.csv`. Body copy is written in Phase 2, one cluster at a time.
 
+## Legal pages and analytics
+
+- Legal and utility pages live in `src/pages/`: `privacy`, `terms`, `cookies`,
+  `accessibility`, `404`, `thank-you`. Their copy is drafted from how the
+  site actually works (proposal form → D1 → Resend, Turnstile, analytics
+  below) and needs the owner's review before go-live — no company address or
+  registration details are in them, because none were supplied.
+- `src/components/CookieConsent.astro` — banner on every page, choice stored
+  in the browser. Google Analytics 4 loads only after a visitor accepts
+  cookies; Cloudflare Web Analytics is cookieless and its beacon loads when
+  its token is set.
+- Analytics and verification IDs are public environment variables, set at
+  build time (see `.dev.vars.example`): `PUBLIC_GA4_ID`,
+  `PUBLIC_CF_BEACON_TOKEN`, `PUBLIC_GOOGLE_SITE_VERIFICATION`,
+  `PUBLIC_BING_SITE_VERIFICATION`. When one is not set, its tag is omitted.
+  The plan's consent manager is Cloudflare Zaraz, which is set up in the
+  Cloudflare dashboard and replaces this banner when the Pages project is
+  created (F-04).
+
 ## Forms
 
 The free-proposal form posts to a Cloudflare Pages Function:

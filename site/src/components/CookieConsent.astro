@@ -1,0 +1,88 @@
+---
+interface Props {
+  ga4Id?: string;
+}
+
+const { ga4Id } = Astro.props;
+---
+
+<div
+  data-cookie-banner
+  data-ga4-id={ga4Id ?? ''}
+  hidden
+  class="fixed inset-x-0 bottom-0 z-50 border-t border-white/10 bg-navy px-4 py-5 text-white"
+  role="dialog"
+  aria-label="Cookie consent"
+>
+  <div class="mx-auto flex max-w-5xl flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+    <p class="text-sm leading-relaxed">
+      We use cookies to understand how the site is used and to improve it. Read
+      our <a href="/cookies/" class="font-medium text-violet-300 underline">cookie policy</a>.
+    </p>
+    <div class="flex shrink-0 gap-3">
+      <button
+        type="button"
+        data-cookie-decline
+        class="rounded-full border border-white/40 px-5 py-2.5 font-display text-sm font-bold text-white"
+      >
+        Decline
+      </button>
+      <button
+        type="button"
+        data-cookie-accept
+        class="rounded-full bg-violet px-5 py-2.5 font-display text-sm font-bold text-white hover:bg-violet-600"
+      >
+        Accept cookies
+      </button>
+    </div>
+  </div>
+</div>
+
+<script>
+  const banner = document.querySelector('[data-cookie-banner]');
+  if (banner) {
+    const KEY = 'dazzlit-consent';
+    const ga4Id = (banner as HTMLElement).dataset.ga4Id ?? '';
+    let ga4Loaded = false;
+    const loadGa4 = () => {
+      if (ga4Loaded || !ga4Id) return;
+      ga4Loaded = true;
+      const dataLayer = (window as unknown as { dataLayer?: unknown[] }).dataLayer ?? [];
+      (window as unknown as { dataLayer?: unknown[] }).dataLayer = dataLayer;
+      const gtag = (...args: unknown[]) => {
+        dataLayer.push(args);
+      };
+      (window as unknown as { gtag?: (...args: unknown[]) => void }).gtag = gtag;
+      gtag('js', new Date());
+      gtag('config', ga4Id, { anonymize_ip: true });
+      const script = document.createElement('script');
+      script.async = true;
+      script.src = `https://www.googletagmanager.com/gtag/js?id=${ga4Id}`;
+      document.head.appendChild(script);
+    };
+    const show = () => {
+      (banner as HTMLElement).hidden = false;
+    };
+    const hide = () => {
+      (banner as HTMLElement).hidden = true;
+    };
+    const stored = localStorage.getItem(KEY);
+    if (stored === 'accepted') {
+      loadGa4();
+    } else if (!stored) {
+      show();
+    }
+    banner.querySelector('[data-cookie-accept]')?.addEventListener('click', () => {
+      localStorage.setItem(KEY, 'accepted');
+      hide();
+      loadGa4();
+    });
+    banner.querySelector('[data-cookie-decline]')?.addEventListener('click', () => {
+      localStorage.setItem(KEY, 'declined');
+      hide();
+    });
+    document.querySelectorAll('[data-cookie-settings]').forEach((button) =>
+      button.addEventListener('click', () => show()),
+    );
+  }
+</script>
