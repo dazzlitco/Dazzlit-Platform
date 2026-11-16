@@ -7,6 +7,7 @@ import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import PageHero from '../../components/PageHero.astro';
 import RelatedLinks from '../../components/RelatedLinks.astro';
 import CtaBand from '../../components/CtaBand.astro';
+import FaqAccordion from '../../components/FaqAccordion.astro';
 import PageSchema from '../../components/PageSchema.astro';
 import type { PageEntry, Crumb } from '../../lib/templates';
 import { ctaDisplay } from '../../lib/templates';
@@ -30,6 +31,11 @@ const { data } = entry;
     </article>
   </main>
   <slot name="afterBody" />
+  {
+    data.faqAnswers.length > 0 && (
+      <FaqAccordion items={data.faqAnswers} />
+    )
+  }
   <RelatedLinks links={data.internalLinks} />
   <CtaBand
     title={ctaDisplay(data.cta)}

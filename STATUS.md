@@ -1,7 +1,7 @@
 # STATUS – Dazzlit platform
 
 **Last updated:** 16 Nov 2026
-**Current phase:** Phase 2, Wave 1 — homepage done and merged to `main`. Next: the 19 service hubs, one cluster at a time.
+**Current phase:** Phase 2, Wave 1 — homepage and all 19 service hubs done. Next: pricing + 7 site pages, then the 41 service pages, one cluster at a time.
 **Live site:** not yet. dazzlit.com still runs the old WordPress install on Hostinger.
 
 ## Where we are
@@ -47,6 +47,7 @@
 ## Recent sessions
 | Session | Date | What happened | Register |
 |---|---|---|---|
+| S-19 | 16 Nov 2026 | Phase 2, Wave 1: all 19 service hubs written (body copy + FAQ answers), verified and pushed to `develop` | R-043 |
 | S-18 | 16 Nov 2026 | Merge `develop` into `main` (owner approved) — Phase 1 steps 2–7, templates T1–T15 and the Wave 1 homepage now on `main` | R-042 |
 | S-17 | 16 Nov 2026 | Phase 2, Wave 1: homepage built (all 16 sections) with owner-supplied proof, pushed to GitHub `develop` only | R-041 |
 | S-16 | 16 Nov 2026 | CI workflow + PNG/ICO logo files uploaded to GitHub `develop` via the website (API still blocked) | R-040 |
@@ -67,6 +68,7 @@
 | S-01 | 28–29 Sep 2026 | Setup, keyword research, validation, content plan v1 (864 pages) | R-001 – R-013 |
 
 ## Changelog
+- **2026-11-16:** All 19 Wave 1 service hubs written (2,000–2,800 words each, with FAQ answers), verified and pushed to `develop`. Still missing: photos, prices, client/specialist counts, client logo row, contract terms.
 - **2026-11-16:** `develop` merged into `main` (owner approved). `main` now has Phase 1 steps 2–7, the 15 templates and the Wave 1 homepage. If the Cloudflare Pages project is connected, this deploys the real homepage to the production Pages URL; dazzlit.com DNS is untouched.
 - **2026-11-16:** Phase 2, Wave 1 homepage done: all 16 sections in the mockup's order, with the owner-supplied case studies, testimonials, team and partner badges, pushed to `develop` only. The owner confirmed the supplied content is real and the files' fictional-sample disclaimers are wrong. Still missing: photos, client/specialist counts, client logo row, contract terms.
 - **2026-11-16:** The CI workflow and the PNG/ICO logo files are now in the repo on `develop`, uploaded through the GitHub website (commits b126157, 77e6ecf, d98d391). The API route was retried first and still fails the same way — 403 for workflow files, UTF-8 only for the push tool. The workflow has not run on GitHub yet; it runs on the next push.

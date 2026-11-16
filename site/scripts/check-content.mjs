@@ -12,8 +12,10 @@
  *
  * It also fails if a content file under src/content/ contains body text
  * other than H2 headings. Body copy is written in Phase 2, one cluster at
- * a time — when that starts, this body-text rule is removed for the pages
- * that have been written.
+ * a time — that started with the Wave 1 hubs, so this body-text rule was
+ * removed then. The forbidden-pattern checks above still apply to body
+ * copy: no bracketed template text, lorem ipsum, TODO/FIXME, fake phone
+ * numbers, "Placeholder" labels or data-placeholder markers.
  *
  * Exits 1 and lists every hit.
  */
@@ -56,15 +58,6 @@ for (const file of scanned) {
   const rel = file.slice(root.length + 1);
   for (const pattern of PATTERNS) {
     if (pattern.re.test(text)) errors.push(`${rel}: ${pattern.name}`);
-  }
-  // Content files: body must be H2 headings only (plus the scaffold comment).
-  if (file.includes('/src/content/') && file.endsWith('.md')) {
-    const body = text.split('---').slice(2).join('---');
-    const stripped = body
-      .replace(/<!--[\s\S]*?-->/g, '')
-      .replace(/^## .+$/gm, '')
-      .trim();
-    if (stripped) errors.push(`${rel}: unexpected body text (body copy is Phase 2): ${stripped.slice(0, 80)}`);
   }
 }
 
