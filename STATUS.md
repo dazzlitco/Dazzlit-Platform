@@ -22,7 +22,7 @@
 | GitHub repository | ✅ Provided 16 Nov 2026: `dazzlitco/Dazzlit-Platform` (public, was empty). Scaffold pushed to `main` + `develop` in session S-09 (F-03). |
 | Cloudflare | ⏳ Not set up yet (F-04) |
 | Photography | ⏳ Prompts ready in `docs/PHOTO_BRIEF.md`; owner to generate the Wave 1 images (F-02b) |
-| Build | ✅ Scaffold + shared components built locally 16 Nov 2026: Astro 5.18.2, Tailwind 4.3.5, TypeScript 5.9.3; `npm run build` passes, 1 page. No content pages yet. Two files could not be pushed via the GitHub App (see Changelog): `.github/workflows/build.yml` and the PNG/ICO logo files — the SVG logos and `favicon.svg` are in the repo. |
+| Build | ✅ Scaffold + shared components built locally 16 Nov 2026: Astro 5.18.2, Tailwind 4.3.5, TypeScript 5.9.3; `npm run build` passes, 75 pages (all Wave 1 pages rendering through templates T1–T15). The CI workflow (`.github/workflows/build.yml`) and the PNG/ICO logo files are now in the repo on `develop` (uploaded via the GitHub website on 2026-11-16 — the GitHub App API still returns 403 for workflow files and rejects binary files). The workflow has not run on GitHub yet; it runs on the next push to `develop` or `main`. |
 
 ## Page plan
 | Wave | Core | Service | Resource | Blog | Total | When |
@@ -47,6 +47,7 @@
 ## Recent sessions
 | Session | Date | What happened | Register |
 |---|---|---|---|
+| S-16 | 16 Nov 2026 | CI workflow + PNG/ICO logo files uploaded to GitHub `develop` via the website (API still blocked) | R-040 |
 | S-15 | 16 Nov 2026 | Templates T1–T15 built, all 69 Wave 1 pages rendering (75 pages total); pushed to GitHub `develop` only | R-039 |
 | S-14 | 16 Nov 2026 | Phase 1, step 7: legal/utility pages, cookie consent and analytics wiring, tested; pushed to GitHub `develop` only | R-038 |
 | S-13 | 16 Nov 2026 | Phase 1, step 6: proposal form wired to Pages Function + Turnstile + D1, tested end to end locally; pushed to GitHub `develop` only | R-037 |
@@ -64,6 +65,7 @@
 | S-01 | 28–29 Sep 2026 | Setup, keyword research, validation, content plan v1 (864 pages) | R-001 – R-013 |
 
 ## Changelog
+- **2026-11-16:** The CI workflow and the PNG/ICO logo files are now in the repo on `develop`, uploaded through the GitHub website (commits b126157, 77e6ecf, d98d391). The API route was retried first and still fails the same way — 403 for workflow files, UTF-8 only for the push tool. The workflow has not run on GitHub yet; it runs on the next push.
 - **2026-11-16:** Templates T1–T15 done: all 69 Wave 1 pages now render (75 pages total), pushed to `develop` only. Phase 1 is complete and the templates are ready; next is Phase 2, Wave 1, homepage first.
 - **2026-11-16:** Phase 1 complete: step 7 done (legal/utility pages, cookie consent, analytics wiring), pushed to `develop` only. Phase 1 is now all 7 steps; next is the 15 page templates, then Wave 1.
 - **2026-11-16:** Phase 1 step 6 done: proposal form wired to a Pages Function with Turnstile, D1 storage and Resend email, tested end to end locally, pushed to `develop` only. Still needs the owner's Cloudflare account, Turnstile/Resend keys, owner email and CRM choice before it goes live.
