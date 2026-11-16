@@ -4,6 +4,8 @@ url: "/services/review-generation/"
 title: "Review Generation & Management Services"
 metaTitle: "Review Generation & Management Services | Dazzlit"
 metaDescription: "Review Generation & Management Services from Dazzlit: data-driven review generation built to grow traffic, leads and revenue. See results and get a free…"
+heroImage: "/images/hub-review-generation.webp"
+heroImageAlt: "Café terrace with warm string lights at dusk"
 primaryKeyword: "review management"
 secondaryKeywords:
   - "review management services"

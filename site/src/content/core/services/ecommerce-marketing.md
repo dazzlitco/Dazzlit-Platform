@@ -4,6 +4,8 @@ url: "/services/ecommerce-marketing/"
 title: "eCommerce Marketing Services"
 metaTitle: "eCommerce Marketing Services | Dazzlit"
 metaDescription: "eCommerce Marketing Services from Dazzlit: data-driven eCommerce marketing built to grow traffic, leads and revenue. See results and get a free proposal."
+heroImage: "/images/hub-ecommerce-marketing.webp"
+heroImageAlt: "Stylish retail boutique window display at dusk"
 primaryKeyword: "ecommerce marketing agency"
 secondaryKeywords:
   - "ecommerce digital marketing agency"

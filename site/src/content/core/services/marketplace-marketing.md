@@ -4,6 +4,8 @@ url: "/services/marketplace-marketing/"
 title: "Amazon & Marketplace Marketing Services"
 metaTitle: "Amazon & Marketplace Marketing Services | Dazzlit"
 metaDescription: "Amazon & Marketplace Marketing Services from Dazzlit: data-driven Amazon marketing built to grow traffic, leads and revenue. See results and get a free…"
+heroImage: "/images/hub-marketplace-marketing.webp"
+heroImageAlt: "Parcels on a modern conveyor in warm light"
 primaryKeyword: "amazon marketing agency"
 secondaryKeywords:
   - "amazon agency"
