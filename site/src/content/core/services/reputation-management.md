@@ -4,6 +4,8 @@ url: "/services/reputation-management/"
 title: "Online Reputation Management Services"
 metaTitle: "Online Reputation Management Services | Dazzlit"
 metaDescription: "Online Reputation Management Services from Dazzlit: data-driven reputation management built to grow traffic, leads and revenue. See results and get a free…"
+heroImage: "/images/hub-reputation-management.webp"
+heroImageAlt: "Glass tower reflecting a clear sunset sky"
 primaryKeyword: "online reputation management"
 secondaryKeywords:
   - "reputation management"

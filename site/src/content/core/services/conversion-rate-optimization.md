@@ -4,6 +4,8 @@ url: "/services/conversion-rate-optimization/"
 title: "Conversion Rate Optimization Services"
 metaTitle: "Conversion Rate Optimization Services | Dazzlit"
 metaDescription: "Conversion Rate Optimization Services from Dazzlit: data-driven CRO built to grow traffic, leads and revenue. See results and get a free proposal."
+heroImage: "/images/hub-cro.webp"
+heroImageAlt: "Spiral staircase seen from below against a dusk sky"
 primaryKeyword: "cro agency"
 secondaryKeywords:
   - "conversion rate optimization"

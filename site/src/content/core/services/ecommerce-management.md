@@ -4,6 +4,8 @@ url: "/services/ecommerce-management/"
 title: "eCommerce Management Services"
 metaTitle: "eCommerce Management Services | Dazzlit"
 metaDescription: "eCommerce Management Services from Dazzlit: data-driven eCommerce management built to grow traffic, leads and revenue. See results and get a free proposal."
+heroImage: "/images/hub-ecommerce-management.webp"
+heroImageAlt: "Contemporary warehouse loading area at dusk"
 primaryKeyword: "ecommerce management"
 secondaryKeywords:
   - "ecommerce management services"

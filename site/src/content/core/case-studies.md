@@ -4,6 +4,8 @@ url: "/case-studies/"
 title: "Case Studies"
 metaTitle: "Case Studies | Dazzlit"
 metaDescription: "Case Studies from Dazzlit: data-driven digital marketing built to grow traffic, leads and revenue. See results and get a free proposal."
+heroImage: "/images/case-studies-geometry.webp"
+heroImageAlt: "Abstract close-up of glass and steel geometry catching orange light at dusk"
 primaryKeyword: "case studies"
 secondaryKeywords: []
 schema:

@@ -4,6 +4,8 @@ url: "/services/ai-services/"
 title: "AI Marketing & Automation Services"
 metaTitle: "AI Marketing & Automation Services | Dazzlit"
 metaDescription: "AI Marketing & Automation Services from Dazzlit: data-driven AI marketing built to grow traffic, leads and revenue. See results and get a free proposal."
+heroImage: "/images/hub-ai-marketing.webp"
+heroImageAlt: "Abstract architectural light installation with flowing violet-orange light ribbons"
 primaryKeyword: "ai marketing agency"
 secondaryKeywords:
   - "ai digital marketing agency"

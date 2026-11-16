@@ -4,6 +4,8 @@ url: "/services/content-marketing/"
 title: "Content Marketing Services"
 metaTitle: "Content Marketing Services | Dazzlit"
 metaDescription: "Content Marketing Services from Dazzlit: data-driven content marketing built to grow traffic, leads and revenue. See results and get a free proposal."
+heroImage: "/images/hub-content-marketing.webp"
+heroImageAlt: "Library-style workspace with large windows and warm light"
 primaryKeyword: "content marketing agency"
 secondaryKeywords:
   - "content marketing services"

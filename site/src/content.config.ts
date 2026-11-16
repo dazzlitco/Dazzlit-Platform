@@ -22,6 +22,11 @@ const pageSchema = z.object({
   faqAnswers: z
     .array(z.object({ question: z.string(), answer: z.string() }))
     .default([]),
+  // Hero image (AI-generated per docs/PHOTO_BRIEF.md, WebP in
+  // site/public/images/). When present, PageHero renders it as a banner
+  // under the header text.
+  heroImage: z.string().optional(),
+  heroImageAlt: z.string().optional(),
   cta: z.string(),
   wave: z.number(),
   status: z.string(),

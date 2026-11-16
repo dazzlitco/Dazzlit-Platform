@@ -4,6 +4,8 @@ url: "/services/app-store-optimization/"
 title: "App Store Optimization (ASO) Services"
 metaTitle: "App Store Optimization (ASO) Services | Dazzlit"
 metaDescription: "App Store Optimization (ASO) Services from Dazzlit: data-driven ASO built to grow traffic, leads and revenue. See results and get a free proposal."
+heroImage: "/images/hub-aso.webp"
+heroImageAlt: "Hand holding a phone against a blurred city skyline"
 primaryKeyword: "aso agency"
 secondaryKeywords:
   - "app store optimization services"

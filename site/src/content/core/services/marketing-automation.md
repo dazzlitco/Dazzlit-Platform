@@ -4,6 +4,8 @@ url: "/services/marketing-automation/"
 title: "Marketing Automation Services"
 metaTitle: "Marketing Automation Services | Dazzlit"
 metaDescription: "Marketing Automation Services from Dazzlit: data-driven marketing automation built to grow traffic, leads and revenue. See results and get a free proposal."
+heroImage: "/images/hub-marketing-automation.webp"
+heroImageAlt: "Clean modern data-centre corridor with violet and orange accent lights"
 primaryKeyword: "marketing automation services"
 secondaryKeywords:
   - "marketing automation agency"
