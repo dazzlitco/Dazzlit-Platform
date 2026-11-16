@@ -37,6 +37,34 @@ is only the H2 headings from the outline). It fails on duplicate URLs,
 missing H1/meta tags, meta tags over length, or internal links not in
 `../data/sitemap.csv`. Body copy is written in Phase 2, one cluster at a time.
 
+## Forms
+
+The free-proposal form posts to a Cloudflare Pages Function:
+
+```bash
+npm run build
+cp .dev.vars.example .dev.vars   # fill in real values, never commit .dev.vars
+npx wrangler d1 migrations apply DB --local
+npx wrangler pages dev dist      # serves the site + functions on :8788
+```
+
+- `functions/api/proposal.ts` — validates the submission (services, market,
+  budget, name, email, website), verifies the Turnstile token, stores the
+  lead in D1 (`leads` table, `migrations/0001_create_leads.sql`), then emails
+  the owner and sends an auto-reply via Resend. If Resend is not configured,
+  the D1 row is the record and no email is sent. If Turnstile is not
+  configured, verification is skipped with a warning — local dev only,
+  production must set it.
+- `wrangler.toml` — D1 binding `DB` (`dazzlit-leads`). The `database_id`
+  is filled in after the D1 database is created in the Cloudflare dashboard.
+- Environment variables (Cloudflare dashboard, never in the repo):
+  `PUBLIC_TURNSTILE_SITE_KEY`, `TURNSTILE_SECRET_KEY`, `RESEND_API_KEY`,
+  `RESEND_FROM_EMAIL`, `LEAD_NOTIFICATION_EMAIL`.
+- Still to do before the form goes live: create the Cloudflare Pages project
+  (F-04), create the D1 database and apply the migration remotely, create
+  Turnstile keys and a Resend key, set the variables above, and pick the CRM
+  (D-10) so leads can be routed onward from D1.
+
 ## Checks (CI)
 
 ```bash
