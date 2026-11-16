@@ -1,0 +1,71 @@
+@import '@fontsource/plus-jakarta-sans/500.css';
+@import '@fontsource/plus-jakarta-sans/600.css';
+@import '@fontsource/plus-jakarta-sans/700.css';
+@import '@fontsource/plus-jakarta-sans/800.css';
+@import '@fontsource/dm-sans/400.css';
+@import '@fontsource/dm-sans/500.css';
+@import '@fontsource/dm-sans/700.css';
+@import 'tailwindcss';
+
+@theme {
+  /* Dazzlit brand tokens — approved design system, do not change */
+  --color-navy: #10162b;
+  --color-violet: #7047eb;
+  --color-violet-600: #5b34d6;
+  --color-violet-300: #a48bf5;
+  --color-violet-50: #f1edfe;
+  --color-orange: #ff7849;
+  --color-orange-50: #fff1eb;
+  --color-ivory: #fafafd;
+  --color-slate: #4a5168;
+  --color-line: #e4e5ee;
+
+  --font-display: 'Plus Jakarta Sans', 'Segoe UI', system-ui, sans-serif;
+  --font-body: 'DM Sans', 'Segoe UI', system-ui, sans-serif;
+}
+
+:root {
+  --navy: #10162b;
+  --violet: #7047eb;
+  --violet-600: #5b34d6;
+  --violet-300: #a48bf5;
+  --violet-50: #f1edfe;
+  --orange: #ff7849;
+  --orange-50: #fff1eb;
+  --ivory: #fafafd;
+  --slate: #4a5168;
+  --line: #e4e5ee;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--ivory);
+  color: var(--navy);
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+a {
+  color: var(--violet-600);
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--violet);
+  outline-offset: 2px;
+}

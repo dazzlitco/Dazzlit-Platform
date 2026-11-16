@@ -1,0 +1,144 @@
+# Dazzlit – Record Register
+
+Every step taken on the Dazzlit project, the decisions made, the files produced, and the steps still to come.
+Update it with every piece of work: add a row to **Executed steps**, move finished rows out of **Future steps**, and mirror the headline in `STATUS.md`.
+To regenerate this file and `docs/record-register.csv`, run `python3 research/scripts/make_register.py`.
+
+## 1. Executed steps
+
+| ID | Date | Phase | Step | What was done / result | Outputs | Data & tools | Status |
+|---|---|---|---|---|---|---|---|
+| R-001 | 2026-09-28 | 0 · Setup | Connection check | Checked Claude's connection to dazzlit.com through the Novamira MCP connector: WordPress 7.1.2, Elementor 4.2.4 / Pro 4.2.2, Twenty Twenty-Five theme, LiteSpeed Cache, Hostinger plugins. Rule recorded: never modify or remove the Novamira plugin or user 1's OAuth/app passwords. | – | Novamira MCP | Done |
+| R-002 | 2026-09-28 | 0 · Setup | Project brief | Owner brief: build 'Dazzlit – Internet Marketing Agency', a global agency site, on WordPress + Elementor and publish live (superseded by D-07). | – | – | Done |
+| R-003 | 2026-09-28 | 1 · Keyword research | Seed keywords | Built 376 seed keywords (375 unique) for the 20 service areas and 142 sub-fields; extended to 145 topics (AI Search/GEO, SEO Tools, SEO Fundamentals, YouTube SEO, Local Services Ads). | research/scripts/seeds.py | Manual + domain knowledge | Done |
+| R-004 | 2026-09-28 | 1 · Keyword research | Semrush expansion | Seed metrics (phrase_these), broad match for 47 head terms (phrase_fullsearch) and 18 question sets (phrase_questions), US database. API units ran out once (ERROR 132); owner topped up. | Raw exports (kept in the workbook) | Semrush API | Done |
+| R-005 | 2026-09-29 | 1 · Keyword research | Cleaning & classification | Noise filters (other meanings, brands, jobs/courses, synthetic long-tails); every keyword mapped to a pillar, topic and page type (Core / Service / Resource / Blog). | research/scripts/classify.py | Python | Done |
+| R-006 | 2026-09-29 | 1 · Keyword research | Topical map v1 | First clustering into pillars, topics and pages; delivered Dazzlit_Keyword_Research_Topical_Map.xlsx (superseded by the content plan). | content-plan/ (v1, superseded) | Python, openpyxl | Done – superseded |
+| R-007 | 2026-09-29 | 2 · Validation | A1 duplicate merge | Pages with the same intent (wording, spelling or definition variants) merged so no two pages target one query: 73 merges, all logged. | Merge Log tab | Python | Done |
+| R-008 | 2026-09-29 | 2 · Validation | Semrush reconnect | Connector returned ERROR 122 'WRONG FORMAT OR EMPTY KEY'; owner reconnected Semrush. | – | Semrush MCP | Done |
+| R-009 | 2026-09-29 | 2 · Validation | A2 Google results check | Google's top results were pulled for 308 head terms (top-10 for the first 57, then top-5 on the owner's lean plan). Pages sharing ≥3 of 5 URLs merged; informational head terms moved to guides; navigational/jobs results demoted; off-topic results dropped; mixed results flagged 'hybrid'. 280 pages carry a results check. | SERP column in Content Plan | Semrush phrase_organic | Done |
+| R-010 | 2026-09-29 | 2 · Validation | B – US competitor research | Six agencies analysed (Thrive, Coalition, WebFX, Directive, Power Digital, Siege Media): traffic, site structure, content models; 352 keywords they rank for that we were missing were added. | US Competitors, Competitor Gap Keywords tabs | Semrush domain_rank, resource_organic | Done |
+| R-011 | 2026-09-29 | 2 · Validation | C – Market analysis | 100 core keywords measured in UK, Canada, Australia, India, UAE and Singapore. Result: US first, then UK, Australia, Canada; UAE/SG small; India a brand market (CPC $0.60). | Markets, Market Keywords tabs | Semrush phrase_these (6 databases) | Done |
+| R-012 | 2026-09-29 | 3 · Content plan | Topical completeness | Each pillar checked against 12 required facets (definition, strategy, cost, tools, examples, mistakes, KPIs, trends, checklist, comparison, hiring, industry); 75 gap-fill pages added. | Coverage Gaps tab | Python + Semrush checks | Done |
+| R-013 | 2026-09-29 | 3 · Content plan | Briefs, links & waves | Brief for every page (meta tags, H2 outline, FAQs, entities, schema, CTA, internal links with anchors); orphan and broken-link checks; 5 publishing waves. 864 pages. | Dazzlit_Keyword_Research_Content_Plan.xlsx (v1 of plan) | Python, openpyxl, LibreOffice recalc | Done |
+| R-014 | 2026-09-30 | 3 · Content plan | Status review | Owner Q&A: 864 pages, 2,447 keywords kept; recommended US first, then UK and Australia; advised against launching 13 US city pages without local proof. | – | – | Done |
+| R-015 | 2026-09-30 | 4 · Locations | City & country research | Measured 5 standard agency keywords for 10 UK, 7 Australian, 7 Canadian, 2 UAE cities and 13 US cities, plus 6 countries, each in its own Semrush database (2,150 units). Cities ranked into build tiers L1–L3 within each country. All location pages moved to Wave 6 (build later). URLs changed to /locations/<country>/<city>/. | Location Research, Location Keywords tabs; data/locations.csv | Semrush phrase_these (us, uk, ca, au, ae, sg) | Done |
+| R-016 | 2026-09-30 | 4 · Locations | Page list by wave | Content plan rebuilt to 896 pages; page list workbook created (pages by type and wave, status columns). | Dazzlit_Page_List_by_Wave.xlsx (v1) | Python, openpyxl | Done |
+| R-017 | 2026-10-05 | 5 · Audit | Resource coverage audit | Owner asked whether tools, templates, checklists, trends and statistics were covered. Found: tools well covered, templates (6), statistics (4) and calculators (3) thin; 4 keywords wrongly excluded; 4 backlink tool pages competing. | – | Workbook review | Done |
+| R-018 | 2026-11-04 | 5 · Audit | Validation status review | Owner Q&A: 896 pages; every kept keyword has Semrush volume; 83 pages without measured demand (8 site pages, 75 gap-fill); resource expansion not yet run. | – | Workbook review | Done |
+| R-019 | 2026-11-04 | 6 · Resource expansion | Resource keyword research | 420 keywords measured (20 pillars × template, checklist, calculator, generator, checker, statistics, benchmarks, trends, examples, glossary, report): 405 with data, 15 none. 4,050 Semrush units. | research/raw/res_raw.json; research/scripts/res_seeds.py, extract_res.py | Semrush phrase_these (US) | Done |
+| R-020 | 2026-11-04 | 6 · Resource expansion | New pages & attached keywords | 185 new pages (59 templates, 56 free tools, 21 statistics, 15 examples, 12 checklists, 11 guides, 9 glossaries, 2 tool comparisons); 60 keywords joined existing pages (some gap-fill pages now have measured demand); the 4 keywords wrongly excluded in Sep restored: press release example, pillar page examples and ecommerce website examples (re-measured), blog templates (restored from the Excluded list). 9 keywords excluded as off-service or navigational (word counter, plagiarism checker, colour palette generator, Shopify themes …); 59 more had under 50 searches/mo or no data, and are logged as excluded. | Content Plan, All Keywords, Excluded tabs; research/raw/ext_log.json | research/scripts/extend.py, ext_spec.py | Done |
+| R-021 | 2026-11-04 | 6 · Resource expansion | QA fixes | 16 duplicate pages merged (4 backlink tools → 1 Backlink Checker; backlink guide variants; ASO duplicates; misspelt software roundup); 10 mislabelled ASO 'Best … (Compared)' posts re-typed to guides/blogs; 7 titles fixed; 1 page moved to the right pillar (Google Ad Preview Tool → PPC); 92 meta descriptions rewritten to match page type. | Merge Log tab; data/url-changes-nov-2026.csv | extend.py | Done |
+| R-022 | 2026-11-04 | 6 · Resource expansion | Workbooks v3 | Content plan and page list rebuilt: 1,065 pages, 2,800 keywords, 1,506 excluded, 89 merges, 0 orphans, 0 broken links, 0 duplicate keywords, 0 formula errors, all meta tags within length. | content-plan/*.xlsx | openpyxl + LibreOffice recalc | Done |
+| R-023 | 2026-11-04 | 7 · Development plan | Final development plan & repo | Website development plan v3 written (platform, IA, templates, SEO spec, free-tool engineering, content workflow, phases, go-live checklist); record register, STATUS.md and README created; data exported to CSV; local git repository initialised. | docs/, data/, STATUS.md, README.md | – | Done |
+| R-024 | 2026-11-04 | 8 · Design | Owner decisions + design review | Owner confirmed the static site on Cloudflare (D-07), deferred API configuration until development is finished (D-08), and supplied design sources: thriveagency.com, infidigit.com, webfx.com, npdigital.com, the DAZZLIT brand identity system and the Dazzlit homepage design. The four sites were reviewed and brand colours checked for contrast: white on orange fails (2.6 : 1), so violet carries the buttons and orange the accents. Design system proposal v1 published for approval. | design/design-system-v1.html | WebFetch, WCAG contrast check | Done |
+| R-025 | 2026-11-04 | 8 · Design | Design answers + logo concepts | Owner chose Plus Jakarta Sans for headlines, asked for new logo concepts to compare with the current logo, chose AI-generated photography, and confirmed client logos, case studies with numbers, reviews and partner badges are available for launch. Three logo concepts (Rising D, Ribbon d, Spark) published next to the current logo; photography brief with AI prompts written (images still to be generated by the owner, since this session has no image tool). | design/logo-concepts.html; docs/PHOTO_BRIEF.md | SVG, Playwright preview | Done |
+| R-026 | 2026-11-04 | 8 · Design | Design approved + logo files | Owner approved design system v1 and chose their own D-chevron logo (new concepts not used). The 7 supplied logo PNGs were traced to SVG with exact brand colours: full colour, white text, one-colour navy and white, with and without tagline, mark only, app icon, favicon.svg/.ico, apple-touch and Android icons, 2000px PNGs. The real logo replaced the placeholder on the design system page. | design/logo/ (svg, png, source, trace_logo.py) | potrace (potracer), rsvg-convert, ImageMagick | Done |
+| R-027 | 2026-11-04 | 5 · Audit | Session recovery | The cloud workspace was reset between sessions and the working files from September were lost; the Excel workbooks survived. The owner re-attached 8 pipeline scripts. The Nov 2026 work used the content-plan workbook as the source of truth and re-ran nothing from September. Semrush results were read back from the session log, so no data was retyped. Happened before R-019. | research/scripts/ (re-attached copies); README note | – | Done |
+| R-028 | 2026-11-04 | 9 · Records | Register & STATUS update | Sessions log added to the register; R-027 recorded; entries sorted by ID; development plan v3.1 updated with the owner decisions (platform confirmed, APIs deferred, design approved: new section 2a); STATUS.md gains a recent-sessions table. | docs/RECORD_REGISTER.md, docs/record-register.csv, docs/WEBSITE_DEVELOPMENT_PLAN.md, STATUS.md | – | Done |
+| R-029 | 2026-11-07 | 8 · Design | Homepage mockup (NP Digital structure) | Owner asked for the homepage to follow npdigital.com's structure, section order and confident global positioning, keeping Dazzlit's approved colours, fonts, logo and layout style, without copying. NP Digital's homepage order read from its page text (the workspace and browser couldn't render the site): hero → recognition → solutions → locations → stats → culture → 'let's talk' CTA → RFP → monthly roundup. Built a full Dazzlit homepage mockup in that order: utility bar with region selector, mega menu, hero with 'where we get you found' channels (Google to ChatGPT), partner-badge strip, 8 solution cards (7 service groups + industries/tools), 6 market cards with live local times, stats strip, team principles, CTA, RFP section, insights roundup from planned pages, footer with newsletter. Proof items marked as placeholders. | design/homepage-mockup.html (+ .src.html template) | WebFetch, HTML/CSS/JS, Playwright preview | Done – awaiting owner review |
+| R-030 | 2026-11-07 | 8 · Design | Homepage mockup v2 | Owner: no section is dropped; FAQs, case studies and the comparison table go on the homepage; calculators/tools live on their own pages. Added to the NP Digital flow: value strip, case studies (3 number-led cards + client logo row, placeholders), Discover → Create → Grow process, 17 industries, 'Why Dazzlit' comparison table (Dazzlit vs typical agency vs freelancers; contract terms placeholder), testimonials (placeholders), 3-step proposal form inside the 'Let's talk' band, and 6 FAQs (FAQPage schema at build). Homepage now has 16 sections. | design/homepage-mockup.html (v2) | HTML/CSS/JS, Playwright preview | Done – awaiting owner review |
+| R-031 | 2026-11-07 | 8 · Design | Homepage approved | Owner approved homepage mockup v2 (16 sections, NP Digital flow, Dazzlit design). It is now the build template for the homepage and the reference for shared components (header, mega menu, footer, CTA band, proposal form, FAQ, comparison table, case-study cards). | design/homepage-mockup.html (approved v2) | – | Done |
+| R-032 | 2026-11-16 | 9 · Records | AI builder handoff pack | Owner asked what to give another AI model to build the site as planned. Wrote AI_BUILD_INSTRUCTIONS.md (master prompt, files to upload, brand rules, homepage order, stack, SEO rules, build order, definition of done, never-do list, reusable session prompts). Split pages.csv into per-wave files plus a compact sitemap.csv for small AI context windows. Plan updated to v3.2 with the approved homepage. | docs/AI_BUILD_INSTRUCTIONS.md; data/sitemap.csv; data/pages-by-wave/; dazzlit-ai-handoff.zip | research/scripts/split_pages.py | Done |
+| R-033 | 2026-11-16 | 10 · Phase 1 | Astro scaffold — step 1 | Owner approved the Phase 1 plan and step 1, one cluster per session, and no placeholder markers in code (invented items reported at the end of each session instead — D-17). Created the Astro 5 project in `site/`: Astro 5.18.2, Tailwind CSS 4.3.5, TypeScript 5.9.3, static output, site https://dazzlit.com. Brand tokens in `src/styles/global.css` (exact approved colours, Plus Jakarta Sans / DM Sans self-hosted via @fontsource, no Google Fonts request). Logo and favicons copied from `design/logo/` into `site/public/`. Minimal `BaseLayout` (title, description, canonical, OG/Twitter, favicons) and a temporary `src/pages/index.astro` using only the approved tagline and hero line — replaced by the homepage in Phase 2. GitHub Actions build workflow added. Verified locally: `npm run build` passes, 1 page, fonts bundled as woff2, no placeholder/lorem/phone markers in the output. Repo assembled at the root (README, STATUS, docs, data, design) and pushed to `dazzlitco/Dazzlit-Platform` on `main` + `develop`. Cloudflare Pages not yet connected (F-04, owner account needed); DNS untouched. | site/ (astro.config.mjs, package.json, package-lock.json, src/layouts/BaseLayout.astro, src/pages/index.astro, src/styles/global.css, public/favicon + logos); README.md; .github/workflows/build.yml; STATUS.md; docs/RECORD_REGISTER.md | Astro 5.18.2, Tailwind 4.3.5, Node 24, npm | Done |
+
+Dates for R-001 to R-013 come from file timestamps and the earlier session summary. They are accurate to within a day.
+
+## 2. Sessions
+
+| Session | Date | Focus | Register entries | Main outputs |
+|---|---|---|---|---|
+| S-01 | 2026-09-28 → 09-29 | Setup, keyword research, validation, content plan v1 | R-001 – R-013 | Topical map v1, content plan (864 pages) |
+| S-02 | 2026-09-30 | Status review, location research, page list | R-014 – R-016 | 896 pages, Wave 6 locations, page list workbook |
+| S-03 | 2026-10-05 | Resource coverage audit | R-017 | Gaps found: templates, statistics, calculators |
+| S-04 | 2026-11-04 (morning) | Validation review, workspace recovery, resource expansion, QA, development plan, repo | R-018 – R-023, R-027 | 1,065 pages, plan v3, register, STATUS, local git repo |
+| S-05 | 2026-11-04 (mid-morning) | Owner decisions, inspiration review, design system, logo concepts, photo brief | R-024 – R-025 | Design system v1, logo concepts, PHOTO_BRIEF |
+| S-06 | 2026-11-04 (late morning) | Design sign-off, logo vectorised, records updated | R-026, R-028 | design/logo/ set, plan v3.1, register + STATUS update |
+| S-09 | 2026-11-16 | Phase 1 step 1: Astro scaffold, build verified, pushed to GitHub | R-033 | Astro scaffold in `site/`, GitHub `main` + `develop` |
+| S-08 | 2026-11-16 | Plan check; AI builder handoff pack | R-032 | AI_BUILD_INSTRUCTIONS.md, handoff zip, plan v3.2 |
+| S-07 | 2026-11-07 | Homepage in NP Digital's structure; v2 restores all approved sections; homepage approved | R-029 – R-031 | design/homepage-mockup.html (approved v2) |
+
+## 3. Decisions
+
+| ID | Date | Decision | Status |
+|---|---|---|---|
+| D-01 | 2026-09-28 | Build approach: Elementor page builder on WordPress (answer to the Novamira build-approach question). | Superseded by D-07 |
+| D-02 | 2026-09-29 | Semrush budget: top up API units when exhausted; later the lean plan (top-5 SERPs instead of top-10). | Decided |
+| D-03 | 2026-09-29 | Launch market order: USA → UK → Australia → Canada; UAE/Singapore one page each; India as a brand (not lead) market. | Decided |
+| D-04 | 2026-09-30 | All location pages go to a separate Wave 6, built later, country pages first; URLs /locations/<country>/<city>/. | Decided |
+| D-05 | 2026-11-04 | Run the resource expansion (templates, calculators, statistics, checklists, examples, glossaries) across all 20 pillars. | Decided |
+| D-06 | 2026-11-04 | Off-service mass utilities (word counter, plagiarism checker, paraphraser, AI detector, colour palette generator) are excluded from the plan. | Decided |
+| D-07 | 2026-11-04 | Platform: static coded site (Astro → HTML/CSS/JS) in GitHub, hosted on Cloudflare Pages instead of WordPress/Elementor on Hostinger. | Confirmed by owner 2026-11-04 |
+| D-08 | 2026-11-04 | APIs (paid SEO data, LLM, PageSpeed, email checks) are configured after development is finished; tools are built with their UI and a stub/lead-form fallback until then. Provider choice for the 7 paid-data tools still open. | Decided: defer – provider open |
+| D-09 | 2026-11-04 | Design system: Dazzlit brand identity (navy #10162B, violet #7047EB, orange #FF7849, ivory #FAFAFD; geometric display + neutral body) and the Dazzlit homepage design lead; patterns adopted from Thrive, WebFX, NP Digital and Infidigit. Violet primary buttons; orange for accents only. Headline font, logo files, photography and proof still to settle. | Approved by owner 2026-11-04 |
+| D-10 | 2026-11-04 | CRM and transactional email provider. | Open |
+| D-11 | 2026-11-04 | Headline font: Plus Jakarta Sans (body: DM Sans). | Decided |
+| D-12 | 2026-11-04 | Logo: the owner's own D-chevron logo (new concepts A–C not used); vectorised to SVG in brand colours. | Decided |
+| D-13 | 2026-11-04 | Photography: AI-generated skyline/architecture images in the violet-orange dusk style (docs/PHOTO_BRIEF.md). | Decided – images to be generated |
+| D-14 | 2026-11-04 | Proof (client logos, case studies with numbers, reviews/testimonials, partner badges, phone, address, bios): build with clearly marked placeholders; Claude asks the owner for the specific assets at the start of each build session. | Decided |
+| D-15 | 2026-11-04 | GitHub repository details are supplied by the owner when development starts. | Decided |
+| D-16 | 2026-11-07 | Homepage follows npdigital.com's structure, section order and global positioning (no copying); colours, fonts, logo and layout style stay as approved in D-09. No approved section is dropped: case studies, comparison table and FAQs stay on the homepage; calculators/tools live on dedicated pages. | Decided – homepage v2 approved 2026-11-07 |
+| D-17 | 2026-11-16 | No placeholder markers in code. Instead of `data-placeholder` markers (D-14 / F-24), invented items are reported to the owner at the end of each session so they can be replaced with real values. Owner instruction, given twice in the build session. | Decided 2026-11-16 – overrides the marking part of D-14 for the build |
+
+## 4. Files produced
+
+| ID | File | Contents | Version |
+|---|---|---|---|
+| A-01 | content-plan/Dazzlit_Keyword_Research_Content_Plan.xlsx | Full plan: 21 tabs – overview, pillar summary, roadmap, content plan briefs, topical map, per-type tabs, gaps, competitors, markets, locations, seeds, all keywords, semantic terms, merge log, excluded keywords | v3 · 2026-11-04 |
+| A-02 | content-plan/Dazzlit_Page_List_by_Wave.xlsx | Build list by wave and page type with status/owner/date columns; location research | v3 · 2026-11-04 |
+| A-03 | data/pages.csv | One row per page with the full brief – the source the site scaffolder reads | 2026-11-04 |
+| A-04 | data/keywords.csv | 2,799 keywords with page mapping | 2026-11-04 |
+| A-05 | data/free-tools.csv | 63 free tools with build type and data source | 2026-11-04 |
+| A-06 | data/locations.csv, data/location-keywords.csv | Location research and tiers | 2026-09-30 |
+| A-07 | data/url-changes-nov-2026.csv | Pages merged or moved in the Nov 2026 QA (planned URLs only – nothing is live yet) | 2026-11-04 |
+| A-08 | docs/WEBSITE_DEVELOPMENT_PLAN.md | Development plan (v3.1 adds the owner decisions and the approved design system) | v3.1 · 2026-11-04 |
+| A-09 | Dazzlit_Keyword_Research_Topical_Map.xlsx (not in repo) | First topical map | Superseded 2026-09-29 |
+| A-10 | design/design-system-v1.html | Approved design system: owner logo, colour + contrast rules, fonts, buttons, homepage preview, homepage section order (also published as a private claude.ai page) | v1 approved · 2026-11-04 |
+| A-11 | design/source/ | Owner's design files: DAZZLIT brand identity system, Dazzlit global agency homepage | Received 2026-11-04 |
+| A-12 | design/logo-concepts.html | Current logo vs 3 new concepts (concepts not used; owner kept own logo) | v1 · 2026-11-04 · reference only |
+| A-13 | docs/PHOTO_BRIEF.md | Photography style, AI prompt template, 27 Wave 1 image slots | 2026-11-04 |
+| A-14 | design/logo/ | Owner's logo in SVG (13 variants) and PNG (favicon.ico, apple-touch, 192/512 icons, 2000px logos, social avatar) + trace script | v1 · 2026-11-04 |
+| A-15 | design/homepage-mockup.html | Full homepage mockup (NP Digital structure + all approved sections, Dazzlit design), also a private claude.ai page | v2 approved · 2026-11-07 |
+| A-16 | docs/AI_BUILD_INSTRUCTIONS.md + dazzlit-ai-handoff.zip | Instructions and file pack for building the site with another AI model | 2026-11-16 |
+| A-17 | site/ | Astro 5 scaffold: astro.config.mjs, package.json + lockfile, BaseLayout, temporary index page, global.css with brand tokens, public favicon/logo files, GitHub Actions build workflow | v0.1.0 · 2026-11-16 |
+
+## 5. Semrush API usage
+
+| Date | Work | API units |
+|---|---|---|
+| 2026-09-28/29 | Seeds, broad match, questions, SERP checks, competitors, markets | Not recorded in surviving logs (units ran out twice; owner topped up) |
+| 2026-09-30 | Location research (UK, CA, AU, UAE, SG, US cities & countries) | 2,150 |
+| 2026-11-04 | Resource expansion (420 keywords) | 4,050 |
+
+## 6. Future steps
+
+| ID | Phase | Step | Details | Depends on | Owner | Status |
+|---|---|---|---|---|---|---|
+| F-01 | Phase 1 | Confirm platform (D-07) | Static site on Cloudflare confirmed | – | Owner | Done 2026-11-04 |
+| F-02 | Phase 1 | Approve design system (D-09, D-12) | Design system v1 approved; own logo chosen | – | Owner | Done 2026-11-04 |
+| F-02a | Phase 1 | Final logo files | Vector logo, mark, white and one-colour versions, favicon set, app icon, social avatar | D-12 | Claude | Done 2026-11-04 |
+| F-02b | Phase 1 | Generate photography | Generate the Wave 1 images from docs/PHOTO_BRIEF.md and upload them; Claude checks, crops, compresses and writes alt text | D-13 | Owner + Claude | Pending |
+| F-02c | Every build session | Ask for proof assets | At the start of each build session Claude lists the placeholders in that session's pages and asks the owner for the matching assets (client logos with permission, case-study numbers, reviews, badges, phone, address, bios) | D-14 | Claude asks · owner supplies | Recurring |
+| F-03 | Phase 1 – start of development | Create GitHub repository | Owner supplies the repo when development starts (D-15); Claude pushes this folder, protects main, sets up develop branch | – | Owner + Claude | Done 2026-11-16: `dazzlitco/Dazzlit-Platform`, scaffold pushed to `main` + `develop` |
+| F-04 | Phase 1 | Cloudflare account setup | Add dazzlit.com zone (DNS stays pointed at Hostinger until go-live); create Pages project linked to the repo; Turnstile site key; D1/KV/R2 | F-01 | Owner + Claude | Pending |
+| F-05 | Phase 1 | Astro scaffold & CI | site/ project, Tailwind, content collections, layouts; GitHub Actions: build, link check, Lighthouse CI | F-03 | Claude | Partly done 2026-11-16: scaffold + build workflow; link check and Lighthouse CI still to add |
+| F-06 | Phase 1 | CSV → content scaffolder | Script that creates one Markdown file per page from data/pages.csv (front-matter = brief) | F-05 | Claude | Pending |
+| F-07 | Phase 1 | Design system & templates T1–T15 | Header, mega-menu, footer, CTA blocks, FAQ, schema components, tool shell | F-02, F-05 | Claude | Pending |
+| F-08 | Phase 1 | Forms & lead routing (D-10) | Proposal form, downloads, newsletter → Pages Functions → Turnstile → D1 → CRM + email | F-04 | Claude | Pending |
+| F-09 | Phase 1 | Analytics & consent | GA4, Search Console, Bing, Cloudflare Web Analytics, Zaraz consent | F-04 | Owner + Claude | Pending |
+| F-10 | Phase 2 | Write & build Wave 1 (69 pages) | Home, 19 hubs, pricing, 7 site pages, 41 P1 services + legal/utility pages | F-06, F-07 | Claude + owner review | Pending |
+| F-11 | Phase 2 | Staging review | Owner reviews staging.dazzlit.com; fixes | F-10 | Owner | Pending |
+| F-12 | Phase 2 | Audit current WordPress site | Crawl dazzlit.com, list indexed URLs, map 301s into _redirects; export any content worth keeping | – | Claude | Pending |
+| F-13 | Phase 2 | Go-live (DNS cutover) | Run the go-live checklist (plan §10); point dazzlit.com to Cloudflare Pages; keep WP on a backup subdomain 30 days | F-11, F-12 | Owner + Claude | Pending |
+| F-14 | Phase 2 | Post-launch checks | Crawl, index status, Search Console coverage, Semrush Position Tracking on P1 keywords | F-13 | Claude | Pending |
+| F-15 | Phase 3 | Wave 2 (138 pages) | Remaining services, industries, pricing pages | F-13 | Claude + owner review | Pending |
+| F-16 | Phase 4 | Wave 3 (158 pages) | P1 guides, resources, 10 free tools, blogs – cluster by cluster | F-15 | Claude + owner review | Pending |
+| F-17 | After development | Configure APIs (D-08) | Choose and connect the paid SEO data API (7 tools), LLM API (14 AI tools), PageSpeed API, email checks; replace stubs | F-19 | Owner + Claude | Pending |
+| F-18 | Phase 5 | Wave 4 (304 pages) | P2 supporting content, templates & tools | F-16 | Claude + owner review | Pending |
+| F-19 | Phase 6 | Wave 5 (350 pages) | P3 long tail, gap-fill, remaining tools | F-18 | Claude + owner review | Pending |
+| F-20 | Phase 7 | Wave 6 – Locations (46 pages) | Country pages, then city tiers L1 → L3, each with local proof; hreflang en-GB / en-AU | F-13 | Owner (local proof) + Claude | Pending |
+| F-21 | Ongoing | 60–90-day ranking reviews | Merge cannibalising URLs (301), refresh underperformers | F-14 | Claude | Pending |
+| F-22 | Ongoing | Annual refresh (January) | Trends, statistics, 'Best … in <year>' posts and pricing | – | Claude | Pending |
+| F-23 | Ongoing | Check SERP before writing | Pages marked 'Not checked' get a Google results check before drafting | – | Claude | Pending |
+| F-24 | Phase 1 | Placeholder guard in CI | Production build fails if any proof placeholder marker remains on a page set to publish | F-05 | Claude | Pending |
+| F-25 | Phase 1 | CRM & email provider (D-10) | Pick before the proposal form goes live | – | Owner | Pending |
