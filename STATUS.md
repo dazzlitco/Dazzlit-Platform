@@ -48,6 +48,7 @@
 ## Recent sessions
 | Session | Date | What happened | Register |
 |---|---|---|---|
+| S-24 | 16 Nov 2026 | First 4 hub hero images (SEO, Local SEO, Link Building, PPC): 4 more AI-generated WebP images wired into the hub pages, verified and pushed to `develop` | R-048 |
 | S-23 | 16 Nov 2026 | About, Contact, Case Studies hero images + third insight image: 4 more AI-generated WebP images wired in, verified and pushed to `develop` | R-047 |
 | S-22 | 16 Nov 2026 | Homepage hero + insight images: 4 AI-generated WebP images (hero desktop/mobile, 2 insight cards) wired into the homepage, verified and pushed to `develop` | R-046 |
 | S-21 | 16 Nov 2026 | Merge `develop` into `main` (owner approved) — Wave 1 complete on `main` | R-045 |
@@ -73,6 +74,7 @@
 | S-01 | 28–29 Sep 2026 | Setup, keyword research, validation, content plan v1 (864 pages) | R-001 – R-013 |
 
 ## Changelog
+- **2026-11-16:** First 4 hub hero images on `develop`: SEO (aerial city grid with light trails), Local SEO (warm-lit shopfronts), Link Building (pedestrian bridges between glass towers), PPC (busy avenue with traffic streaks). Build passes, link check 11,520 links 0 broken, Lighthouse on the SEO hub 97/93/100/100, LCP 2.42s locally (slow VM; to re-check on the deployed site). Images uploaded via the GitHub website (commit 82bdbae); code pushed via API (commit 06b5177). 12 of the 27 brief images placed; 15 hub heroes remain. The PPC image has a hard edge on the right where the towers end into open sky; it reads as negative space, but it can be regenerated next session if the owner prefers.
 - **2026-11-16:** Four more images on `develop`: About, Contact and Case Studies hero images plus the third insight card image (aerial city at dusk), so all three insight cards now have images. Hero-image support added to the shared page header, which the 19 hub heroes will reuse. Build passes, link check 11,516 links 0 broken, Lighthouse on the About page 99/93/100/100. Images uploaded via the GitHub website (commit 878ee7e); code pushed via API (commit 0932094). 8 of the 27 brief images placed; 19 hub heroes remain.
 - **2026-11-16:** Homepage hero images live on `develop`: 4 AI-generated WebP images per the photo brief (hero desktop 4:5 + mobile crop, 2 insight cards), wired into the homepage with a two-column hero layout. Build passes, link check 11,512 links 0 broken, Lighthouse on the homepage 97/97/100/100. Images uploaded via the GitHub website (commit c3c43f8); code pushed via API (commit 9f5e746). 23 of the 27 brief images remain.
 - **2026-11-16:** `develop` merged into `main` (owner approved, PR #2, merge commit 3222a21). `main` now has all 69 Wave 1 pages written. If the Cloudflare Pages project is connected, this deploys the full Wave 1 site to the production Pages URL; dazzlit.com DNS is untouched.
