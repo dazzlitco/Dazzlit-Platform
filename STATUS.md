@@ -1,7 +1,7 @@
 # STATUS – Dazzlit platform
 
 **Last updated:** 16 Nov 2026
-**Current phase:** Phase 2, Wave 1 — complete: all 69 pages written and pushed to `develop`. Next: owner approval to merge `develop` into `main`.
+**Current phase:** Phase 2, Wave 1 — complete and merged into `main`. Next: Wave 2 (138 pages) when the owner says so.
 **Live site:** not yet. dazzlit.com still runs the old WordPress install on Hostinger.
 
 ## Where we are
@@ -36,10 +36,10 @@
 | **Total** | **91** | **167** | **465** | **342** | **1,065** | |
 
 ## Next actions
-1. **Owner:** review Wave 1 on GitHub (`develop` branch) and approve merging `develop` into `main` — all 69 pages are written.
-2. **Owner:** still to supply: the 27 Wave 1 photos from `docs/PHOTO_BRIEF.md` (F-02b), client/specialist counts, the client logo row, comparison-table contract terms, and prices for the two pricing pages. No photos or prices are in the site yet.
-3. **Owner:** two brief/content decisions needed — (a) the Graphic Design page (MED-S09) brief is internally inconsistent: title/URL say graphic design but its meta description, FAQs and entities are all video production; (b) confirm the Digital PR "month to month, no long-term contract" claim and that media spend is billed separately from the agency fee.
-4. **Claude:** once the merge is approved, merge `develop` into `main` via PR, then Wave 2 (138 pages) when the owner says so.
+1. **Owner:** still to supply: the 27 Wave 1 photos from `docs/PHOTO_BRIEF.md` (F-02b), client/specialist counts, the client logo row, comparison-table contract terms, and prices for the two pricing pages. No photos or prices are in the site yet.
+2. **Owner:** two brief/content decisions needed — (a) the Graphic Design page (MED-S09) brief is internally inconsistent: title/URL say graphic design but its meta description, FAQs and entities are all video production; (b) confirm the Digital PR "month to month, no long-term contract" claim and that media spend is billed separately from the agency fee.
+3. **Owner:** Cloudflare Pages project creation (settings sent 16 Nov 2026) and the D1 database ID, so the site can deploy and the proposal form can store leads.
+4. **Claude:** Wave 2 (138 pages) when the owner says so.
 
 ## Open decisions
 - **D-08:** API providers. Deferred until development is finished.
@@ -48,6 +48,7 @@
 ## Recent sessions
 | Session | Date | What happened | Register |
 |---|---|---|---|
+| S-21 | 16 Nov 2026 | Merge `develop` into `main` (owner approved) — Wave 1 complete on `main` | R-045 |
 | S-20 | 16 Nov 2026 | Phase 2, Wave 1: pricing + 7 site pages + all 41 service pages written (body copy + FAQ answers), verified and pushed to `develop` — Wave 1 complete | R-044 |
 | S-19 | 16 Nov 2026 | Phase 2, Wave 1: all 19 service hubs written (body copy + FAQ answers), verified and pushed to `develop` | R-043 |
 | S-18 | 16 Nov 2026 | Merge `develop` into `main` (owner approved) — Phase 1 steps 2–7, templates T1–T15 and the Wave 1 homepage now on `main` | R-042 |
@@ -70,6 +71,7 @@
 | S-01 | 28–29 Sep 2026 | Setup, keyword research, validation, content plan v1 (864 pages) | R-001 – R-013 |
 
 ## Changelog
+- **2026-11-16:** `develop` merged into `main` (owner approved, PR #2, merge commit 3222a21). `main` now has all 69 Wave 1 pages written. If the Cloudflare Pages project is connected, this deploys the full Wave 1 site to the production Pages URL; dazzlit.com DNS is untouched.
 - **2026-11-16:** Wave 1 complete: pricing page, 7 site pages and all 41 service pages written, verified and pushed to `develop` (commit 2056881). Build passes (75 pages), link check 11,509 links 0 broken, content check clean, Lighthouse on a service page 100/93/100/100. Still missing: photos, prices, client/specialist counts, client logo row, contract terms. Two items need the owner's decision: the Graphic Design page brief mixes graphic design with video production, and the Digital PR "no long-term contract" claim is unconfirmed.
 - **2026-11-16:** All 19 Wave 1 service hubs written (2,000–2,800 words each, with FAQ answers), verified and pushed to `develop`. Still missing: photos, prices, client/specialist counts, client logo row, contract terms.
 - **2026-11-16:** `develop` merged into `main` (owner approved). `main` now has Phase 1 steps 2–7, the 15 templates and the Wave 1 homepage. If the Cloudflare Pages project is connected, this deploys the real homepage to the production Pages URL; dazzlit.com DNS is untouched.
