@@ -1,7 +1,7 @@
 # STATUS – Dazzlit platform
 
 **Last updated:** 16 Nov 2026
-**Current phase:** Phase 1, Foundations — all 7 steps done (Astro scaffold, design tokens, shared components, CSV scaffolder, CI checks, forms, legal/utility pages + analytics). Design and homepage are approved; development has started. Next: the 15 page templates, then Wave 1.
+**Current phase:** Phase 1 complete, templates done. Next: Phase 2, Wave 1 — homepage first, then hubs, pricing, site pages and the 41 service pages, one cluster at a time.
 **Live site:** not yet. dazzlit.com still runs the old WordPress install on Hostinger.
 
 ## Where we are
@@ -36,9 +36,9 @@
 | **Total** | **91** | **167** | **465** | **342** | **1,065** | |
 
 ## Next actions
-1. **Owner:** review the legal pages and consent banner on GitHub (`develop` branch) and confirm the templates can start. The legal copy is drafted and needs the owner's review before go-live. Still needed from the owner: a Cloudflare account (Pages project + D1 + Turnstile keys, F-04), a Resend key and sender address, the owner email for lead alerts (decided once the site is deployed on Cloudflare), and a GA4 ID.
-2. **Owner:** generate the Wave 1 photos from `docs/PHOTO_BRIEF.md` (F-02b). No photos are in the scaffold yet.
-3. **Claude:** the 15 page templates (F-07), then Wave 1, one cluster at a time.
+1. **Owner:** review the templates on GitHub (`develop` branch) and confirm Phase 2 can start with the homepage.
+2. **Owner:** generate the Wave 1 photos from `docs/PHOTO_BRIEF.md` (F-02b) and supply the proof assets for the homepage: 3 case studies, client logo row, partner badges, 3 testimonials, client/specialist stats, comparison-table contract terms. No photos or proof are in the site yet.
+3. **Claude:** Phase 2, Wave 1 — homepage first, then the 19 hubs, pricing, site pages and the 41 service pages, one cluster at a time.
 
 ## Open decisions
 - **D-08:** API providers. Deferred until development is finished.
@@ -47,6 +47,7 @@
 ## Recent sessions
 | Session | Date | What happened | Register |
 |---|---|---|---|
+| S-15 | 16 Nov 2026 | Templates T1–T15 built, all 69 Wave 1 pages rendering (75 pages total); pushed to GitHub `develop` only | R-039 |
 | S-14 | 16 Nov 2026 | Phase 1, step 7: legal/utility pages, cookie consent and analytics wiring, tested; pushed to GitHub `develop` only | R-038 |
 | S-13 | 16 Nov 2026 | Phase 1, step 6: proposal form wired to Pages Function + Turnstile + D1, tested end to end locally; pushed to GitHub `develop` only | R-037 |
 | S-12 | 16 Nov 2026 | Phase 1, step 5: CI checks (link, content, Lighthouse) passing; pushed to GitHub `develop` only | R-036 |
@@ -63,6 +64,7 @@
 | S-01 | 28–29 Sep 2026 | Setup, keyword research, validation, content plan v1 (864 pages) | R-001 – R-013 |
 
 ## Changelog
+- **2026-11-16:** Templates T1–T15 done: all 69 Wave 1 pages now render (75 pages total), pushed to `develop` only. Phase 1 is complete and the templates are ready; next is Phase 2, Wave 1, homepage first.
 - **2026-11-16:** Phase 1 complete: step 7 done (legal/utility pages, cookie consent, analytics wiring), pushed to `develop` only. Phase 1 is now all 7 steps; next is the 15 page templates, then Wave 1.
 - **2026-11-16:** Phase 1 step 6 done: proposal form wired to a Pages Function with Turnstile, D1 storage and Resend email, tested end to end locally, pushed to `develop` only. Still needs the owner's Cloudflare account, Turnstile/Resend keys, owner email and CRM choice before it goes live.
 - **2026-11-16:** Phase 1 step 5 done: CI checks (link, content, Lighthouse) all passing locally, pushed to `develop` only. The GitHub workflow file is local only — it cannot be pushed through the GitHub App API (403), so it needs uploading through the GitHub website.

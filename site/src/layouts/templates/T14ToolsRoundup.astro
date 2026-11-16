@@ -1,0 +1,15 @@
+---
+// T14 — Tools roundup (plan, section 4): comparison table, reviews, how to
+// choose. Roundup pages arrive in Wave 3; this template renders the body
+// and the CTA until then.
+import TemplateShell from './TemplateShell.astro';
+import type { TemplateProps } from '../../lib/templates';
+
+type Props = TemplateProps;
+
+const { entry, trail } = Astro.props;
+---
+
+<TemplateShell entry={entry} trail={trail}>
+  <slot />
+</TemplateShell>

@@ -37,6 +37,37 @@ is only the H2 headings from the outline). It fails on duplicate URLs,
 missing H1/meta tags, meta tags over length, or internal links not in
 `../data/sitemap.csv`. Body copy is written in Phase 2, one cluster at a time.
 
+## Page templates
+
+The 15 templates from the plan (section 4) live in
+`src/layouts/templates/`, with shared structure in `TemplateShell.astro`:
+
+| Template | Pages | Notes |
+|---|---|---|
+| T1 Home | `/` | Hero, solutions grid, process, industries, markets, comparison, proposal form, FAQ, CTA. Proof sections (case studies, testimonials, team, badges, stats, insights) render in Phase 2 when the assets are supplied. |
+| T2 Service hub | 19 hubs | Sub-service grid, body, related links, CTA. |
+| T3 Service | 41 Wave 1 services | Body, related links, CTA. |
+| T4 Pricing | `/pricing/`, SEO pricing | Body, related links, CTA. Package prices come with Phase 2 writing. |
+| T5 Industry | Wave 2 | Services grid, body, CTA. |
+| T6 Location | Wave 6 | Services grid, body, CTA. Each page needs real local proof. |
+| T7 Guide | Wave 3 | Table of contents from the body's H2s, body, CTA. |
+| T8 Template / checklist | Wave 4 | Body, CTA. Downloads live in R2. |
+| T9 Free tool | Wave 3 | Body, CTA. The tool island is built with its wave. |
+| T10 Statistics | Wave 3 | Body, CTA. |
+| T11 Examples | Wave 3 | Body, CTA. |
+| T12 Glossary | Wave 3 | Body, CTA. |
+| T13 Blog post | Wave 3 | Table of contents, body, CTA. No author box until author details are supplied. |
+| T14 Tools roundup | Wave 3 | Body, CTA. |
+| T15 Company / utility | About, contact, hubs | Child-page grid for section hubs; the contact page includes the proposal form. |
+
+`src/pages/[...slug].astro` renders every content page through its template,
+chosen by `templateFor()` in `src/lib/templates.ts` (URL pattern, then CSV
+page sub-type). Breadcrumbs come from the `parentPage` chain, schema from the
+CSV `Schema Markup` column (FAQPage is not emitted yet — the CSV holds FAQ
+questions, and answers are written in Phase 2), and the CTA band uses the CSV
+CTA text before its bracketed build note. Body copy is still H2 headings
+only; Phase 2 writes it, one cluster at a time.
+
 ## Legal pages and analytics
 
 - Legal and utility pages live in `src/pages/`: `privacy`, `terms`, `cookies`,

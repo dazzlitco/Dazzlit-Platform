@@ -1,0 +1,65 @@
+---
+// Dynamic route for every content page: core + services collections.
+// The template for each page comes from src/lib/templates.ts (plan, section 4).
+// Static pages in src/pages/ (privacy, terms, …) and index.astro take
+// precedence over this route for their URLs.
+import { getCollection } from 'astro:content';
+import { templateFor, breadcrumbTrail, childrenOf, bodyHeadings } from '../lib/templates';
+import type { TemplateId } from '../lib/templates';
+import T01Home from '../layouts/templates/T01Home.astro';
+import T02ServiceHub from '../layouts/templates/T02ServiceHub.astro';
+import T03Service from '../layouts/templates/T03Service.astro';
+import T04Pricing from '../layouts/templates/T04Pricing.astro';
+import T05Industry from '../layouts/templates/T05Industry.astro';
+import T06Location from '../layouts/templates/T06Location.astro';
+import T07Guide from '../layouts/templates/T07Guide.astro';
+import T08Download from '../layouts/templates/T08Download.astro';
+import T09FreeTool from '../layouts/templates/T09FreeTool.astro';
+import T10Statistics from '../layouts/templates/T10Statistics.astro';
+import T11Examples from '../layouts/templates/T11Examples.astro';
+import T12Glossary from '../layouts/templates/T12Glossary.astro';
+import T13BlogPost from '../layouts/templates/T13BlogPost.astro';
+import T14ToolsRoundup from '../layouts/templates/T14ToolsRoundup.astro';
+import T15Company from '../layouts/templates/T15Company.astro';
+
+export async function getStaticPaths() {
+  const core = await getCollection('core');
+  const services = await getCollection('services');
+  const all = [...core, ...services];
+  return all
+    .filter((entry) => entry.data.url !== '/')
+    .map((entry) => ({
+      params: { slug: entry.data.url.replace(/^\/|\/$/g, '') },
+      props: { entry, all },
+    }));
+}
+
+const { entry, all } = Astro.props;
+const { Content } = await entry.render();
+const trail = breadcrumbTrail(all, entry);
+const children = childrenOf(all, entry.data.url);
+const headings = bodyHeadings(entry.body);
+
+const templates: Record<TemplateId, typeof T02ServiceHub> = {
+  T1: T01Home,
+  T2: T02ServiceHub,
+  T3: T03Service,
+  T4: T04Pricing,
+  T5: T05Industry,
+  T6: T06Location,
+  T7: T07Guide,
+  T8: T08Download,
+  T9: T09FreeTool,
+  T10: T10Statistics,
+  T11: T11Examples,
+  T12: T12Glossary,
+  T13: T13BlogPost,
+  T14: T14ToolsRoundup,
+  T15: T15Company,
+};
+const Template = templates[templateFor(entry)];
+---
+
+<Template entry={entry} trail={trail} children={children} headings={headings}>
+  <Content />
+</Template>

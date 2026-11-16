@@ -1,0 +1,31 @@
+---
+// T7 — Guide (plan, section 4): definition snippet, table of contents,
+// long-form body, FAQ, related links, CTA. The table of contents is built
+// from the body's H2 headings.
+import TemplateShell from './TemplateShell.astro';
+import type { TemplateProps } from '../../lib/templates';
+
+type Props = TemplateProps;
+
+const { entry, trail, headings } = Astro.props;
+---
+
+<TemplateShell entry={entry} trail={trail}>
+  {
+    headings.length > 0 && (
+      <nav slot="beforeBody" aria-label="On this page" class="mx-auto max-w-7xl px-6 py-10">
+        <h2 class="font-display text-2xl font-bold text-navy">On this page</h2>
+        <ul class="mt-4 space-y-2">
+          {headings.map((heading) => (
+            <li>
+              <a href={`#${heading.id}`} class="text-violet-600 hover:underline">
+                {heading.text}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    )
+  }
+  <slot />
+</TemplateShell>

@@ -1,0 +1,50 @@
+---
+// T15 — Company / utility (plan, section 4): About, case studies, contact,
+// legal, 404, thank-you. Section hubs (Services, Industries, Resources,
+// Blog, Case Studies) list their child pages. The contact page includes the
+// proposal form.
+import TemplateShell from './TemplateShell.astro';
+import ProposalForm from '../../components/ProposalForm.astro';
+import type { TemplateProps } from '../../lib/templates';
+
+type Props = TemplateProps;
+
+const { entry, trail, children } = Astro.props;
+---
+
+<TemplateShell entry={entry} trail={trail}>
+  {
+    children.length > 0 && (
+      <section slot="beforeBody" class="mx-auto max-w-7xl px-6 py-10">
+        <ul class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {children.map((child) => (
+            <li class="rounded-2xl border border-line bg-white p-5">
+              <a href={child.data.url} class="font-display text-lg font-bold text-navy hover:text-violet-600">
+                {child.data.title}
+              </a>
+              <p class="mt-2 text-sm text-slate">{child.data.metaDescription}</p>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )
+  }
+  <slot />
+  {
+    entry.data.url === '/contact/' && (
+      <section slot="afterBody" class="mx-auto max-w-7xl px-6 py-10">
+        <div class="grid gap-10 lg:grid-cols-2">
+          <div>
+            <p class="text-sm font-bold uppercase tracking-wide text-violet-600">Let’s talk</p>
+            <h2 class="mt-2 font-display text-3xl font-extrabold text-navy">Let’s talk about better results.</h2>
+            <p class="mt-4 text-slate">
+              Tell us where you want to grow. We’ll come back with a written plan: channels, markets, budget and the
+              results to expect.
+            </p>
+          </div>
+          <ProposalForm />
+        </div>
+      </section>
+    )
+  }
+</TemplateShell>

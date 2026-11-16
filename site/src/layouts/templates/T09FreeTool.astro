@@ -1,0 +1,16 @@
+---
+// T9 — Free tool (plan, section 4): tool above the fold, how it works,
+// results explainer, CTA to the matching service. The tool itself is an
+// interactive island in src/tools/, built with its wave; this template
+// renders the body and the CTA until then.
+import TemplateShell from './TemplateShell.astro';
+import type { TemplateProps } from '../../lib/templates';
+
+type Props = TemplateProps;
+
+const { entry, trail } = Astro.props;
+---
+
+<TemplateShell entry={entry} trail={trail}>
+  <slot />
+</TemplateShell>

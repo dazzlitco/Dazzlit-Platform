@@ -1,0 +1,55 @@
+---
+// JSON-LD for a content page, from the entry's Schema Markup column.
+// Organization + WebSite run site-wide (Schema component) and BreadcrumbList
+// is emitted by the Breadcrumbs component, so neither is repeated here.
+// FAQPage is not emitted yet: the CSV holds FAQ questions, and answers are
+// written in Phase 2. Emitting questions without answers would be invalid.
+import type { PageEntry } from '../lib/templates';
+
+interface Props {
+  entry: PageEntry;
+}
+
+const { entry } = Astro.props;
+const { data } = entry;
+const canonical = new URL(data.url, 'https://dazzlit.com').toString();
+const graph: Record<string, unknown>[] = [];
+
+if (data.schema.includes('Service')) {
+  graph.push({
+    '@type': 'Service',
+    name: data.title,
+    description: data.metaDescription,
+    url: canonical,
+    serviceType: data.pillar,
+    provider: { '@type': 'Organization', name: 'Dazzlit', url: 'https://dazzlit.com/' },
+  });
+}
+if (data.schema.includes('Offer') || data.schema.includes('Offer/AggregateOffer')) {
+  graph.push({
+    '@type': data.schema.includes('Offer/AggregateOffer') ? 'AggregateOffer' : 'Offer',
+    name: data.title,
+    description: data.metaDescription,
+  });
+}
+if (data.schema.includes('WebPage')) {
+  graph.push({
+    '@type': 'WebPage',
+    name: data.title,
+    url: canonical,
+    description: data.metaDescription,
+  });
+}
+if (data.schema.includes('ProfessionalService')) {
+  graph.push({
+    '@type': 'ProfessionalService',
+    name: 'Dazzlit',
+    url: 'https://dazzlit.com/',
+    slogan: 'Ideas that travel. Brands that grow.',
+  });
+}
+
+const schema = { '@context': 'https://schema.org', '@graph': graph };
+---
+
+{graph.length > 0 && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
