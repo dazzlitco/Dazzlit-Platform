@@ -1,0 +1,64 @@
+Page ID,Wave,Priority,Pillar,Tool (H1),URL,Primary Keyword,Cluster Volume,Avg KD,Build type,Data source
+DM-R27,3,P1 – High,Digital Marketing,Free UTM Builder,/resources/tools/utm-builder/,utm builder,15000,72,Client-side JS,None
+SEO-R23,3,P1 – High,Search Engine Optimization,Free SEO Audit,/resources/tools/seo-audit/,seo audit,51700,80,API (Worker),Fetch + parse target URL
+SEO-R51,3,P1 – High,Search Engine Optimization,Free Keyword Rank Checker,/resources/tools/serp-checker/,serp checker,26900,40,API (Worker),Paid SEO data API (DataForSEO / Semrush / Moz)
+CRO-R19,3,P1 – High,Conversion Rate Optimization,Free Conversion Rate Calculator,/resources/tools/conversion-rate-calculator/,conversion rate calculator,8600,52,Client-side JS,None
+PPC-R25,3,P1 – High,PPC / Paid Advertising,Free CPM Calculator,/resources/tools/cpm-calculator/,cpm calculator,27100,36,Client-side JS,None
+SMM-R21,3,P1 – High,Social Media Marketing,Free Instagram Caption Generator,/resources/tools/instagram-caption-generator/,instagram caption generator,6600,13,AI (Worker + LLM),LLM API
+LB-R06,3,P1 – High,Link Building,Free Backlink Checker,/resources/tools/backlink-checker/,backlink checker,757500,85,API (Worker),Paid SEO data API (DataForSEO / Semrush / Moz)
+LB-R29,3,P1 – High,Link Building,Free Domain Authority Checker,/resources/tools/domain-authority-checker/,domain authority checker,31500,65,API (Worker),Paid SEO data API (DataForSEO / Semrush / Moz)
+MKT-R14,3,P1 – High,Online Marketplace Marketing,Free eBay Fee Calculator,/resources/tools/ebay-fee-calculator/,ebay fee calculator,27100,39,Client-side JS,None
+REV-R09,3,P1 – High,Reviews Generation,Free NPS Calculator,/resources/tools/nps-calculator/,nps calculator,41090,25,Client-side JS,None
+SEO-R25,4,P2 – Medium,Search Engine Optimization,Free SEO Check,/resources/tools/seo-check/,seo check,13500,82,API (Worker),Fetch + parse target URL
+SEO-R49,4,P2 – Medium,Search Engine Optimization,Free XML Sitemap Generator,/resources/tools/sitemap-generator/,sitemap generator,3600,53,Client-side JS,None
+SEO-R50,4,P2 – Medium,Search Engine Optimization,Free Keyword Density Checker,/resources/tools/keyword-density-checker/,keyword density checker,2400,50,API (Worker),Fetch + parse target URL
+CRO-R23,4,P2 – Medium,Conversion Rate Optimization,Free A/B Test Sample Size Calculator,/resources/tools/sample-size-calculator/,sample size calculator,6810,50,Client-side JS,None
+PPC-R26,4,P2 – Medium,PPC / Paid Advertising,Free ROAS Calculator,/resources/tools/roas-calculator/,roas calculator,2100,10,Client-side JS,None
+PPC-R27,4,P2 – Medium,PPC / Paid Advertising,Free CPC Calculator,/resources/tools/cpc-calculator/,cpc calculator,1300,22,Client-side JS,None
+SMM-R19,4,P2 – Medium,Social Media Marketing,Free Engagement Rate Calculator,/resources/tools/engagement-rate-calculator/,engagement rate calculator,4800,42,Client-side JS,None
+SMM-R20,4,P2 – Medium,Social Media Marketing,Free Hashtag Generator,/resources/tools/hashtag-generator/,hashtag generator,10200,54,AI (Worker + LLM),LLM API
+SMM-R22,4,P2 – Medium,Social Media Marketing,Free Social Media Bio Generator,/resources/tools/bio-generator/,bio generator,3600,44,AI (Worker + LLM),LLM API
+WEB-R27,4,P2 – Medium,Web Design & Development,Free Favicon Generator,/resources/tools/favicon-generator/,favicon generator,12100,62,Client-side JS,None
+MED-R19,4,P2 – Medium,Media Production,Free YouTube Tag Generator,/resources/tools/youtube-tag-generator/,youtube tag generator,4400,48,AI (Worker + LLM),LLM API
+CM-R31,4,P2 – Medium,Content Marketing,Free Readability Checker,/resources/tools/readability-checker/,readability checker,2900,0,Client-side JS,None
+ECM-R12,4,P2 – Medium,eCommerce Management,Free AI Product Description Generator,/resources/tools/product-description-generator/,product description generator,1600,23,AI (Worker + LLM),LLM API
+MKT-R11,4,P2 – Medium,Online Marketplace Marketing,Free Amazon FBA Calculator,/resources/tools/amazon-fba-calculator/,amazon fba calculator,4660,51,Client-side JS,None
+MKT-R13,4,P2 – Medium,Online Marketplace Marketing,Free Amazon Keyword Tool,/resources/tools/amazon-keyword-tool/,amazon keyword tool,2400,45,API (Worker),Paid SEO data API (DataForSEO / Semrush / Moz)
+REV-R10,4,P2 – Medium,Reviews Generation,Free Google Review Link & QR Code Generator,/resources/tools/google-review-qr-code/,google review qr code,2490,36,Client-side JS,None
+LSEO-R14,4,P2 – Medium,Local SEO,Free Local Rank Tracker,/resources/tools/local-rank-tracker/,local rank tracker,6280,56,API (Worker),Paid SEO data API (DataForSEO / Semrush / Moz)
+MA-R28,4,P2 – Medium,Marketing Automation,Free Email Spam & Deliverability Checker,/resources/tools/spam-checker/,spam checker,3380,54,API (Worker),Email DNS/SMTP checks
+AI-R04,4,P2 – Medium,AI Services,Free AI Content Generator,/resources/tools/ai-content-generator/,ai content generator,3110,68,AI (Worker + LLM),LLM API
+AI-R14,4,P2 – Medium,AI Services,Free AI Readiness Assessment,/resources/tools/ai-readiness-assessment/,ai readiness assessment,1600,38,AI (Worker + LLM),LLM API
+DM-R23,5,P3 – Low,Digital Marketing,Free Marketing ROI Calculator,/resources/tools/marketing-roi-calculator/,marketing roi calculator,1010,17,Client-side JS,None
+DM-R24,5,P3 – Low,Digital Marketing,Free Customer Acquisition Cost (CAC) Calculator,/resources/tools/customer-acquisition-cost-calculator/,customer acquisition cost calculator,260,18,Client-side JS,None
+DM-R25,5,P3 – Low,Digital Marketing,Free Customer Lifetime Value (CLV) Calculator,/resources/tools/customer-lifetime-value-calculator/,customer lifetime value calculator,480,39,Client-side JS,None
+DM-R26,5,P3 – Low,Digital Marketing,Free Marketing Budget Calculator,/resources/tools/marketing-budget-calculator/,marketing budget calculator,320,20,Client-side JS,None
+SEO-R19,5,P3 – Low,Search Engine Optimization,Free SEO ROI Calculator,/resources/tools/enterprise-seo-roi-calculator/,enterprise seo roi calculator,3020,35,Client-side JS,None
+SEO-R46,5,P3 – Low,Search Engine Optimization,Free Meta Tag Generator,/resources/tools/meta-description-generator/,meta description generator,1620,39,AI (Worker + LLM),LLM API
+SEO-R47,5,P3 – Low,Search Engine Optimization,Free Schema Markup Generator,/resources/tools/schema-markup-generator/,schema markup generator,1900,49,Client-side JS,None
+SEO-R48,5,P3 – Low,Search Engine Optimization,Free Robots.txt Generator,/resources/tools/robots-txt-generator/,robots txt generator,720,40,Client-side JS,None
+SEO-R52,5,P3 – Low,Search Engine Optimization,Free Broken Link Checker,/resources/tools/broken-link-checker/,broken link checker,8100,90,API (Worker),Fetch + parse target URL
+CRO-R08,5,P3 – Low,Conversion Rate Optimization,Free A/B Test Calculator,/resources/tools/ab-test-calculator/,ab test calculator,3120,46,Client-side JS,None
+PPC-R28,5,P3 – Low,PPC / Paid Advertising,Free Google Ads Cost Calculator,/resources/tools/ppc-calculator/,ppc calculator,710,18,Client-side JS,None
+PPC-R29,5,P3 – Low,PPC / Paid Advertising,Free AI Ad Copy Generator,/resources/tools/ad-copy-generator/,ad copy generator,630,12,AI (Worker + LLM),LLM API
+SMA-R12,5,P3 – Low,Social Media Advertising,Free Facebook Ads Cost Calculator,/resources/tools/facebook-ad-cost/,facebook ad cost,730,43,Client-side JS,None
+LB-R30,5,P3 – Low,Link Building,Free Toxic Backlink Checker,/resources/tools/toxic-backlink-checker/,toxic backlink checker,880,69,API (Worker),Paid SEO data API (DataForSEO / Semrush / Moz)
+LB-R31,5,P3 – Low,Link Building,Free Anchor Text Checker,/resources/tools/anchor-text-checker/,anchor text checker,70,15,API (Worker),Paid SEO data API (DataForSEO / Semrush / Moz)
+WEB-R25,5,P3 – Low,Web Design & Development,Free Website Cost Calculator,/resources/tools/website-cost-calculator/,website cost calculator,1110,22,Client-side JS,None
+WEB-R26,5,P3 – Low,Web Design & Development,"Free Website Grader (Speed, Mobile & SEO)",/resources/tools/website-speed-test/,website speed test,17000,73,API (Worker),Google PageSpeed Insights API (free)
+MED-R20,5,P3 – Low,Media Production,Free YouTube Title Generator,/resources/tools/youtube-title-generator/,youtube title generator,2400,32,AI (Worker + LLM),LLM API
+MED-R21,5,P3 – Low,Media Production,Free Video Production Cost Calculator,/resources/tools/video-production-cost-calculator/,video production cost calculator,50,7,Client-side JS,None
+CM-R29,5,P3 – Low,Content Marketing,Free Blog Title Generator,/resources/tools/blog-title-generator/,blog title generator,1510,43,AI (Worker + LLM),LLM API
+CM-R30,5,P3 – Low,Content Marketing,Free Headline Analyzer,/resources/tools/headline-analyzer/,headline analyzer,1600,71,Client-side JS,None
+ECM-R13,5,P3 – Low,eCommerce Management,Free Shopify Store Name Generator,/resources/tools/shopify-store-name-generator/,shopify store name generator,1900,63,AI (Worker + LLM),LLM API
+ECM-R14,5,P3 – Low,eCommerce Management,Free Shopify Fee Calculator,/resources/tools/shopify-fee-calculator/,shopify fee calculator,110,9,Client-side JS,None
+ECM-R15,5,P3 – Low,eCommerce Management,Free Dropshipping Profit Calculator,/resources/tools/dropshipping-profit-calculator/,dropshipping profit calculator,70,12,Client-side JS,None
+ECMK-R16,5,P3 – Low,eCommerce Marketing,Free Customer Retention Rate Calculator,/resources/tools/customer-retention-rate-calculator/,customer retention rate calculator,70,34,Client-side JS,None
+MKT-R12,5,P3 – Low,Online Marketplace Marketing,Free Amazon ACoS Calculator,/resources/tools/amazon-acos-calculator/,amazon acos calculator,70,0,Client-side JS,None
+MKT-R15,5,P3 – Low,Online Marketplace Marketing,Free Etsy Fee Calculator,/resources/tools/etsy-fee-calculator/,etsy fee calculator,2400,20,Client-side JS,None
+ASO-R06,5,P3 – Low,App Store Optimization,Free App Store Screenshot Generator,/resources/tools/app-store-screenshot-generator/,app store screenshot generator,480,30,Client-side JS,None
+ASO-R07,5,P3 – Low,App Store Optimization,Free App Name Generator,/resources/tools/app-name-generator/,app name generator,1000,25,AI (Worker + LLM),LLM API
+LSEO-R15,5,P3 – Low,Local SEO,Free Local SEO Checker,/resources/tools/local-seo-checker/,local seo checker,790,32,API (Worker),Fetch + parse target URL
+MA-R27,5,P3 – Low,Marketing Automation,Free Email Subject Line Tester,/resources/tools/email-subject-line-tester/,email subject line tester,1440,46,AI (Worker + LLM),LLM API
+AI-R15,5,P3 – Low,AI Services,Free AI ROI Calculator,/resources/tools/ai-roi-calculator/,ai roi calculator,140,19,Client-side JS,None
+AI-R16,5,P3 – Low,AI Services,"Free AI Search Visibility Checker (ChatGPT, Gemini, Perplexity)",/resources/tools/llm-visibility-checker/,llm visibility checker,260,10,API (Worker),LLM APIs (ChatGPT / Gemini / Perplexity)
