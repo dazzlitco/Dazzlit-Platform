@@ -1,0 +1,1544 @@
+Page ID,Wave,Priority,Pillar (Field),Topic (Sub-field),Page Type,Page Sub-type,URL,Parent Page,H1,Meta Title,Meta Description,Primary Keyword,Secondary Keywords,Primary Vol.,# Keywords,Cluster Volume,Avg KD,Search Intent,Funnel Stage,Target Words,Schema Markup,H2 Outline,FAQs to Answer,Entities / Terms to Cover,Internal Links Out (anchor → URL),Inbound Links,CTA,"SERP Check (Google top-5, US)",Page Notes,Status
+DM-C01,1,P1 – High,Digital Marketing,Digital Marketing Services,Core Page,Home page (pillar hub),/,—,Dazzlit – Global Digital Marketing Agency,Dazzlit | Global Digital Marketing Agency,"Dazzlit is a global digital marketing agency: SEO, PPC, social, content, web design, CRO and AI marketing that grow revenue. Get a free proposal.",digital marketing agency,marketing agency; digital marketing services; digital marketing company; marketing agency marketing agency; digital marketing marketing agency; online marketing agency; marketing agency near me; digital marketing agency near me,74000,82,517290,46,Commercial,BOFU – hire / buy,"1,500–2,000",Organization + WebSite + ProfessionalService + FAQPage,"H2 1. Hero: Global digital marketing agency that drives revenue
+H2 2. Services grid (20 pillars → hub links)
+H2 3. Results & case studies
+H2 4. Industries we serve
+H2 5. How we work (process)
+H2 6. Why Dazzlit (proof, awards, team)
+H2 7. Testimonials / reviews
+H2 8. FAQs
+H2 9. CTA: Get a free proposal","How much does digital marketing cost?
+How long does digital marketing take to show results?
+How do you report on digital marketing performance?","Topic entities: marketing funnel, customer journey, buyer personas, omnichannel, marketing mix, KPIs, ROI, ROAS, CAC, LTV, attribution, GA4, first-party data, brand positioning
+Page-specific terms: 2b sector, paid ad","seo services → /services/seo/
+cro agency → /services/conversion-rate-optimization/
+ppc agency → /services/ppc-management/
+social media management → /services/social-media-marketing/
+paid social agency → /services/social-media-advertising/
+link building services → /services/link-building/
+web design company → /services/web-design-development/
+video production → /services/media-production/
+content marketing agency → /services/content-marketing/
+ecommerce management → /services/ecommerce-management/
+ecommerce marketing agency → /services/ecommerce-marketing/
+amazon marketing agency → /services/marketplace-marketing/
+our services → /services/
+industries we serve → /industries/
+case studies → /case-studies/
+about dazzlit → /about/
+contact dazzlit → /contact/
+marketing blog → /blog/
+marketing resources → /resources/
+digital marketing packages → /pricing/
+white label digital marketing agency → /services/digital-marketing/white-label-digital-marketing-agency/
+digital marketing consulting → /services/digital-marketing/digital-marketing-consulting/
+small business marketing → /services/digital-marketing/small-business-marketing/
+buyer persona template → /resources/templates/buyer-persona-template/
+swot analysis template → /resources/templates/swot-analysis-template/
+utm builder → /resources/tools/utm-builder/",126,Get a free digital marketing proposal (form above the fold + sticky CTA),"'digital marketing agency': 3 agency/service pages, 1 guides/articles, 1 'best agencies' lists",,Not started
+DM-C02,1,P3 – Low,Digital Marketing,Digital Marketing Services,Core Page,Pricing page,/pricing/,/,Digital Marketing Packages & Pricing,Digital Marketing Packages & Pricing | Dazzlit,"Digital Marketing Packages & Pricing from Dazzlit: data-driven digital marketing built to grow traffic, leads and revenue. See results and get a free…",digital marketing packages,,1900,1,1900,18,Informational,BOFU – hire / buy,"1,200–1,800",Service + Offer/AggregateOffer + FAQPage + BreadcrumbList,"H2 1. Packages by service & tier
+H2 2. What affects price
+H2 3. Retainer vs project vs performance
+H2 4. Comparison table
+H2 5. FAQs
+H2 6. CTA","How much does digital marketing cost?
+How long does digital marketing take to show results?
+How do you report on digital marketing performance?","Topic entities: marketing funnel, customer journey, buyer personas, omnichannel, marketing mix, KPIs, ROI, ROAS, CAC, LTV, attribution, GA4, first-party data, brand positioning","digital marketing agency → /
+seo services → /services/seo/
+ppc agency → /services/ppc-management/
+social media management → /services/social-media-marketing/
+content marketing agency → /services/content-marketing/",2,Get a free digital marketing proposal (form above the fold + sticky CTA),Not checked (P2/P3 or new page),,Not started
+DM-C91,1,P1 – High,Digital Marketing,Site structure,Core Page,Static / navigation page,/services/,/,Services Hub,Services Hub | Dazzlit,"Services Hub from Dazzlit: data-driven digital marketing built to grow traffic, leads and revenue. See results and get a free proposal.",our services,,,,,,Navigational,BOFU – hire / buy,400–900,WebPage + BreadcrumbList,"H2 1. Services Hub – the short answer (snippet-ready, 40–60 words)
+H2 2. Why it matters / context
+H2 3. Key factors & examples
+H2 4. Mistakes to avoid
+H2 5. FAQs
+H2 6. CTA → Digital Marketing services",,"Topic entities: marketing funnel, customer journey, buyer personas, omnichannel, marketing mix, KPIs, ROI, ROAS, CAC, LTV, attribution, GA4, first-party data, brand positioning","seo services → /services/seo/
+cro agency → /services/conversion-rate-optimization/
+ppc agency → /services/ppc-management/
+social media management → /services/social-media-marketing/
+paid social agency → /services/social-media-advertising/
+link building services → /services/link-building/
+web design company → /services/web-design-development/
+video production → /services/media-production/
+content marketing agency → /services/content-marketing/
+ecommerce management → /services/ecommerce-management/
+ecommerce marketing agency → /services/ecommerce-marketing/
+amazon marketing agency → /services/marketplace-marketing/
+online reputation management → /services/reputation-management/
+review management → /services/review-generation/
+aso agency → /services/app-store-optimization/
+digital pr agency → /services/digital-pr/
+local seo services → /services/local-seo/
+marketing automation services → /services/marketing-automation/
+ai marketing agency → /services/ai-services/",4,Get a free digital marketing proposal (form above the fold + sticky CTA),Not checked (P2/P3 or new page),,Not started
+DM-C92,1,P1 – High,Digital Marketing,Site structure,Core Page,Static / navigation page,/industries/,/,Industries Hub,Industries Hub | Dazzlit,"Industries Hub from Dazzlit: data-driven digital marketing built to grow traffic, leads and revenue. See results and get a free proposal.",industries we serve,,,,,,Navigational,BOFU – hire / buy,400–900,WebPage + BreadcrumbList,"H2 1. Industries Hub – the short answer (snippet-ready, 40–60 words)
+H2 2. Why it matters / context
+H2 3. Key factors & examples
+H2 4. Mistakes to avoid
+H2 5. FAQs
+H2 6. CTA → Digital Marketing services",,"Topic entities: marketing funnel, customer journey, buyer personas, omnichannel, marketing mix, KPIs, ROI, ROAS, CAC, LTV, attribution, GA4, first-party data, brand positioning","healthcare digital marketing agency → /industries/healthcare/
+law firm marketing → /industries/law-firms/
+digital marketing for home services → /industries/home-services/
+saas marketing agency → /industries/saas/
+industrial marketing agency → /industries/manufacturing/
+dental marketing agency → /industries/dental/
+crypto marketing agency → /industries/finance/
+experiential marketing agency → /industries/events/
+hospitality marketing agency → /industries/restaurants-hospitality/
+real estate digital marketing → /industries/real-estate/
+b2b technology marketing agency → /industries/technology/
+digital marketing agency for startups → /industries/startups/
+franchise marketing agency → /industries/franchise/
+automotive marketing agency → /industries/automotive/
+higher education marketing agency → /industries/education/
+nonprofit marketing agency → /industries/nonprofit/
+retail marketing agency → /industries/retail/",1,Get a free digital marketing proposal (form above the fold + sticky CTA),Not checked (P2/P3 or new page),,Not started
+DM-C94,1,P1 – High,Digital Marketing,Site structure,Core Page,Static / navigation page,/resources/,/,Resources Hub,Resources Hub | Dazzlit,"Resources Hub from Dazzlit: data-driven digital marketing built to grow traffic, leads and revenue. See results and get a free proposal.",marketing resources,,,,,,Navigational,BOFU – hire / buy,400–900,WebPage + BreadcrumbList,"H2 1. Resources Hub – the short answer (snippet-ready, 40–60 words)
+H2 2. Why it matters / context
+H2 3. Key factors & examples
+H2 4. Mistakes to avoid
+H2 5. FAQs
+H2 6. CTA → Digital Marketing services",,"Topic entities: marketing funnel, customer journey, buyer personas, omnichannel, marketing mix, KPIs, ROI, ROAS, CAC, LTV, attribution, GA4, first-party data, brand positioning","digital marketing → /resources/guides/digital-marketing/
+digital marketing case studies → /resources/examples/digital-marketing-case-studies/
+digital marketing resources → /resources/guides/digital-marketing-resources/
+email marketing → /resources/guides/email-marketing/
+email marketing campaigns → /resources/guides/email-marketing-campaigns/
+email marketing best practices → /resources/guides/email-marketing-best-practices/
+email marketing examples → /resources/examples/email-marketing-examples/
+email marketing templates → /resources/templates/email-marketing-templates/
+email marketing design → /resources/guides/email-marketing-design/
+email marketing metrics → /resources/guides/email-marketing-metrics/
+marketing analytics → /resources/guides/marketing-analytics/
+google analytics 4 → /resources/guides/google-analytics-4/
+growth marketing → /resources/guides/growth-marketing/
+seo → /resources/guides/seo/
+seo digital marketing → /resources/guides/seo-digital-marketing/
+seo best practices → /resources/guides/seo-best-practices/
+seo competitor analysis → /resources/guides/seo-competitor-analysis/
+seo metrics → /resources/guides/seo-metrics/
+seo ranking → /resources/guides/seo-ranking/
+e-commerce seo → /resources/guides/e-commerce-seo/
+black hat seo → /resources/guides/black-hat-seo/
+seo examples → /resources/examples/seo-examples/
+technical seo → /resources/guides/technical-seo/
+schema markup → /resources/guides/schema-markup/
+core web vitals → /resources/guides/core-web-vitals/
+keyword research → /resources/guides/keyword-research/
+on page seo → /resources/guides/on-page-seo/
+meta description → /resources/guides/meta-description/
+semantic seo → /resources/guides/semantic-seo/
+domain authority → /resources/guides/domain-authority/
+off page seo → /resources/guides/off-page-seo/
+enterprise seo roi calculator → /resources/tools/enterprise-seo-roi-calculator/
+ecommerce seo → /resources/guides/ecommerce-seo/
+shopify seo → /resources/guides/shopify-seo/
+seo bigcommerce → /resources/guides/seo-bigcommerce/
+seo audit → /resources/tools/seo-audit/
+seo checklist → /resources/checklists/seo-checklist/
+seo check → /resources/tools/seo-check/
+website seo → /resources/guides/website-seo/
+seo analysis → /resources/guides/seo-analysis/
+seo report → /resources/guides/seo-report/
+chatgpt seo → /resources/guides/chatgpt-seo/
+what are ai search optimization tools → /resources/guides/what-are-ai-search-optimization-tools/
+what is ab. testing → /resources/guides/what-is-ab-testing/
+conversion rate optimization checklist → /resources/checklists/conversion-rate-optimization-checklist/
+ab testing examples → /resources/examples/ab-testing-examples/
+landing page best practices → /resources/guides/landing-page-best-practices/
+average conversion rate → /resources/statistics/average-conversion-rate/
+ppc checklist → /resources/checklists/ppc-checklist/
+ppc examples → /resources/examples/ppc-examples/
+google ad grants → /resources/guides/google-ad-grants/
+google ads api → /resources/guides/google-ads-api/
+google adwords ppc → /resources/guides/google-adwords-ppc/
+bing ads → /resources/guides/bing-ads/
+video advertising → /resources/guides/video-advertising/
+tiktok advertising → /resources/guides/tiktok-advertising/
+link building checklist → /resources/checklists/link-building-checklist/
+verified backlinks → /resources/guides/verified-backlinks/
+backlinking → /resources/guides/backlinks/
+backlink analysis → /resources/guides/backlink-analysis/
+find backlinks → /resources/tools/backlink-checker/
+backlink profile → /resources/guides/backlink-profile/
+backlink monitoring → /resources/guides/backlink-monitoring/
+quality backlinks → /resources/guides/quality-backlinks/
+citation building → /resources/guides/citation-building/
+web page design → /resources/guides/web-page-design/
+what is seo website design → /resources/guides/what-is-seo-website-design/
+branded content marketing → /resources/guides/branded-content-marketing/
+content marketing checklist → /resources/checklists/content-marketing-checklist/
+content marketing roi → /resources/guides/content-marketing-roi/
+content marketing statistics → /resources/statistics/content-marketing-statistics/
+content marketing analytics → /resources/guides/content-marketing-analytics/
+content marketing best practices → /resources/guides/content-marketing-best-practices/
+what is b2b content marketing → /resources/guides/what-is-b2b-content-marketing/
+media outreach → /resources/guides/media-outreach/
+localized seo → /resources/guides/localized-seo/
+seo locale → /resources/guides/seo-locale/
+google profile business → /resources/guides/google-profile-business/
+local seo examples → /resources/examples/local-seo-examples/
+marketing automation examples → /resources/examples/marketing-automation-examples/
+marketing automation checklist → /resources/checklists/marketing-automation-checklist/
+hubspot seo → /resources/guides/hubspot-seo/
+hubspot marketing automation → /resources/guides/hubspot-marketing-automation/
+hubspot api → /resources/guides/hubspot-api/
+hubspot competitors → /resources/guides/hubspot-competitors/
+hubspot crm system → /resources/guides/hubspot-crm-system/
+hubspot landing page → /resources/guides/hubspot-landing-page/
+ai avatar → /resources/guides/ai-avatar/",1,Get a free digital marketing proposal (form above the fold + sticky CTA),Not checked (P2/P3 or new page),,Not started
+DM-C95,1,P1 – High,Digital Marketing,Site structure,Core Page,Static / navigation page,/blog/,/,Blog,Blog | Dazzlit,"Blog from Dazzlit: data-driven digital marketing built to grow traffic, leads and revenue. See results and get a free proposal.",marketing blog,,,,,,Navigational,BOFU – hire / buy,400–900,WebPage + BreadcrumbList,"H2 1. Blog – the short answer (snippet-ready, 40–60 words)
+H2 2. Why it matters / context
+H2 3. Key factors & examples
+H2 4. Mistakes to avoid
+H2 5. FAQs
+H2 6. CTA → Digital Marketing services",,"Topic entities: marketing funnel, customer journey, buyer personas, omnichannel, marketing mix, KPIs, ROI, ROAS, CAC, LTV, attribution, GA4, first-party data, brand positioning","marketing apps → /blog/marketing-apps/
+digital marketing vs traditional marketing → /blog/digital-marketing-vs-traditional-marketing/
+digital marketing mistakes → /blog/digital-marketing-mistakes/
+digital marketing strategy → /blog/digital-marketing-strategy/
+digital marketing tools → /blog/digital-marketing-tools/
+digital marketing trends → /blog/digital-marketing-trends/
+how to start digital marketing → /blog/how-to-start-digital-marketing/
+digital marketing tips → /blog/digital-marketing-tips/
+types of digital marketing → /blog/types-of-digital-marketing/
+is digital marketing legit → /blog/is-digital-marketing-legit/
+what do digital marketers do → /blog/what-do-digital-marketers-do/
+why is digital marketing important → /blog/why-is-digital-marketing-important/
+how to choose a digital marketing agency → /blog/how-to-choose-a-digital-marketing-agency/
+how to get email lists for marketing → /blog/how-to-get-email-lists-for-marketing/
+email marketing software → /blog/email-marketing-software/
+email marketing strategies → /blog/email-marketing-strategies/
+program for email marketing → /blog/program-for-email-marketing/
+email marketing tips → /blog/email-marketing-tips/
+how to use email marketing → /blog/how-to-use-email-marketing/
+benefits of email marketing → /blog/benefits-of-email-marketing/
+email marketing platforms for small business → /blog/email-marketing-platforms-for-small-business/
+how much does email marketing cost → /blog/how-much-does-email-marketing-cost/
+how does email marketing work → /blog/how-does-email-marketing-work/
+how to write a marketing email → /blog/how-to-write-a-marketing-email/
+is email marketing dead → /blog/is-email-marketing-dead/
+is email marketing effective → /blog/is-email-marketing-effective/
+can-spam act marketing email opt-in requirements united states → /blog/can-spam-act-marketing-email-opt-in-requirements-united-states/
+seo tips → /blog/seo-tips/
+how to do seo → /blog/how-to-do-seo/
+seo strategy → /blog/seo-strategy/
+how does seo work → /blog/how-does-seo-work/
+seo cost → /blog/seo-cost/
+seo and digital marketing → /blog/seo-and-digital-marketing/
+why is seo important → /blog/why-is-seo-important/
+how to improve seo → /blog/how-to-improve-seo/
+seo trends → /blog/seo-trends/
+what does seo stand for in marketing → /blog/what-does-seo-stand-for-in-marketing/
+is seo dead → /blog/is-seo-dead/
+seo mistakes → /blog/seo-mistakes/
+how to sell seo services to local businesses → /blog/how-to-sell-seo-services-to-local-businesses/",1,Get a free digital marketing proposal (form above the fold + sticky CTA),Not checked (P2/P3 or new page),,Not started
+DM-C96,1,P1 – High,Digital Marketing,Site structure,Core Page,Static / navigation page,/case-studies/,/,Case Studies,Case Studies | Dazzlit,"Case Studies from Dazzlit: data-driven digital marketing built to grow traffic, leads and revenue. See results and get a free proposal.",case studies,,,,,,Navigational,BOFU – hire / buy,400–900,WebPage + BreadcrumbList,"H2 1. Case Studies – the short answer (snippet-ready, 40–60 words)
+H2 2. Why it matters / context
+H2 3. Key factors & examples
+H2 4. Mistakes to avoid
+H2 5. FAQs
+H2 6. CTA → Digital Marketing services",,"Topic entities: marketing funnel, customer journey, buyer personas, omnichannel, marketing mix, KPIs, ROI, ROAS, CAC, LTV, attribution, GA4, first-party data, brand positioning","our services → /services/
+contact dazzlit → /contact/",134,Get a free digital marketing proposal (form above the fold + sticky CTA),Not checked (P2/P3 or new page),,Not started
+DM-C97,1,P1 – High,Digital Marketing,Site structure,Core Page,Static / navigation page,/about/,/,About Dazzlit,About Dazzlit | Dazzlit,"About Dazzlit from Dazzlit: data-driven digital marketing built to grow traffic, leads and revenue. See results and get a free proposal.",about dazzlit,,,,,,Navigational,BOFU – hire / buy,400–900,WebPage + BreadcrumbList,"H2 1. About Dazzlit – the short answer (snippet-ready, 40–60 words)
+H2 2. Why it matters / context
+H2 3. Key factors & examples
+H2 4. Mistakes to avoid
+H2 5. FAQs
+H2 6. CTA → Digital Marketing services",,"Topic entities: marketing funnel, customer journey, buyer personas, omnichannel, marketing mix, KPIs, ROI, ROAS, CAC, LTV, attribution, GA4, first-party data, brand positioning","our services → /services/
+contact dazzlit → /contact/",1,Get a free digital marketing proposal (form above the fold + sticky CTA),Not checked (P2/P3 or new page),,Not started
+DM-C98,1,P1 – High,Digital Marketing,Site structure,Core Page,Static / navigation page,/contact/,/,Contact / Free Proposal,Contact / Free Proposal | Dazzlit,"Contact / Free Proposal from Dazzlit: data-driven digital marketing built to grow traffic, leads and revenue. See results and get a free proposal.",contact dazzlit,,,,,,Navigational,BOFU – hire / buy,400–900,WebPage + BreadcrumbList,"H2 1. Contact / Free Proposal – the short answer (snippet-ready, 40–60 words)
+H2 2. Why it matters / context
+H2 3. Key factors & examples
+H2 4. Mistakes to avoid
+H2 5. FAQs
+H2 6. CTA → Digital Marketing services",,"Topic entities: marketing funnel, customer journey, buyer personas, omnichannel, marketing mix, KPIs, ROI, ROAS, CAC, LTV, attribution, GA4, first-party data, brand positioning","our services → /services/
+contact dazzlit → /contact/",136,Get a free digital marketing proposal (form above the fold + sticky CTA),Not checked (P2/P3 or new page),,Not started
+SEO-C01,1,P1 – High,Search Engine Optimization,SEO Services,Core Page,Pillar hub (service),/services/seo/,/,SEO Services,SEO Services | Dazzlit,"SEO Services from Dazzlit: data-driven SEO built to grow traffic, leads and revenue. See results and get a free proposal.",seo services,seo agency; seo company; seo marketing; seo consultant; seo optimization; seo service; seo companies; best seo company,60500,126,655310,49,Commercial,BOFU – hire / buy,"2,000–2,800",Service + FAQPage + BreadcrumbList,"H2 1. SEO Services that drive measurable growth
+H2 2. What's included in our SEO services: Small Business SEO Services; SEO Pricing & Packages; B2B SEO Agency; White Label SEO Services; SEO for SaaS Companies; Technical SEO Services; Keyword Research Services; Enterprise SEO Agency
+H2 3. Our SEO process (audit → strategy → execution → reporting)
+H2 4. SEO for your industry
+H2 5. Results & case studies
+H2 6. SEO pricing & packages
+H2 7. Why choose Dazzlit
+H2 8. FAQs
+H2 9. CTA: Get a free proposal","How much does SEO cost?
+How long does SEO take to show results?
+How do you report on SEO performance?","Topic entities: Google Search Console, crawling, indexing, search intent, E-E-A-T, SERP features, AI Overviews, keyword difficulty, topical authority, internal linking, schema markup, Core Web Vitals, backlinks, algorithm updates
+Page-specific terms: search engine, engine optimization, seo consultant, seo optimization, professional seo","ecommerce seo services → /services/seo/ecommerce-seo-services/
+small business seo services → /services/seo/small-business-seo-services/
+seo pricing → /services/seo/seo-pricing-and-packages/
+enterprise seo agency → /services/seo/enterprise-seo-agency/
+ai seo agency → /services/seo/ai-seo-agency/
+technical seo services → /services/seo/technical-seo-services/
+b2b seo agency → /services/seo/b2b-seo-agency/
+wordpress seo services → /services/seo/wordpress-seo-services/
+keyword research services → /services/seo/keyword-research-services/
+seo audit services → /services/seo/seo-audit-services/
+white label seo → /services/seo/white-label-seo/
+international seo service → /services/seo/international-seo-service/
+seo tools → /blog/seo-tools/
+robots txt generator → /resources/tools/robots-txt-generator/
+sitemap generator → /resources/tools/sitemap-generator/
+broken link checker → /resources/tools/broken-link-checker/",145,Get a free SEO proposal (form above the fold + sticky CTA),"'seo services': 2 'best agencies' lists, 2 agency/service pages, 1 guides/articles",,Not started
+CRO-C01,1,P1 – High,Conversion Rate Optimization,CRO Services,Core Page,Pillar hub (service),/services/conversion-rate-optimization/,/,Conversion Rate Optimization Services,Conversion Rate Optimization Services | Dazzlit,"Conversion Rate Optimization Services from Dazzlit: data-driven CRO built to grow traffic, leads and revenue. See results and get a free proposal.",cro agency,conversion rate optimization; conversion rate optimization services; conversion rate optimization agency; conversion rate optimisation; cro services; conversion optimization services; conversion optimization agency; website conversion optimization,2900,37,55940,34,Informational,BOFU – hire / buy,"2,000–2,800",Service + FAQPage + BreadcrumbList,"H2 1. Conversion Rate Optimization Services that drive measurable growth
+H2 2. What's included in our CRO services: B2B Conversion Rate Optimization Services; Conversion Rate Optimization Pricing & Packages; Landing Page Optimization Services; UX Audit; Conversion Funnel Optimization Services; eCommerce Conversion Rate Optimization Services; Conversion Rate Optimization for Small Business
+H2 3. Our CRO process (audit → strategy → execution → reporting)
+H2 4. CRO for your industry
+H2 5. Results & case studies
+H2 6. CRO pricing & packages
+H2 7. Why choose Dazzlit
+H2 8. FAQs
+H2 9. CTA: Get a free proposal","How much does CRO cost?
+How long does CRO take to show results?
+How do you report on CRO performance?","Topic entities: conversion rate, A/B testing, multivariate testing, heatmaps, session recordings, user research, hypothesis, statistical significance, landing pages, funnel drop-off, CTA, form optimization, page speed, GA4 events
+Page-specific terms: conversion rate, rate optimization, conversion optimization, ecommerce conversion, website conversion","ecommerce conversion rate optimization → /services/conversion-rate-optimization/ecommerce-conversion-rate-optimization/
+landing page optimization → /services/conversion-rate-optimization/landing-page-optimization/
+ux audit → /services/conversion-rate-optimization/ux-audit/
+conversion funnel optimization → /services/conversion-rate-optimization/conversion-funnel-optimization/
+b2b conversion rate optimization → /services/conversion-rate-optimization/b2b-conversion-rate-optimization/
+conversion rate optimization pricing → /services/conversion-rate-optimization/conversion-rate-optimization-pricing-and-packages/
+ab testing → /resources/guides/ab-testing/
+web design company → /services/web-design-development/
+ppc agency → /services/ppc-management/
+ecommerce marketing agency → /services/ecommerce-marketing/
+conversion rate optimization mistakes → /blog/conversion-rate-optimization-mistakes/
+why is conversion rate optimization important → /blog/why-is-conversion-rate-optimization-important/
+how to improve conversion rate optimization → /blog/how-to-improve-conversion-rate-optimization/
+where to start on conversion rate optimization → /blog/where-to-start-on-conversion-rate-optimization/
+how conversion rate optimization works → /blog/how-conversion-rate-optimization-works/
+conversion rate optimization metrics → /blog/conversion-rate-optimization-metrics/
+conversion rate optimization trends → /blog/conversion-rate-optimization-trends/
+conversion rate optimization vs a/b testing → /blog/conversion-rate-optimization-vs-ab-testing/
+how to choose a conversion rate optimization agency → /blog/how-to-choose-a-conversion-rate-optimization-agency/
+conversion rate optimization for small business → /services/conversion-rate-optimization/conversion-rate-optimization-for-small-business/",40,Get a free CRO proposal (form above the fold + sticky CTA),Not checked (P2/P3 or new page),,Not started
+PPC-C01,1,P1 – High,PPC / Paid Advertising,PPC Management,Core Page,Pillar hub (service),/services/ppc-management/,/,PPC Management Services,PPC Management Services | Dazzlit,"PPC Management Services from Dazzlit: data-driven PPC built to grow traffic, leads and revenue. See results and get a free proposal.",ppc agency,ppc management; ppc services; ppc management services; ppc company; ppc marketing agency; ppc management agency; ppc management company; ppc advertising agency,18100,30,106200,37,Informational,BOFU – hire / buy,"2,000–2,800",Service + FAQPage + BreadcrumbList,"H2 1. PPC Management Services that drive measurable growth
+H2 2. What's included in our PPC services: PPC Management for Law Firms; White Label PPC Agency; B2B PPC Agency; PPC Management for Dentists; PPC Management Pricing & Packages; PPC Management for SaaS Companies; PPC Management for Home Services & Contractors; Google Ads Agency
+H2 3. Our PPC process (audit → strategy → execution → reporting)
+H2 4. PPC for your industry
+H2 5. Results & case studies
+H2 6. PPC pricing & packages
+H2 7. Why choose Dazzlit
+H2 8. FAQs
+H2 9. CTA: Get a free proposal","How much does PPC cost?
+How long does PPC take to show results?
+How do you report on PPC performance?","Topic entities: Google Ads, Microsoft Ads, Quality Score, CPC, CTR, ROAS, Performance Max, match types, negative keywords, ad extensions (assets), bidding strategies, conversion tracking, landing page experience, remarketing
+Page-specific terms: ppc ad, ppc campaign, pay per, per click, ppc specialist","google ads agency → /services/ppc-management/google-ads-agency/
+google local services ads → /services/ppc-management/google-local-services-ads/
+sem agency → /services/ppc-management/sem-agency/
+programmatic advertising agency → /services/ppc-management/programmatic-advertising-agency/
+ppc for lawyers → /services/ppc-management/ppc-management-for-law-firms/
+white label ppc agency → /services/ppc-management/white-label-ppc-agency/
+b2b ppc agency → /services/ppc-management/b2b-ppc-agency/
+google ads audit → /services/ppc-management/google-ads-audit/
+dental ppc → /services/ppc-management/ppc-management-for-dentists/
+google ads pricing → /services/ppc-management/ppc-management-pricing-and-packages/
+saas ppc agency → /services/ppc-management/ppc-management-for-saas-companies/
+google ads for small business → /services/ppc-management/google-ads-for-small-business/
+ppc checklist → /resources/checklists/ppc-checklist/
+ppc examples → /resources/examples/ppc-examples/
+ppc mistakes → /blog/ppc-mistakes/
+how to choose a ppc agency → /blog/how-to-choose-a-ppc-agency/
+cpm calculator → /resources/tools/cpm-calculator/
+cpc calculator → /resources/tools/cpc-calculator/",118,Get a free PPC proposal (form above the fold + sticky CTA),"'ppc agency': 3 agency/service pages, 2 'best agencies' lists",,Not started
+SMM-C01,1,P1 – High,Social Media Marketing,SMM Services,Core Page,Pillar hub (service),/services/social-media-marketing/,/,Social Media Marketing Services,Social Media Marketing Services | Dazzlit,"Social Media Marketing Services from Dazzlit: data-driven social media marketing built to grow traffic, leads and revenue. See results and get a free…",social media management,social media marketing agency; social media marketing services; social media marketing companies; social media management services; social media marketing company; social media management agency; social media management company; social media marketing service,27100,33,125680,40,Commercial,BOFU – hire / buy,"2,000–2,800",Service + FAQPage + BreadcrumbList,"H2 1. Social Media Marketing Services that drive measurable growth
+H2 2. What's included in our social media marketing services: Social Media Marketing for Small Business Services; Social Media Marketing Pricing & Packages; B2B Social Media Agency; Social Media Marketing for Law Firms; Social Media Marketing for Healthcare & Medical Practices; Social Media Marketing for Real Estate; Social Media Marketing for Dentists; Social Media Marketing for Home Services & Contractors
+H2 3. Our social media marketing process (audit → strategy → execution → reporting)
+H2 4. Social Media Marketing for your industry
+H2 5. Results & case studies
+H2 6. Social Media Marketing pricing & packages
+H2 7. Why choose Dazzlit
+H2 8. FAQs
+H2 9. CTA: Get a free proposal","How much does social media marketing cost?
+How long does social media marketing take to show results?
+How do you report on social media marketing performance?","Topic entities: content calendar, engagement rate, reach, impressions, social listening, community management, influencers, UGC, Reels/short-form video, algorithm, hashtags, brand voice, social analytics, platforms (Instagram, TikTok, LinkedIn, Facebook, X)
+Page-specific terms: media manager, content creation, buffer social, media video, video production","social media manager → /services/social-media-marketing/social-media-manager/
+social media marketing for small business → /services/social-media-marketing/social-media-marketing-for-small-business/
+influencer marketing agency → /services/social-media-marketing/influencer-marketing-agency/
+social media management pricing → /services/social-media-marketing/social-media-marketing-pricing-and-packages/
+b2b social media agency → /services/social-media-marketing/b2b-social-media-agency/
+social media audit → /services/social-media-marketing/social-media-audit/
+linkedin marketing agency → /services/social-media-marketing/linkedin-marketing-agency/
+tiktok marketing services → /services/social-media-marketing/tiktok-marketing-services/
+crypto youtube influencer marketing agency → /services/social-media-marketing/social-media-marketing-for-financial-services/
+social media marketing for law firms → /services/social-media-marketing/social-media-marketing-for-law-firms/
+healthcare social media marketing → /services/social-media-marketing/social-media-marketing-for-healthcare-and-medical-practices/
+real estate social media marketing → /services/social-media-marketing/social-media-marketing-for-real-estate/
+social media and advertising → /blog/social-media-and-advertising/
+marketing through social media → /blog/marketing-through-social-media/
+social media marketing updates → /blog/social-media-marketing-updates/
+social media manager software → /blog/social-media-manager-software/
+affiliate marketing for social media → /blog/affiliate-marketing-for-social-media/
+fb social media marketing → /blog/fb-social-media-marketing/
+social media content marketing → /blog/social-media-content-marketing/
+how much does social media marketing cost → /blog/how-much-does-social-media-marketing-cost/
+social media marketing mistakes → /blog/social-media-marketing-mistakes/
+social media marketing tips → /blog/social-media-marketing-tips/
+how to manage multiple social media accounts → /blog/how-to-manage-multiple-social-media-accounts/
+social media marketing techniques → /blog/social-media-marketing-techniques/
+social media marketing trends 2026 → /blog/social-media-marketing-trends-2026/
+social media marketing ideas → /blog/social-media-marketing-ideas/
+how to market on social media → /blog/how-to-market-on-social-media/
+how effective is social media marketing → /blog/how-effective-is-social-media-marketing/
+what is a social media marketing agency → /blog/what-is-a-social-media-marketing-agency/
+which social media platform is best for marketing → /blog/which-social-media-platform-is-best-for-marketing/
+social media marketing vs social media advertising → /blog/social-media-marketing-vs-social-media-advertising/
+bio generator → /resources/tools/bio-generator/",99,Get a free social media marketing proposal (form above the fold + sticky CTA),Not checked (P2/P3 or new page),,Not started
+SMA-C01,1,P1 – High,Social Media Advertising,Paid Social Services,Core Page,Pillar hub (service),/services/social-media-advertising/,/,Social Media Advertising Services,Social Media Advertising Services | Dazzlit,"Social Media Advertising Services from Dazzlit: data-driven paid social built to grow traffic, leads and revenue. See results and get a free proposal.",paid social agency,social media advertising agency; social media advertising services; paid social media agency; social media advertising company; paid social advertising agency; paid social media services; paid social marketing agency; social media advertising firms,1900,16,14370,35,Commercial,BOFU – hire / buy,"2,000–2,800",Service + FAQPage + BreadcrumbList,"H2 1. Social Media Advertising Services that drive measurable growth
+H2 2. What's included in our paid social services: Social Media Advertising for Small Business Services; Social Media Advertising Pricing & Packages; Facebook Ads Agency; LinkedIn Ads Services
+H2 3. Our paid social process (audit → strategy → execution → reporting)
+H2 4. Paid Social for your industry
+H2 5. Results & case studies
+H2 6. Paid Social pricing & packages
+H2 7. Why choose Dazzlit
+H2 8. FAQs
+H2 9. CTA: Get a free proposal","How much does paid social cost?
+How long does paid social take to show results?
+How do you report on paid social performance?","Topic entities: Meta Ads Manager, Pixel & Conversions API, audiences (lookalike, custom), creative testing, CPM, CPA, ROAS, ad formats, campaign objectives, frequency, attribution window, TikTok Ads, LinkedIn Campaign Manager
+Page-specific terms: social media, media ad, social ad","facebook ads agency → /services/social-media-advertising/facebook-ads-agency/
+linkedin ads → /services/social-media-advertising/linkedin-ads/
+social media advertising for small business → /services/social-media-advertising/social-media-advertising-for-small-business/
+social media advertising packages → /services/social-media-advertising/social-media-advertising-pricing-and-packages/
+facebook advertising → /resources/guides/facebook-advertising/
+social media management → /services/social-media-marketing/
+ppc agency → /services/ppc-management/
+video production → /services/media-production/
+cro agency → /services/conversion-rate-optimization/
+organic vs paid social media → /blog/organic-vs-paid-social-media/
+paid social strategy → /blog/paid-social-strategy/
+advantages of social media advertising → /blog/advantages-of-social-media-advertising/
+managed social media advertising → /blog/managed-social-media-advertising/
+social media advertising business → /blog/social-media-advertising-business/
+social media advertising effectiveness → /blog/social-media-advertising-effectiveness/
+social media advertising trends → /blog/social-media-advertising-trends/
+targeted advertising on social media → /blog/targeted-advertising-on-social-media/
+meta ads → /blog/meta-ads/
+social media advertising mistakes → /blog/social-media-advertising-mistakes/
+social media advertising checklist → /resources/checklists/social-media-advertising-checklist/
+how to choose a social media advertising agency → /blog/how-to-choose-a-social-media-advertising-agency/",26,Get a free paid social proposal (form above the fold + sticky CTA),"'paid social agency': 2 agency/service pages, 1 guides/articles, 1 'best agencies' lists, 1 Reddit/YouTube/Quora",,Not started
+LB-C01,1,P1 – High,Link Building,Link Building Services,Core Page,Pillar hub (service),/services/link-building/,/,Link Building Services,Link Building Services | Dazzlit,"Link Building Services from Dazzlit: data-driven link building built to grow traffic, leads and revenue. See results and get a free proposal.",link building services,link building agency; link building service; seo link building services; link building company; link building companies; link building seo company; best link building services; manual link building service,8100,17,29570,37,Informational,BOFU – hire / buy,"2,000–2,800",Service + FAQPage + BreadcrumbList,"H2 1. Link Building Services that drive measurable growth
+H2 2. What's included in our link building services: White Label Link Building Services; Link Building Pricing & Packages; Link Building for SaaS Companies; Link Building for Law Firms; Guest Post Service; Backlink Audit; Niche Edits Services
+H2 3. Our link building process (audit → strategy → execution → reporting)
+H2 4. Link Building for your industry
+H2 5. Results & case studies
+H2 6. Link Building pricing & packages
+H2 7. Why choose Dazzlit
+H2 8. FAQs
+H2 9. CTA: Get a free proposal","How much does link building cost?
+How long does link building take to show results?
+How do you report on link building performance?","Topic entities: backlinks, referring domains, anchor text, dofollow/nofollow, domain authority, link equity, digital PR, guest posts, broken link building, outreach, toxic links, disavow, Google link spam policies
+Page-specific terms: seo link, create seo, manual link, outsource link, effective link","backlink audit → /services/link-building/backlink-audit/
+white label link building services → /services/link-building/white-label-link-building-services/
+link building packages → /services/link-building/link-building-pricing-and-packages/
+niche edits → /services/link-building/niche-edits/
+saas link building agency → /services/link-building/link-building-for-saas-companies/
+guest post service → /services/link-building/guest-post-service/
+link building for lawyers → /services/link-building/link-building-for-law-firms/
+backlinks → /resources/guides/backlinks/
+seo services → /services/seo/
+digital pr agency → /services/digital-pr/
+content marketing agency → /services/content-marketing/
+local seo services → /services/local-seo/
+resource page link building → /blog/resource-page-link-building/
+how to build links to your website → /blog/how-to-build-links-to-your-website/
+what is link building in search engine optimization → /blog/what-is-link-building-in-search-engine-optimization/
+link building vs digital pr → /blog/link-building-vs-digital-pr/
+how to choose a link building agency → /blog/how-to-choose-a-link-building-agency/
+domain authority checker → /resources/tools/domain-authority-checker/
+anchor text checker → /resources/tools/anchor-text-checker/",34,Get a free link building proposal (form above the fold + sticky CTA),"'link building services': 2 agency/service pages, 2 'best agencies' lists, 1 Reddit/YouTube/Quora",,Not started
+WEB-C01,1,P1 – High,Web Design & Development,Web Design Services,Core Page,Pillar hub (service),/services/web-design-development/,/,Web Design & Development Services,Web Design & Development Services | Dazzlit,"Web Design & Development Services from Dazzlit: data-driven web design built to grow traffic, leads and revenue. See results and get a free proposal.",web design company,web design agency; web designer; web design services; website design company; website design services; website design agency; web design near me; web designer near me,33100,38,246780,50,Commercial,BOFU – hire / buy,"2,000–2,800",Service + FAQPage + BreadcrumbList,"H2 1. Web Design & Development Services that drive measurable growth
+H2 2. What's included in our web design services: Web Design for Law Firms; Web Design Services for Small Business; B2B Web Design Agency; Web Development; Website Developers for Small Business Services; WordPress Development; Shopify Development Services; eCommerce Website Development
+H2 3. Our web design process (audit → strategy → execution → reporting)
+H2 4. Web Design for your industry
+H2 5. Results & case studies
+H2 6. Web Design pricing & packages
+H2 7. Why choose Dazzlit
+H2 8. FAQs
+H2 9. CTA: Get a free proposal","How much does web design cost?
+How long does web design take to show results?
+How do you report on web design performance?","Topic entities: UX/UI, responsive design, mobile-first, Core Web Vitals, accessibility (WCAG), information architecture, CMS (WordPress, Shopify), wireframes, prototypes, hosting, site speed, conversion-centred design, technical SEO
+Page-specific terms: website design, custom web, affordable web, design seo, web page","web development → /services/web-design-development/web-development/
+ecommerce website development → /services/web-design-development/ecommerce-website-development/
+shopify development services → /services/web-design-development/shopify-development-services/
+wordpress development → /services/web-design-development/wordpress-development/
+law firm web design → /services/web-design-development/web-design-for-law-firms/
+web design services for small business → /services/web-design-development/web-design-services-for-small-business/
+landing page builder → /services/web-design-development/landing-page-builder/
+ux design agency → /services/web-design-development/ux-design-agency/
+b2b web design agency → /services/web-design-development/b2b-web-design-agency/
+website speed optimization → /services/web-design-development/website-speed-optimization/
+website developers for small business → /services/web-design-development/website-developers-for-small-business/
+ui ux design → /resources/guides/ui-ux-design/
+web page design → /resources/guides/web-page-design/
+what is seo website design → /resources/guides/what-is-seo-website-design/
+web design and seo → /blog/web-design-and-seo/
+web design software → /blog/web-design-software/
+how much does website design cost → /blog/how-much-does-website-design-cost/
+web design mistakes → /blog/web-design-mistakes/
+web design metrics → /blog/web-design-metrics/
+sitemap template → /resources/templates/sitemap-template/
+favicon generator → /resources/tools/favicon-generator/",91,Get a free web design proposal (form above the fold + sticky CTA),"'web design company': 2 guides/articles, 2 'best agencies' lists, 1 agency/service pages",,Not started
+MED-C01,1,P1 – High,Media Production,Video Production,Core Page,Pillar hub (service),/services/media-production/,/,Video & Media Production Services,Video & Media Production Services | Dazzlit,"Video & Media Production Services from Dazzlit: data-driven video production built to grow traffic, leads and revenue. See results and get a free proposal.",video production,video production company; video production services; video production agency; corporate video production; video production video production; video marketing agency; video production near me; video production companies,18100,22,81800,37,Commercial,BOFU – hire / buy,"2,000–2,800",Service + FAQPage + BreadcrumbList,"H2 1. Video & Media Production Services that drive measurable growth
+H2 2. What's included in our video production services: Video Production for Events; Video Production for Healthcare & Medical Practices; B2B Video Production; Video & Media Production Pricing & Packages; Video Production for Small Business; Explainer Video Production; Commercial Video Production; Podcast Production
+H2 3. Our video production process (audit → strategy → execution → reporting)
+H2 4. Video Production for your industry
+H2 5. Results & case studies
+H2 6. Video Production pricing & packages
+H2 7. Why choose Dazzlit
+H2 8. FAQs
+H2 9. CTA: Get a free proposal","How much does video production cost?
+How long does video production take to show results?
+How do you report on video production performance?","Topic entities: pre-production, scripting, storyboard, shoot, post-production, editing, motion graphics, animation, colour grading, sound design, formats & aspect ratios, video SEO, distribution, UGC
+Page-specific terms: corporate video, production studio, professional video","graphic design services → /services/media-production/graphic-design-services/
+commercial video production → /services/media-production/commercial-video-production/
+explainer video production → /services/media-production/explainer-video-production/
+event video production → /services/media-production/video-production-for-events/
+video editing services → /services/media-production/video-editing-services/
+b2b branding agency → /services/media-production/b2b-branding-agency/
+podcast production → /services/media-production/podcast-production/
+healthcare video production → /services/media-production/video-production-for-healthcare-and-medical-practices/
+b2b video production → /services/media-production/b2b-video-production/
+video production pricing → /services/media-production/video-and-media-production-pricing-and-packages/
+video production for small business → /services/media-production/video-production-for-small-business/
+motion graphics → /resources/guides/motion-graphics/
+video production strategy → /blog/video-production-strategy/
+video production examples → /resources/examples/video-production-examples/
+video production mistakes → /blog/video-production-mistakes/
+video production metrics → /blog/video-production-metrics/
+video production trends → /blog/video-production-trends/
+video production vs animation → /blog/video-production-vs-animation/
+how to choose a video production agency → /blog/how-to-choose-a-video-production-agency/
+storyboard template → /resources/templates/storyboard-template/
+shot list template → /resources/templates/shot-list-template/
+youtube statistics → /resources/statistics/youtube-statistics/",39,Get a free video production proposal (form above the fold + sticky CTA),"'video production': 3 guides/articles, 1 agency/service pages, 1 Reddit/YouTube/Quora","SERP is informational: build this page as a service page with guide-depth content (definitions, process, examples, FAQs) – thin sales copy will not rank.",Not started
+CM-C01,1,P1 – High,Content Marketing,Content Marketing Services,Core Page,Pillar hub (service),/services/content-marketing/,/,Content Marketing Services,Content Marketing Services | Dazzlit,"Content Marketing Services from Dazzlit: data-driven content marketing built to grow traffic, leads and revenue. See results and get a free proposal.",content marketing agency,content marketing services; content marketing agencies; content marketing company; content marketing service; content marketing companies; service content marketing; content marketing solutions; content marketing specialist,12100,20,45120,33,Commercial,BOFU – hire / buy,"2,000–2,800",Service + FAQPage + BreadcrumbList,"H2 1. Content Marketing Services that drive measurable growth
+H2 2. What's included in our content marketing services: Content Marketing for SaaS Companies; Content Marketing for Healthcare & Medical Practices; Content Marketing for Law Firms; Content Marketing for Startups; Content Marketing Pricing & Packages; Content Strategy Services; Copywriting Services; SEO Content Writing Services
+H2 3. Our content marketing process (audit → strategy → execution → reporting)
+H2 4. Content Marketing for your industry
+H2 5. Results & case studies
+H2 6. Content Marketing pricing & packages
+H2 7. Why choose Dazzlit
+H2 8. FAQs
+H2 9. CTA: Get a free proposal","How much does content marketing cost?
+How long does content marketing take to show results?
+How do you report on content marketing performance?","Topic entities: content strategy, editorial calendar, pillar pages, topic clusters, search intent, buyer journey, content distribution, repurposing, E-E-A-T, content audit, conversion content, thought leadership, content ROI
+Page-specific terms: seo content, video content, content creation","seo content writing services → /services/content-marketing/seo-content-writing-services/
+copywriting services → /services/content-marketing/copywriting-services/
+b2b content marketing → /services/content-marketing/b2b-content-marketing/
+content audit → /services/content-marketing/content-audit/
+content strategy services → /services/content-marketing/content-strategy-services/
+saas content marketing agency → /services/content-marketing/content-marketing-for-saas-companies/
+healthcare content marketing → /services/content-marketing/content-marketing-for-healthcare-and-medical-practices/
+content marketing for law firms → /services/content-marketing/content-marketing-for-law-firms/
+content marketing for startups → /services/content-marketing/content-marketing-for-startups/
+content marketing pricing → /services/content-marketing/content-marketing-pricing-and-packages/
+content marketing → /resources/guides/content-marketing/
+seo services → /services/seo/
+how to choose a content marketing agency → /blog/how-to-choose-a-content-marketing-agency/
+blog post template → /resources/templates/blog-post-template/
+headline analyzer → /resources/tools/headline-analyzer/
+readability checker → /resources/tools/readability-checker/
+pillar page examples → /resources/examples/pillar-page-examples/",118,Get a free content marketing proposal (form above the fold + sticky CTA),"'content marketing agency': 3 'best agencies' lists, 2 agency/service pages",,Not started
+ECM-C01,1,P1 – High,eCommerce Management,eCommerce Store Management,Core Page,Pillar hub (service),/services/ecommerce-management/,/,eCommerce Management Services,eCommerce Management Services | Dazzlit,"eCommerce Management Services from Dazzlit: data-driven eCommerce management built to grow traffic, leads and revenue. See results and get a free proposal.",ecommerce management,ecommerce management services; shopify store management; ecommerce store management,720,4,1300,14,Informational,BOFU – hire / buy,"2,000–2,800",Service + FAQPage + BreadcrumbList,"H2 1. eCommerce Management Services that drive measurable growth
+H2 2. What's included in our eCommerce management services: eCommerce Catalog Management; Inventory Management; Amazon Account Management; eCommerce Agency
+H2 3. Our eCommerce management process (audit → strategy → execution → reporting)
+H2 4. eCommerce Management for your industry
+H2 5. Results & case studies
+H2 6. eCommerce Management pricing & packages
+H2 7. Why choose Dazzlit
+H2 8. FAQs
+H2 9. CTA: Get a free proposal","How much does eCommerce management cost?
+How long does eCommerce management take to show results?
+How do you report on eCommerce management performance?","Topic entities: product catalog, product data/PIM, inventory, order management, fulfilment/3PL, returns, platform (Shopify, WooCommerce, BigCommerce), merchandising, pricing, site search, checkout, analytics
+Page-specific terms: shopify store, ecommerce store","inventory management → /services/ecommerce-management/inventory-management/
+ecommerce agency → /services/ecommerce-management/ecommerce-agency/
+ecommerce catalog management → /services/ecommerce-management/ecommerce-catalog-management/
+amazon account management → /services/ecommerce-management/amazon-account-management/
+shopify stores → /resources/guides/shopify-stores/
+ecommerce marketing agency → /services/ecommerce-marketing/
+amazon marketing agency → /services/marketplace-marketing/
+web design company → /services/web-design-development/
+ecommerce management software → /blog/ecommerce-management-software/
+what is ecommerce management → /resources/guides/what-is-ecommerce-management/
+ecommerce management strategy → /blog/ecommerce-management-strategy/
+ecommerce management pricing → /blog/ecommerce-management-pricing/
+ecommerce management mistakes → /blog/ecommerce-management-mistakes/
+ecommerce management metrics → /blog/ecommerce-management-metrics/
+ecommerce management trends → /blog/ecommerce-management-trends/
+how to choose an ecommerce management agency → /blog/how-to-choose-an-ecommerce-management-agency/
+dropshipping profit calculator → /resources/tools/dropshipping-profit-calculator/",33,Get a free eCommerce management proposal (form above the fold + sticky CTA),"'ecommerce management': 2 guides/articles, 1 Reddit/YouTube/Quora, 1 agency/service pages, 1 job listings",,Not started
+ECMK-C01,1,P1 – High,eCommerce Marketing,eCommerce Marketing Services,Core Page,Pillar hub (service),/services/ecommerce-marketing/,/,eCommerce Marketing Services,eCommerce Marketing Services | Dazzlit,"eCommerce Marketing Services from Dazzlit: data-driven eCommerce marketing built to grow traffic, leads and revenue. See results and get a free proposal.",ecommerce marketing agency,ecommerce digital marketing agency; ecommerce marketing services; ecommerce marketing company; ecommerce marketing agencies; ecommerce digital marketing services; digital marketing agency for ecommerce; best ecommerce marketing agency; digital marketing agency ecommerce,4400,13,13330,24,Commercial,BOFU – hire / buy,"2,000–2,800",Service + FAQPage + BreadcrumbList,"H2 1. eCommerce Marketing Services that drive measurable growth
+H2 2. What's included in our eCommerce marketing services: Shopify Marketing Agency; eCommerce Email Marketing Agency; eCommerce PPC Agency; eCommerce Content Marketing Agency
+H2 3. Our eCommerce marketing process (audit → strategy → execution → reporting)
+H2 4. eCommerce Marketing for your industry
+H2 5. Results & case studies
+H2 6. eCommerce Marketing pricing & packages
+H2 7. Why choose Dazzlit
+H2 8. FAQs
+H2 9. CTA: Get a free proposal","How much does eCommerce marketing cost?
+How long does eCommerce marketing take to show results?
+How do you report on eCommerce marketing performance?","Topic entities: AOV, conversion rate, CAC, LTV, retention, email & SMS flows, abandoned cart, Google Shopping, Performance Max, product feeds, reviews & UGC, loyalty programs, DTC","ecommerce ppc agency → /services/ecommerce-marketing/ecommerce-ppc-agency/
+ecommerce email marketing agency → /services/ecommerce-marketing/ecommerce-email-marketing-agency/
+ecommerce content marketing agency → /services/ecommerce-marketing/ecommerce-content-marketing-agency/
+shopify marketing agency → /services/ecommerce-marketing/shopify-marketing-agency/
+sms marketing → /resources/guides/sms-marketing/
+ecommerce management → /services/ecommerce-management/
+amazon marketing agency → /services/marketplace-marketing/
+ppc agency → /services/ppc-management/
+marketing automation services → /services/marketing-automation/
+ecommerce marketing pricing → /blog/ecommerce-marketing-pricing/
+ecommerce marketing examples → /resources/examples/ecommerce-marketing-examples/
+ecommerce marketing mistakes → /blog/ecommerce-marketing-mistakes/
+ecommerce marketing metrics → /blog/ecommerce-marketing-metrics/
+ecommerce marketing checklist → /resources/checklists/ecommerce-marketing-checklist/
+ecommerce marketing vs ecommerce seo → /blog/ecommerce-marketing-vs-ecommerce-seo/
+how to choose an ecommerce marketing agency → /blog/how-to-choose-an-ecommerce-marketing-agency/",37,Get a free eCommerce marketing proposal (form above the fold + sticky CTA),"'ecommerce marketing agency': 2 agency/service pages, 1 'best agencies' lists, 1 Reddit/YouTube/Quora, 1 guides/articles",,Not started
+MKT-C01,1,P1 – High,Online Marketplace Marketing,Amazon Marketing,Core Page,Pillar hub (service),/services/marketplace-marketing/,/,Amazon & Marketplace Marketing Services,Amazon & Marketplace Marketing Services | Dazzlit,"Amazon & Marketplace Marketing Services from Dazzlit: data-driven Amazon marketing built to grow traffic, leads and revenue. See results and get a free…",amazon marketing agency,amazon agency; amazon marketing services; amazon marketing company; amazon marketing service,2400,5,7160,31,Informational,BOFU – hire / buy,"2,000–2,800",Service + FAQPage + BreadcrumbList,"H2 1. Amazon & Marketplace Marketing Services that drive measurable growth
+H2 2. What's included in our Amazon marketing services: Amazon PPC Management; Amazon Listing Optimization Services; TikTok Shop Agency; Online Marketplace to Sell Services; Amazon Marketing for Small Business
+H2 3. Our Amazon marketing process (audit → strategy → execution → reporting)
+H2 4. Amazon Marketing for your industry
+H2 5. Results & case studies
+H2 6. Amazon Marketing pricing & packages
+H2 7. Why choose Dazzlit
+H2 8. FAQs
+H2 9. CTA: Get a free proposal","How much does Amazon marketing cost?
+How long does Amazon marketing take to show results?
+How do you report on Amazon marketing performance?","Topic entities: Amazon Seller Central, Sponsored Products/Brands/Display, ACoS/TACoS, Buy Box, A+ Content, listing optimization, keywords & indexing, reviews, FBA, Walmart Marketplace, TikTok Shop, marketplace fees","amazon ppc management → /services/marketplace-marketing/amazon-ppc-management/
+amazon listing optimization → /services/marketplace-marketing/amazon-listing-optimization/
+tiktok shop agency → /services/marketplace-marketing/tiktok-shop-agency/
+online marketplace to sell → /services/marketplace-marketing/online-marketplace-to-sell/
+amazon ppc → /resources/guides/amazon-ppc/
+ecommerce marketing agency → /services/ecommerce-marketing/
+ecommerce management → /services/ecommerce-management/
+review management → /services/review-generation/
+amazon marketing strategy → /blog/amazon-marketing-strategy/
+best amazon marketing tools → /blog/best-amazon-marketing-tools/
+amazon marketing examples → /resources/examples/amazon-marketing-examples/
+amazon marketing mistakes → /blog/amazon-marketing-mistakes/
+amazon marketing metrics → /blog/amazon-marketing-metrics/
+amazon marketing trends → /blog/amazon-marketing-trends/
+amazon marketing checklist → /resources/checklists/amazon-marketing-checklist/
+amazon marketing vs walmart marketplace → /blog/amazon-marketing-vs-walmart-marketplace/
+how to choose an amazon marketing agency → /blog/how-to-choose-an-amazon-marketing-agency/
+amazon marketing for small business → /services/marketplace-marketing/amazon-marketing-for-small-business/
+ebay fee calculator → /resources/tools/ebay-fee-calculator/",39,Get a free Amazon marketing proposal (form above the fold + sticky CTA),"'amazon marketing agency': 2 agency/service pages, 1 Reddit/YouTube/Quora, 1 brand-owned pages, 1 'best agencies' lists",,Not started
+ORM-C01,1,P1 – High,Reputation Management,Online Reputation Management,Core Page,Pillar hub (service),/services/reputation-management/,/,Online Reputation Management Services,Online Reputation Management Services | Dazzlit,"Online Reputation Management Services from Dazzlit: data-driven reputation management built to grow traffic, leads and revenue. See results and get a free…",online reputation management,reputation management; reputation management services; online reputation management services; reputation management agency; seo reputation management; reputation management company; reputation management companies; best reputation management companies,9900,38,80860,38,Informational,BOFU – hire / buy,"2,000–2,800",Service + FAQPage + BreadcrumbList,"H2 1. Online Reputation Management Services that drive measurable growth
+H2 2. What's included in our reputation management services: White Label Reputation Management; Reputation Management for Healthcare & Medical Practices; Reputation Management for Dentists; Remove Negative Reviews Services; Personal Reputation Management; Brand Reputation Management; Social Media Crisis Management; Business Reputation Management
+H2 3. Our reputation management process (audit → strategy → execution → reporting)
+H2 4. Reputation Management for your industry
+H2 5. Results & case studies
+H2 6. Reputation Management pricing & packages
+H2 7. Why choose Dazzlit
+H2 8. FAQs
+H2 9. CTA: Get a free proposal","How much does reputation management cost?
+How long does reputation management take to show results?
+How do you report on reputation management performance?","Topic entities: online reputation, search results (SERP) management, review sites, negative content suppression, content removal, brand monitoring, social listening, crisis communication, sentiment, knowledge panel, executive reputation
+Page-specific terms: seo reputation, social media, media reputation, google reputation, line reputation","social media crisis management → /services/reputation-management/social-media-crisis-management/
+personal reputation management → /services/reputation-management/personal-reputation-management/
+business reputation management → /services/reputation-management/business-reputation-management/
+brand reputation management → /services/reputation-management/brand-reputation-management/
+white label reputation management → /services/reputation-management/white-label-reputation-management/
+healthcare reputation management → /services/reputation-management/reputation-management-for-healthcare-and-medical-practices/
+dental reputation management → /services/reputation-management/reputation-management-for-dentists/
+remove negative reviews → /services/reputation-management/remove-negative-reviews/
+reputation management for small business → /services/reputation-management/reputation-management-for-small-business/
+social listening → /resources/guides/social-listening/
+review management → /services/review-generation/
+digital pr agency → /services/digital-pr/
+how to manage your online reputation → /blog/how-to-manage-your-online-reputation/
+reputation management mistakes → /blog/reputation-management-mistakes/
+reputation management trends → /blog/reputation-management-trends/
+reputation management checklist → /resources/checklists/reputation-management-checklist/
+reputation management vs brand monitoring → /blog/reputation-management-vs-brand-monitoring/
+how to choose a reputation management agency → /blog/how-to-choose-a-reputation-management-agency/",27,Get a free reputation management proposal (form above the fold + sticky CTA),"'online reputation management': 3 guides/articles, 1 Reddit/YouTube/Quora, 1 agency/service pages","SERP is informational: build this page as a service page with guide-depth content (definitions, process, examples, FAQs) – thin sales copy will not rank.",Not started
+REV-C01,1,P1 – High,Reviews Generation,Review Generation Services,Core Page,Pillar hub (service),/services/review-generation/,/,Review Generation & Management Services,Review Generation & Management Services | Dazzlit,"Review Generation & Management Services from Dazzlit: data-driven review generation built to grow traffic, leads and revenue. See results and get a free…",review management,review management services; online review management; review management service; business review management; online review management services; review generation,4400,7,10590,38,Commercial,BOFU – hire / buy,"2,000–2,800",Service + FAQPage + BreadcrumbList,"H2 1. Review Generation & Management Services that drive measurable growth
+H2 2. What's included in our review generation services: Review Generation & Management Pricing & Packages; Google Review Link Services; Review Management for Small Business
+H2 3. Our review generation process (audit → strategy → execution → reporting)
+H2 4. Review Generation for your industry
+H2 5. Results & case studies
+H2 6. Review Generation pricing & packages
+H2 7. Why choose Dazzlit
+H2 8. FAQs
+H2 9. CTA: Get a free proposal","How much does review generation cost?
+How long does review generation take to show results?
+How do you report on review generation performance?","Topic entities: review requests, Google Business Profile reviews, star ratings, review velocity, review responses, Trustpilot/Yelp/G2, review policies (no incentives/fake reviews), testimonials, UGC, review schema
+Page-specific terms: review generation","google review link → /services/review-generation/google-review-link/
+review management pricing → /services/review-generation/review-generation-and-management-pricing-and-packages/
+user generated content → /resources/guides/user-generated-content/
+online reputation management → /services/reputation-management/
+local seo services → /services/local-seo/
+amazon marketing agency → /services/marketplace-marketing/
+review management examples → /resources/examples/review-management-examples/
+review management mistakes → /blog/review-management-mistakes/
+review management metrics → /blog/review-management-metrics/
+review management trends → /blog/review-management-trends/
+review management vs testimonials → /blog/review-management-vs-testimonials/
+how to choose a review management agency → /blog/how-to-choose-a-review-management-agency/
+review management for small business → /services/review-generation/review-management-for-small-business/
+nps calculator → /resources/tools/nps-calculator/",27,Get a free review generation proposal (form above the fold + sticky CTA),"'review management': 3 guides/articles, 1 brand-owned pages, 1 Reddit/YouTube/Quora","SERP is informational: build this page as a service page with guide-depth content (definitions, process, examples, FAQs) – thin sales copy will not rank.",Not started
+ASO-C01,1,P1 – High,App Store Optimization,ASO Services,Core Page,Pillar hub (service),/services/app-store-optimization/,/,App Store Optimization (ASO) Services,App Store Optimization (ASO) Services | Dazzlit,"App Store Optimization (ASO) Services from Dazzlit: data-driven ASO built to grow traffic, leads and revenue. See results and get a free proposal.",aso agency,app store optimization services; app store optimization agency; app store optimization company; aso services; app store optimization service; app store optimization agencies; app store optimization expert; app store optimization companies,390,11,3290,24,Informational,BOFU – hire / buy,"2,000–2,800",Service + FAQPage + BreadcrumbList,"H2 1. App Store Optimization (ASO) Services that drive measurable growth
+H2 2. What's included in our ASO services: App Store Optimization Pricing & Packages; Google Play Store Optimization Services; App Marketing Agency; App Store Optimization for Small Business
+H2 3. Our ASO process (audit → strategy → execution → reporting)
+H2 4. ASO for your industry
+H2 5. Results & case studies
+H2 6. ASO pricing & packages
+H2 7. Why choose Dazzlit
+H2 8. FAQs
+H2 9. CTA: Get a free proposal","How much does ASO cost?
+How long does ASO take to show results?
+How do you report on ASO performance?","Topic entities: App Store & Google Play, keyword field, title & subtitle, screenshots, preview video, ratings & reviews, conversion rate, install volume, localization, Apple Search Ads, A/B testing (product page optimization)
+Page-specific terms: store optimization, optimization expert","app marketing agency → /services/app-store-optimization/app-marketing-agency/
+google play store optimization → /services/app-store-optimization/google-play-store-optimization/
+app store optimization packages → /services/app-store-optimization/app-store-optimization-pricing-and-packages/
+apple search ads → /resources/guides/apple-search-ads/
+ppc agency → /services/ppc-management/
+ai marketing agency → /services/ai-services/
+review management → /services/review-generation/
+app store listing optimization → /blog/app-store-listing-optimization/
+app store optimization localization → /blog/app-store-optimization-localization/
+app store optimization moz → /blog/aso-tools/
+app store optimization trends → /blog/app-store-optimization-trends/
+app store optimization metrics → /blog/app-store-optimization-metrics/
+app store reviews → /blog/app-store-reviews/
+app store optimization mistakes → /blog/app-store-optimization-mistakes/
+app store optimization vs apple search ads → /blog/app-store-optimization-vs-apple-search-ads/
+how to choose an app store optimization agency → /blog/how-to-choose-an-app-store-optimization-agency/
+app store optimization for small business → /services/app-store-optimization/app-store-optimization-for-small-business/",22,Get a free ASO proposal (form above the fold + sticky CTA),"'aso agency': 2 guides/articles, 1 agency/service pages, 1 'best agencies' lists, 1 Reddit/YouTube/Quora",,Not started
+PR-C01,1,P1 – High,Digital PR,Digital PR Services,Core Page,Pillar hub (service),/services/digital-pr/,/,Digital PR Services,Digital PR Services | Dazzlit,"Digital PR Services from Dazzlit: data-driven digital PR built to grow traffic, leads and revenue. See results and get a free proposal.",digital pr agency,pr agency; public relations agency; digital pr services; pr agencies; digital pr company; top pr agencies; digital pr agencies; best pr agencies,3600,25,27900,34,Informational,BOFU – hire / buy,"2,000–2,800",Service + FAQPage + BreadcrumbList,"H2 1. Digital PR Services that drive measurable growth
+H2 2. What's included in our digital PR services: PR for Technology Companies; PR for Film & Entertainment; PR for Financial Services; B2B PR Agency; PR for Consumer Brands; PR for Healthcare & Medical Practices; Digital PR Pricing & Packages; Press Release Distribution Services
+H2 3. Our digital PR process (audit → strategy → execution → reporting)
+H2 4. Digital PR for your industry
+H2 5. Results & case studies
+H2 6. Digital PR pricing & packages
+H2 7. Why choose Dazzlit
+H2 8. FAQs
+H2 9. CTA: Get a free proposal","How much does digital PR cost?
+How long does digital PR take to show results?
+How do you report on digital PR performance?","Topic entities: earned media, journalists, media lists, press releases, newsjacking, data-led campaigns, brand mentions, authoritative backlinks, HARO-style requests, thought leadership, media coverage, share of voice
+Page-specific terms: public relation, crisi pr, creative pr, no contract","tech pr agency → /services/digital-pr/pr-for-technology-companies/
+press release distribution → /services/digital-pr/press-release-distribution/
+film pr agencies → /services/digital-pr/pr-for-film-and-entertainment/
+crypto pr agency → /services/digital-pr/pr-for-financial-services/
+b2b pr agency → /services/digital-pr/b2b-pr-agency/
+brand mentions → /services/digital-pr/brand-mentions/
+consumer pr agency → /services/digital-pr/pr-for-consumer-brands/
+healthcare pr agency → /services/digital-pr/pr-for-healthcare-and-medical-practices/
+no contract digital pr packages → /services/digital-pr/digital-pr-pricing-and-packages/
+press release → /resources/guides/press-release/
+link building services → /services/link-building/
+content marketing agency → /services/content-marketing/
+digital pr mistakes → /blog/digital-pr-mistakes/
+digital pr trends → /blog/digital-pr-trends/
+digital pr vs traditional pr → /blog/digital-pr-vs-traditional-pr/
+how to choose a digital pr agency → /blog/how-to-choose-a-digital-pr-agency/
+digital pr for small business → /services/digital-pr/digital-pr-for-small-business/",27,Get a free digital PR proposal (form above the fold + sticky CTA),"'digital pr agency': 3 agency/service pages, 1 Reddit/YouTube/Quora, 1 'best agencies' lists",,Not started
+LSEO-C01,1,P1 – High,Local SEO,Local SEO Services,Core Page,Pillar hub (service),/services/local-seo/,/,Local SEO Services,Local SEO Services | Dazzlit,"Local SEO Services from Dazzlit: data-driven local SEO built to grow traffic, leads and revenue. See results and get a free proposal.",local seo services,local seo company; local seo agency; local seo service; local seo audit; local seo expert; local seo companies; local seo solutions; local seo experts,27100,24,119100,39,Commercial,BOFU – hire / buy,"2,000–2,800",Service + FAQPage + BreadcrumbList,"H2 1. Local SEO Services that drive measurable growth
+H2 2. What's included in our local SEO services: Local SEO Pricing & Packages; White Label Local SEO Services; Local SEO Services for Small Business; Google Business Profile Optimization Services; Franchise SEO Company; SEO for Law Firms; SEO for Dentists; SEO for Healthcare & Medical Practices
+H2 3. Our local SEO process (audit → strategy → execution → reporting)
+H2 4. Local SEO for your industry
+H2 5. Results & case studies
+H2 6. Local SEO pricing & packages
+H2 7. Why choose Dazzlit
+H2 8. FAQs
+H2 9. CTA: Get a free proposal","How much does local SEO cost?
+How long does local SEO take to show results?
+How do you report on local SEO performance?","Topic entities: Google Business Profile, map pack, NAP consistency, local citations, local reviews, proximity/relevance/prominence, service areas, location pages, local schema, Bing Places, Apple Business Connect
+Page-specific terms: seo expert, seo audit, seo solution, seo optimization, seo specialist","seo for lawyers → /services/local-seo/seo-for-law-firms/
+seo for dentists → /services/local-seo/seo-for-dentists/
+healthcare seo services → /services/local-seo/seo-for-healthcare-and-medical-practices/
+seo for contractors → /services/local-seo/seo-for-home-services-and-contractors/
+local seo packages → /services/local-seo/local-seo-pricing-and-packages/
+white label local seo services → /services/local-seo/white-label-local-seo-services/
+seo for financial services → /services/local-seo/seo-for-financial-services/
+local seo services for small business → /services/local-seo/local-seo-services-for-small-business/
+google business profile optimization → /services/local-seo/google-business-profile-optimization/
+real estate seo services → /services/local-seo/seo-for-real-estate/
+seo for car dealerships → /services/local-seo/seo-for-car-dealerships/
+franchise seo company → /services/local-seo/franchise-seo-company/
+localized seo → /resources/guides/localized-seo/
+seo locale → /resources/guides/seo-locale/
+google profile business → /resources/guides/google-profile-business/
+local seo examples → /resources/examples/local-seo-examples/
+local seo keyword research → /blog/local-seo-keyword-research/
+local seo tips → /blog/local-seo-tips/
+how to improve local seo → /blog/how-to-improve-local-seo/
+local seo link building → /blog/local-seo-link-building/
+how much does local seo cost → /blog/how-much-does-local-seo-cost/
+how does local seo work → /blog/how-does-local-seo-work/
+how to get local seo clients → /blog/how-to-get-local-seo-clients/
+who is the best local seo company → /blog/who-is-the-best-local-seo-company/
+local seo mistakes → /blog/local-seo-mistakes/
+local seo trends → /blog/local-seo-trends/
+local seo vs organic seo → /blog/local-seo-vs-organic-seo/
+local seo metrics → /blog/local-seo-metrics/
+how to choose a local seo agency → /blog/how-to-choose-a-local-seo-agency/",73,Get a free local SEO proposal (form above the fold + sticky CTA),"'local seo services': 3 agency/service pages, 1 guides/articles, 1 'best agencies' lists",,Not started
+MA-C01,1,P1 – High,Marketing Automation,Marketing Automation Services,Core Page,Pillar hub (service),/services/marketing-automation/,/,Marketing Automation Services,Marketing Automation Services | Dazzlit,"Marketing Automation Services from Dazzlit: data-driven marketing automation built to grow traffic, leads and revenue. See results and get a free proposal.",marketing automation services,marketing automation agency; automated marketing; marketing automation specialist; marketing automation consulting; automate marketing; automated marketing solutions; marketing automation companies,2900,8,10850,39,Informational,BOFU – hire / buy,"2,000–2,800",Service + FAQPage + BreadcrumbList,"H2 1. Marketing Automation Services that drive measurable growth
+H2 2. What's included in our marketing automation services: B2B Marketing Automation Services; Marketing Automation for Law Firms; Marketing Automation for Small Business Services; HubSpot Agency; Email Marketing Automation Services; CRM Implementation Services
+H2 3. Our marketing automation process (audit → strategy → execution → reporting)
+H2 4. Marketing Automation for your industry
+H2 5. Results & case studies
+H2 6. Marketing Automation pricing & packages
+H2 7. Why choose Dazzlit
+H2 8. FAQs
+H2 9. CTA: Get a free proposal","How much does marketing automation cost?
+How long does marketing automation take to show results?
+How do you report on marketing automation performance?","Topic entities: CRM, lead scoring, lead nurturing, workflows, triggers, segmentation, drip campaigns, personalization, lifecycle stages, HubSpot, Salesforce, ActiveCampaign, integrations, attribution
+Page-specific terms: automation specialist, automation consultant","email marketing automation → /services/marketing-automation/email-marketing-automation/
+crm implementation → /services/marketing-automation/crm-implementation/
+hubspot agency → /services/marketing-automation/hubspot-agency/
+b2b marketing automation → /services/marketing-automation/b2b-marketing-automation/
+online marketing and automation solutions for attorneys → /services/marketing-automation/marketing-automation-for-law-firms/
+marketing automation for small business → /services/marketing-automation/marketing-automation-for-small-business/
+lead generation → /resources/guides/lead-generation/
+ai marketing agency → /services/ai-services/
+ecommerce marketing agency → /services/ecommerce-marketing/
+does marketing automation work for manufacturing → /blog/does-marketing-automation-work-for-manufacturing/
+how is seo a part of marketing automation → /blog/how-is-seo-a-part-of-marketing-automation/
+marketing automation mistakes → /blog/marketing-automation-mistakes/
+marketing automation metrics → /blog/marketing-automation-metrics/
+how to choose a marketing automation agency → /blog/how-to-choose-a-marketing-automation-agency/",42,Get a free marketing automation proposal (form above the fold + sticky CTA),"'marketing automation services': 2 agency/service pages, 2 guides/articles, 1 brand-owned pages",,Not started
+AI-C01,1,P1 – High,AI Services,AI Marketing Services,Core Page,Pillar hub (service),/services/ai-services/,/,AI Marketing & Automation Services,AI Marketing & Automation Services | Dazzlit,"AI Marketing & Automation Services from Dazzlit: data-driven AI marketing built to grow traffic, leads and revenue. See results and get a free proposal.",ai marketing agency,ai digital marketing agency; ai for marketers; ai marketing services; ai shopify store builder; ai for digital marketing; ai marketing company; ai powered marketing; ai marketing solutions,3600,10,12860,65,Commercial,BOFU – hire / buy,"2,000–2,800",Service + FAQPage + BreadcrumbList,"H2 1. AI Marketing & Automation Services that drive measurable growth
+H2 2. What's included in our AI marketing services: AI for Small Business Marketing Services; AI in B2B Marketing Services; AI Content Writing Services; AI Chatbot for Website Services; AI Automation Agency; AI Consulting
+H2 3. Our AI marketing process (audit → strategy → execution → reporting)
+H2 4. AI Marketing for your industry
+H2 5. Results & case studies
+H2 6. AI Marketing pricing & packages
+H2 7. Why choose Dazzlit
+H2 8. FAQs
+H2 9. CTA: Get a free proposal","How much does AI marketing cost?
+How long does AI marketing take to show results?
+How do you report on AI marketing performance?","Topic entities: generative AI, LLMs, prompts, AI agents, chatbots, workflow automation, AI content, AI governance, data privacy, integrations (APIs), personalization at scale, AI search visibility
+Page-specific terms: ai marketer, ai shopify, shopify store, store builder, ai powered","ai consulting → /services/ai-services/ai-consulting/
+ai automation agency → /services/ai-services/ai-automation-agency/
+ai chatbot for website → /services/ai-services/ai-chatbot-for-website/
+ai for small business marketing → /services/ai-services/ai-for-small-business-marketing/
+ai in b2b marketing → /services/ai-services/ai-in-b2b-marketing/
+ai content writing → /services/ai-services/ai-content-writing/
+ai agents → /resources/guides/ai-agents/
+marketing automation services → /services/marketing-automation/
+seo services → /services/seo/
+content marketing agency → /services/content-marketing/
+ai social media manager → /blog/ai-social-media-manager/
+generative ai for marketing → /blog/generative-ai-for-marketing/
+ai marketing strategy → /blog/ai-marketing-strategy/
+ai marketing trends → /blog/ai-marketing-trends/
+ai marketing pricing → /blog/ai-marketing-pricing/
+ai marketing mistakes → /blog/ai-marketing-mistakes/
+ai marketing metrics → /blog/ai-marketing-metrics/
+ai marketing checklist → /resources/checklists/ai-marketing-checklist/
+how to choose an ai marketing agency → /blog/how-to-choose-an-ai-marketing-agency/
+llm visibility checker → /resources/tools/llm-visibility-checker/",34,Get a free AI marketing proposal (form above the fold + sticky CTA),"'ai marketing agency': 2 agency/service pages, 2 'best agencies' lists, 1 Reddit/YouTube/Quora",,Not started
+DM-S03,1,P1 – High,Digital Marketing,Digital Marketing Consulting,Service Page,Service,/services/digital-marketing/digital-marketing-consulting/,/,Digital Marketing Consulting,Digital Marketing Consulting | Dazzlit,"Digital Marketing Consulting from Dazzlit: data-driven digital marketing built to grow traffic, leads and revenue. See results and get a free proposal.",digital marketing consulting,digital marketing consultant; marketing consulting services; marketing consulting firms; digital marketing consulting services,3600,5,17900,40,Commercial,BOFU – hire / buy,"1,500–2,200",Service + Offer + FAQPage + BreadcrumbList,"H2 1. Digital Marketing Consulting: what you get
+H2 2. Marketing Consulting Firms
+H2 3. Our Digital Marketing Consulting process
+H2 4. Deliverables & reporting
+H2 5. Results / case study
+H2 6. Pricing & engagement models
+H2 7. Why Dazzlit
+H2 8. FAQs
+H2 9. CTA","How much does digital marketing cost?
+How long does digital marketing take to show results?
+How do you report on digital marketing performance?","Topic entities: marketing funnel, customer journey, buyer personas, omnichannel, marketing mix, KPIs, ROI, ROAS, CAC, LTV, attribution, GA4, first-party data, brand positioning","digital marketing agency → /
+digital marketing → /resources/guides/digital-marketing/
+case studies → /case-studies/
+contact dazzlit → /contact/",1,Get a free digital marketing proposal (form above the fold + sticky CTA),"'digital marketing consultant': 2 job listings, 1 Reddit/YouTube/Quora, 1 agency/service pages, 1 'best agencies' lists",Supporting only (navigational/jobs SERP): digital marketing consultant.,Not started
+DM-S04,1,P1 – High,Digital Marketing,B2B Digital Marketing,Service Page,Audience service,/services/digital-marketing/b2b-digital-marketing-agency/,/,B2B Digital Marketing Agency,B2B Digital Marketing Agency | Dazzlit,"B2B Digital Marketing Agency from Dazzlit: data-driven digital marketing built to grow traffic, leads and revenue. See results and get a free proposal.",b2b digital marketing agency,b2b marketing agency; b2b marketing firm; b2b marketing companies; b2b digital marketing; b2b advertising agency; agency for b2b marketing; b2b digital marketing services; b2b marketing agencies,5400,13,33450,33,Informational,BOFU – hire / buy,"1,500–2,000",Service + Offer + FAQPage + BreadcrumbList,"H2 1. B2B Digital Marketing Agency: what you get
+H2 2. B2B Marketing Firm
+H2 3. B2B Advertising Agency
+H2 4. B2B Marketing Consulting
+H2 5. Our B2B Digital Marketing Agency process
+H2 6. Deliverables & reporting
+H2 7. Results / case study
+H2 8. Pricing & engagement models
+H2 9. Why Dazzlit
+H2 10. FAQs
+H2 11. CTA","How much does digital marketing cost?
+How long does digital marketing take to show results?
+How do you report on digital marketing performance?","Topic entities: marketing funnel, customer journey, buyer personas, omnichannel, marketing mix, KPIs, ROI, ROAS, CAC, LTV, attribution, GA4, first-party data, brand positioning
+Page-specific terms: b2b ad","account based marketing agency → /services/digital-marketing/account-based-marketing-agency/
+digital marketing agency → /
+digital marketing → /resources/guides/digital-marketing/
+case studies → /case-studies/
+contact dazzlit → /contact/
+digital marketing statistics → /resources/statistics/digital-marketing-statistics/",7,Get a free digital marketing proposal (form above the fold + sticky CTA),"'b2b digital marketing agency': 2 'best agencies' lists, 1 Reddit/YouTube/Quora, 1 agency/service pages, 1 guides/articles",,Not started
+DM-S06,1,P1 – High,Digital Marketing,Small Business Marketing,Service Page,Audience service,/services/digital-marketing/small-business-marketing/,/,Small Business Marketing Services,Small Business Marketing Services | Dazzlit,"Small Business Marketing Services from Dazzlit: data-driven digital marketing built to grow traffic, leads and revenue. See results and get a free proposal.",small business marketing,small business marketing agency; digital marketing services for small business; marketing for small business; small business digital marketing; digital marketing agency for small businesses; marketing agency for small business,9900,7,24200,38,Commercial,BOFU – hire / buy,"1,500–2,000",Service + Offer + FAQPage + BreadcrumbList,"H2 1. Small Business Marketing Services: what you get
+H2 2. Our Small Business Marketing process
+H2 3. Deliverables & reporting
+H2 4. Results / case study
+H2 5. Pricing & engagement models
+H2 6. Why Dazzlit
+H2 7. FAQs
+H2 8. CTA","How much does digital marketing cost?
+How long does digital marketing take to show results?
+How do you report on digital marketing performance?","Topic entities: marketing funnel, customer journey, buyer personas, omnichannel, marketing mix, KPIs, ROI, ROAS, CAC, LTV, attribution, GA4, first-party data, brand positioning","digital marketing agency → /
+digital marketing → /resources/guides/digital-marketing/
+case studies → /case-studies/
+contact dazzlit → /contact/",1,Get a free digital marketing proposal (form above the fold + sticky CTA),'small business marketing': 5 guides/articles,"SERP is informational: build this page as a service page with guide-depth content (definitions, process, examples, FAQs) – thin sales copy will not rank.",Not started
+DM-S07,1,P1 – High,Digital Marketing,Email Marketing,Service Page,Service,/services/digital-marketing/email-marketing-agency/,/,Email Marketing Agency,Email Marketing Agency | Dazzlit,"Email Marketing Agency from Dazzlit: data-driven digital marketing built to grow traffic, leads and revenue. See results and get a free proposal.",email marketing agency,email marketing service; email marketing company; email marketing companies; email marketing advertising agencies; email marketing agencies; free email marketing; service email marketing; email marketing firm,9900,11,29000,48,Commercial,BOFU – hire / buy,"1,500–2,200",Service + Offer + FAQPage + BreadcrumbList,"H2 1. Email Marketing Agency: what you get
+H2 2. Email Marketing Firm
+H2 3. Our Email Marketing Agency process
+H2 4. Deliverables & reporting
+H2 5. Results / case study
+H2 6. Pricing & engagement models
+H2 7. Why Dazzlit
+H2 8. FAQs
+H2 9. CTA","How much does digital marketing cost?
+How long does digital marketing take to show results?
+How do you report on digital marketing performance?","Topic entities: marketing funnel, customer journey, buyer personas, omnichannel, marketing mix, KPIs, ROI, ROAS, CAC, LTV, attribution, GA4, first-party data, brand positioning","email marketing for small business → /services/digital-marketing/email-marketing-for-small-business/
+b2b email marketing agency → /services/digital-marketing/b2b-email-marketing-agency/
+email marketing → /resources/guides/email-marketing/
+email marketing campaigns → /resources/guides/email-marketing-campaigns/
+email marketing software → /blog/email-marketing-software/
+email marketing strategies → /blog/email-marketing-strategies/
+program for email marketing → /blog/program-for-email-marketing/",9,Get a free digital marketing proposal (form above the fold + sticky CTA),Not checked (P2/P3 or new page),,Not started
+DM-S11,1,P1 – High,Digital Marketing,Growth Marketing,Service Page,Service,/services/digital-marketing/growth-marketing-agency/,/,Growth Marketing Agency,Growth Marketing Agency | Dazzlit,"Growth Marketing Agency from Dazzlit: data-driven digital marketing built to grow traffic, leads and revenue. See results and get a free proposal.",growth marketing agency,performance marketing agency; performance marketing companies; performance marketing agencies; digital performance marketing agency; top performance marketing agencies; best performance marketing agencies; best performance marketing agencies 2026,2900,8,10420,27,Commercial,BOFU – hire / buy,"1,500–2,200",Service + Offer + FAQPage + BreadcrumbList,"H2 1. Growth Marketing Agency: what you get
+H2 2. Performance Marketing Agency
+H2 3. Performance Marketing Companies
+H2 4. Our Growth Marketing Agency process
+H2 5. Deliverables & reporting
+H2 6. Results / case study
+H2 7. Pricing & engagement models
+H2 8. Why Dazzlit
+H2 9. FAQs
+H2 10. CTA","How much does digital marketing cost?
+How long does digital marketing take to show results?
+How do you report on digital marketing performance?","Topic entities: marketing funnel, customer journey, buyer personas, omnichannel, marketing mix, KPIs, ROI, ROAS, CAC, LTV, attribution, GA4, first-party data, brand positioning","growth marketing → /resources/guides/growth-marketing/
+digital marketing agency → /
+digital marketing → /resources/guides/digital-marketing/
+case studies → /case-studies/
+contact dazzlit → /contact/",1,Get a free digital marketing proposal (form above the fold + sticky CTA),"'growth marketing agency': 2 agency/service pages, 2 guides/articles, 1 'best agencies' lists",,Not started
+SEO-S01,1,P1 – High,Search Engine Optimization,SEO Services,Service Page,Audience service,/services/seo/small-business-seo-services/,/services/seo/,Small Business SEO Services,Small Business SEO Services | Dazzlit,"Small Business SEO Services from Dazzlit: data-driven SEO built to grow traffic, leads and revenue. See results and get a free proposal.",small business seo services,seo companies for small business; seo services for small business; seo services for small businesses; best seo companies for small business; seo for small business; seo company for small business; affordable seo services for small business; affordable seo services for small businesses,6600,16,43000,39,Informational,BOFU – hire / buy,"1,500–2,000",Service + Offer + FAQPage + BreadcrumbList,"H2 1. Small Business SEO Services: what you get
+H2 2. Search Engine Optimization Services for Small Business
+H2 3. Our Small Business SEO Services process
+H2 4. Deliverables & reporting
+H2 5. Results / case study
+H2 6. Pricing & engagement models
+H2 7. Why Dazzlit
+H2 8. FAQs
+H2 9. CTA","How much does SEO cost?
+How long does SEO take to show results?
+How do you report on SEO performance?","Topic entities: Google Search Console, crawling, indexing, search intent, E-E-A-T, SERP features, AI Overviews, keyword difficulty, topical authority, internal linking, schema markup, Core Web Vitals, backlinks, algorithm updates
+Page-specific terms: affordable seo, search engine, engine optimization","seo pricing → /services/seo/seo-pricing-and-packages/
+white label seo → /services/seo/white-label-seo/
+b2b seo agency → /services/seo/b2b-seo-agency/
+seo for saas → /services/seo/seo-for-saas-companies/
+seo → /resources/guides/seo/
+seo digital marketing → /resources/guides/seo-digital-marketing/
+seo tips → /blog/seo-tips/
+how to do seo → /blog/how-to-do-seo/
+seo strategy → /blog/seo-strategy/",5,Get a free SEO proposal (form above the fold + sticky CTA),"'small business seo services': 2 guides/articles, 1 agency/service pages, 1 Reddit/YouTube/Quora, 1 'best agencies' lists",,Not started
+SEO-S02,1,P1 – High,Search Engine Optimization,SEO Services,Service Page,Pricing page,/services/seo/seo-pricing-and-packages/,/services/seo/,SEO Pricing & Packages,SEO Pricing & Packages | Dazzlit,"SEO Pricing & Packages from Dazzlit: data-driven SEO built to grow traffic, leads and revenue. See results and get a free proposal.",seo pricing,seo packages; seo prices; seo services pricing; seo agency pricing; ecommerce seo packages; seo costing; price of seo; seo service pricing,8100,19,36870,42,Informational,BOFU – hire / buy,"1,200–1,800",Service + Offer/AggregateOffer + FAQPage + BreadcrumbList,"H2 1. SEO Pricing & Packages: what you get
+H2 2. SEO Packages
+H2 3. SEO Costing
+H2 4. SEO Pricelist
+H2 5. Our SEO Pricing process
+H2 6. Deliverables & reporting
+H2 7. Results / case study
+H2 8. Pricing & engagement models
+H2 9. Why Dazzlit
+H2 10. FAQs
+H2 11. CTA","How much does SEO cost?
+How long does SEO take to show results?
+How do you report on SEO performance?","Topic entities: Google Search Console, crawling, indexing, search intent, E-E-A-T, SERP features, AI Overviews, keyword difficulty, topical authority, internal linking, schema markup, Core Web Vitals, backlinks, algorithm updates
+Page-specific terms: seo package, ecommerce seo, seo costing, seo pricelist, website seo","white label seo → /services/seo/white-label-seo/
+b2b seo agency → /services/seo/b2b-seo-agency/
+small business seo services → /services/seo/small-business-seo-services/
+seo for saas → /services/seo/seo-for-saas-companies/
+seo → /resources/guides/seo/
+seo digital marketing → /resources/guides/seo-digital-marketing/
+seo tips → /blog/seo-tips/
+how to do seo → /blog/how-to-do-seo/
+seo strategy → /blog/seo-strategy/",5,Get a free SEO proposal (form above the fold + sticky CTA),Not checked (P2/P3 or new page),,Not started
+SEO-S03,1,P1 – High,Search Engine Optimization,SEO Services,Service Page,Audience service,/services/seo/b2b-seo-agency/,/services/seo/,B2B SEO Agency,B2B SEO Agency | Dazzlit,"B2B SEO Agency from Dazzlit: data-driven SEO built to grow traffic, leads and revenue. See results and get a free proposal.",b2b seo agency,b2b seo; b2b seo agencies; b2b search engine optimization agency,4400,4,12890,23,Informational,BOFU – hire / buy,"1,500–2,000",Service + Offer + FAQPage + BreadcrumbList,"H2 1. B2B SEO Agency: what you get
+H2 2. B2B Search Engine Optimization Agency
+H2 3. Our B2B SEO Agency process
+H2 4. Deliverables & reporting
+H2 5. Results / case study
+H2 6. Pricing & engagement models
+H2 7. Why Dazzlit
+H2 8. FAQs
+H2 9. CTA","How much does SEO cost?
+How long does SEO take to show results?
+How do you report on SEO performance?","Topic entities: Google Search Console, crawling, indexing, search intent, E-E-A-T, SERP features, AI Overviews, keyword difficulty, topical authority, internal linking, schema markup, Core Web Vitals, backlinks, algorithm updates
+Page-specific terms: b2b search, search engine, engine optimization","seo pricing → /services/seo/seo-pricing-and-packages/
+white label seo → /services/seo/white-label-seo/
+small business seo services → /services/seo/small-business-seo-services/
+seo for saas → /services/seo/seo-for-saas-companies/
+seo → /resources/guides/seo/
+seo digital marketing → /resources/guides/seo-digital-marketing/
+seo tips → /blog/seo-tips/
+how to do seo → /blog/how-to-do-seo/
+seo strategy → /blog/seo-strategy/",5,Get a free SEO proposal (form above the fold + sticky CTA),"'b2b seo': 3 guides/articles, 1 'best agencies' lists, 1 Reddit/YouTube/Quora",,Not started
+SEO-S04,1,P1 – High,Search Engine Optimization,SEO Services,Service Page,Audience service,/services/seo/white-label-seo/,/services/seo/,White Label SEO Services,White Label SEO Services | Dazzlit,"White Label SEO Services from Dazzlit: data-driven SEO built to grow traffic, leads and revenue. See results and get a free proposal.",white label seo,,8100,1,8100,28,Informational,BOFU – hire / buy,"1,500–2,000",Service + Offer + FAQPage + BreadcrumbList,"H2 1. White Label SEO Services: what you get
+H2 2. Our White Label SEO process
+H2 3. Deliverables & reporting
+H2 4. Results / case study
+H2 5. Pricing & engagement models
+H2 6. Why Dazzlit
+H2 7. FAQs
+H2 8. CTA","How much does SEO cost?
+How long does SEO take to show results?
+How do you report on SEO performance?","Topic entities: Google Search Console, crawling, indexing, search intent, E-E-A-T, SERP features, AI Overviews, keyword difficulty, topical authority, internal linking, schema markup, Core Web Vitals, backlinks, algorithm updates","seo pricing → /services/seo/seo-pricing-and-packages/
+b2b seo agency → /services/seo/b2b-seo-agency/
+small business seo services → /services/seo/small-business-seo-services/
+seo for saas → /services/seo/seo-for-saas-companies/
+seo → /resources/guides/seo/
+seo digital marketing → /resources/guides/seo-digital-marketing/
+seo tips → /blog/seo-tips/
+how to do seo → /blog/how-to-do-seo/
+seo strategy → /blog/seo-strategy/",5,Get a free SEO proposal (form above the fold + sticky CTA),"'white label seo': 2 agency/service pages, 2 guides/articles, 1 Reddit/YouTube/Quora",,Not started
+SEO-S06,1,P1 – High,Search Engine Optimization,Technical SEO,Service Page,Service,/services/seo/technical-seo-services/,/services/seo/,Technical SEO Services,Technical SEO Services | Dazzlit,"Technical SEO Services from Dazzlit: data-driven SEO built to grow traffic, leads and revenue. See results and get a free proposal.",technical seo services,site audit; technical seo agency; technical seo service; website audit service; technical seo company; technical seo agencies; technical seo consulting; website audit services,6600,9,23580,36,Informational,BOFU – hire / buy,"1,500–2,200",Service + Offer + FAQPage + BreadcrumbList,"H2 1. Technical SEO Services: what you get
+H2 2. Site Audit
+H2 3. Technical SEO Consulting
+H2 4. Our Technical SEO Services process
+H2 5. Deliverables & reporting
+H2 6. Results / case study
+H2 7. Pricing & engagement models
+H2 8. Why Dazzlit
+H2 9. FAQs
+H2 10. CTA","How much does SEO cost?
+How long does SEO take to show results?
+How do you report on SEO performance?","Topic entities: Google Search Console, crawling, indexing, search intent, E-E-A-T, SERP features, AI Overviews, keyword difficulty, topical authority, internal linking, schema markup, Core Web Vitals, backlinks, algorithm updates
+Page-specific terms: website audit, seo consultant","technical seo → /resources/guides/technical-seo/
+schema markup → /resources/guides/schema-markup/
+seo services → /services/seo/
+keyword research → /resources/guides/keyword-research/
+case studies → /case-studies/
+contact dazzlit → /contact/
+technical seo checklist → /resources/checklists/technical-seo-checklist/",5,Get a free SEO proposal (form above the fold + sticky CTA),"'technical seo services': 3 agency/service pages, 1 guides/articles, 1 'best agencies' lists",,Not started
+SEO-S08,1,P1 – High,Search Engine Optimization,Enterprise SEO,Service Page,Audience service,/services/seo/enterprise-seo-agency/,/services/seo/,Enterprise SEO Agency,Enterprise SEO Agency | Dazzlit,"Enterprise SEO Agency from Dazzlit: data-driven SEO built to grow traffic, leads and revenue. See results and get a free proposal.",enterprise seo agency,enterprise seo; enterprise seo services; enterprise seo company; enterprise seo firms; enterprise seo companies; enterprise seo solutions; enterprise seo consulting; enterprise seo expert,3600,17,34810,31,Informational,BOFU – hire / buy,"1,500–2,000",Service + Offer + FAQPage + BreadcrumbList,"H2 1. Enterprise SEO Agency: what you get
+H2 2. Enterprise SEO Firms
+H2 3. Enterprise SEO Solutions
+H2 4. Enterprise SEO Consulting
+H2 5. Our Enterprise SEO Agency process
+H2 6. Deliverables & reporting
+H2 7. Results / case study
+H2 8. Pricing & engagement models
+H2 9. Why Dazzlit
+H2 10. FAQs
+H2 11. CTA","How much does SEO cost?
+How long does SEO take to show results?
+How do you report on SEO performance?","Topic entities: Google Search Console, crawling, indexing, search intent, E-E-A-T, SERP features, AI Overviews, keyword difficulty, topical authority, internal linking, schema markup, Core Web Vitals, backlinks, algorithm updates
+Page-specific terms: seo expert, seo solution, seo consultant, enterprise search, search engine","enterprise seo roi calculator → /resources/tools/enterprise-seo-roi-calculator/
+seo services → /services/seo/
+keyword research → /resources/guides/keyword-research/
+case studies → /case-studies/
+contact dazzlit → /contact/",1,Get a free SEO proposal (form above the fold + sticky CTA),"'enterprise seo agency': 2 agency/service pages, 2 guides/articles, 1 'best agencies' lists",,Not started
+SEO-S09,1,P1 – High,Search Engine Optimization,eCommerce SEO,Service Page,Service,/services/seo/ecommerce-seo-services/,/services/seo/,eCommerce SEO Services,eCommerce SEO Services | Dazzlit,"eCommerce SEO Services from Dazzlit: data-driven SEO built to grow traffic, leads and revenue. See results and get a free proposal.",ecommerce seo services,ecommerce seo agency; woocommerce seo; shopify seo agency; shopify seo services; ecommerce seo company; bigcommerce seo; shopify seo company; bigcommerce seo services,8100,15,43410,29,Commercial,BOFU – hire / buy,"1,500–2,200",Service + Offer + FAQPage + BreadcrumbList,"H2 1. eCommerce SEO Services: what you get
+H2 2. WooCommerce SEO
+H2 3. Shopify SEO Agency
+H2 4. Shopify SEO Services
+H2 5. Our eCommerce SEO Services process
+H2 6. Deliverables & reporting
+H2 7. Results / case study
+H2 8. Pricing & engagement models
+H2 9. Why Dazzlit
+H2 10. FAQs
+H2 11. CTA","How much does SEO cost?
+How long does SEO take to show results?
+How do you report on SEO performance?","Topic entities: Google Search Console, crawling, indexing, search intent, E-E-A-T, SERP features, AI Overviews, keyword difficulty, topical authority, internal linking, schema markup, Core Web Vitals, backlinks, algorithm updates
+Page-specific terms: shopify seo, bigcommerce seo, woocommerce seo, seo expert, expert shopify","ecommerce seo → /resources/guides/ecommerce-seo/
+shopify seo → /resources/guides/shopify-seo/
+best ecommerce seo → /blog/best-ecommerce-seo/",4,Get a free SEO proposal (form above the fold + sticky CTA),"'ecommerce seo services': 2 'best agencies' lists, 1 guides/articles, 1 Reddit/YouTube/Quora, 1 agency/service pages",,Not started
+SEO-S12,1,P1 – High,Search Engine Optimization,AI Search / GEO,Service Page,Service,/services/seo/ai-seo-agency/,/services/seo/,AI SEO Agency,AI SEO Agency | Dazzlit,"AI SEO Agency from Dazzlit: data-driven SEO built to grow traffic, leads and revenue. See results and get a free proposal.",ai seo agency,ai seo services; answer engine optimization; ai search engine optimization; ai search optimization; generative engine optimization services; generative engine optimization agency; llm optimization; geo agency,4400,11,28500,40,Informational,BOFU – hire / buy,"1,500–2,200",Service + Offer + FAQPage + BreadcrumbList,"H2 1. AI SEO Agency: what you get
+H2 2. Answer Engine Optimization
+H2 3. AI Search Engine Optimization
+H2 4. Generative Engine Optimization Services
+H2 5. Our AI SEO Agency process
+H2 6. Deliverables & reporting
+H2 7. Results / case study
+H2 8. Pricing & engagement models
+H2 9. Why Dazzlit
+H2 10. FAQs
+H2 11. CTA","How much does SEO cost?
+How long does SEO take to show results?
+How do you report on SEO performance?","Topic entities: Google Search Console, crawling, indexing, search intent, E-E-A-T, SERP features, AI Overviews, keyword difficulty, topical authority, internal linking, schema markup, Core Web Vitals, backlinks, algorithm updates
+Page-specific terms: engine optimization, ai search, generative engine, search engine, search optimization","ai seo → /resources/guides/ai-seo/
+generative engine optimization → /resources/guides/generative-engine-optimization/
+ai search engine optimization tools → /blog/ai-search-engine-optimization-tools/
+search engine optimization ai → /blog/search-engine-optimization-ai/
+generative ai search engine optimization → /blog/generative-ai-search-engine-optimization/
+chatgpt seo → /resources/guides/chatgpt-seo/
+what are ai search optimization tools → /resources/guides/what-are-ai-search-optimization-tools/
+how ai search optimization tools increase organic traffic → /blog/how-ai-search-optimization-tools-increase-organic-traffic/
+what are best practice geo for content marketing → /blog/what-are-best-practice-geo-for-content-marketing/
+ai search engine optimization strategies → /blog/ai-search-engine-optimization-strategies/
+what is generative engine optimization geo tools list → /blog/what-is-generative-engine-optimization-geo-tools-list/
+why citation authority matters for generative engine optimization → /blog/why-citation-authority-matters-for-generative-engine-optimization/
+seo statistics → /resources/statistics/seo-statistics/",7,Get a free SEO proposal (form above the fold + sticky CTA),Not checked (P2/P3 or new page),,Not started
+SEO-S13,1,P1 – High,Search Engine Optimization,WordPress SEO,Service Page,Service,/services/seo/wordpress-seo-services/,/services/seo/,WordPress SEO Services,WordPress SEO Services | Dazzlit,"WordPress SEO Services from Dazzlit: data-driven SEO built to grow traffic, leads and revenue. See results and get a free proposal.",wordpress seo services,wordpress seo agency; wordpress seo company; seo for wordpress; wordpress seo service; seo services for wordpress,3600,6,11600,30,Commercial,BOFU – hire / buy,"1,500–2,200",Service + Offer + FAQPage + BreadcrumbList,"H2 1. WordPress SEO Services: what you get
+H2 2. Our WordPress SEO Services process
+H2 3. Deliverables & reporting
+H2 4. Results / case study
+H2 5. Pricing & engagement models
+H2 6. Why Dazzlit
+H2 7. FAQs
+H2 8. CTA","How much does SEO cost?
+How long does SEO take to show results?
+How do you report on SEO performance?","Topic entities: Google Search Console, crawling, indexing, search intent, E-E-A-T, SERP features, AI Overviews, keyword difficulty, topical authority, internal linking, schema markup, Core Web Vitals, backlinks, algorithm updates","wordpress seo → /resources/guides/wordpress-seo/
+yoast seo → /resources/guides/yoast-seo/
+plugin for seo in wordpress → /blog/plugin-for-seo-in-wordpress/",3,Get a free SEO proposal (form above the fold + sticky CTA),"'seo for wordpress': 3 guides/articles, 1 Reddit/YouTube/Quora, 1 'best agencies' lists",,Not started
+PPC-S01,1,P1 – High,PPC / Paid Advertising,PPC Management,Service Page,Industry service,/services/ppc-management/ppc-management-for-law-firms/,/services/ppc-management/,PPC Management for Law Firms,PPC Management for Law Firms | Dazzlit,"PPC Management for Law Firms from Dazzlit: data-driven PPC built to grow traffic, leads and revenue. See results and get a free proposal.",ppc for lawyers,law firm ppc; ppc for law firms; ppc for attorneys,2400,4,6900,19,Informational,BOFU – hire / buy,"1,500–2,000",Service + Offer + FAQPage + BreadcrumbList,"H2 1. PPC Management for Law Firms: what you get
+H2 2. Law Firm PPC
+H2 3. Our PPC for Lawyers process
+H2 4. Deliverables & reporting
+H2 5. Results / case study
+H2 6. Pricing & engagement models
+H2 7. Why Dazzlit
+H2 8. FAQs
+H2 9. CTA","How much does PPC cost?
+How long does PPC take to show results?
+How do you report on PPC performance?","Topic entities: Google Ads, Microsoft Ads, Quality Score, CPC, CTR, ROAS, Performance Max, match types, negative keywords, ad extensions (assets), bidding strategies, conversion tracking, landing page experience, remarketing
+Page-specific terms: ppc law","white label ppc agency → /services/ppc-management/white-label-ppc-agency/
+b2b ppc agency → /services/ppc-management/b2b-ppc-agency/
+google ads pricing → /services/ppc-management/ppc-management-pricing-and-packages/
+saas ppc agency → /services/ppc-management/ppc-management-for-saas-companies/
+ppc → /resources/guides/ppc/
+expensive ppc keywords → /resources/guides/expensive-ppc-keywords/
+pay per click advertising → /blog/pay-per-click-advertising/
+most expensive ppc keywords → /blog/most-expensive-ppc-keywords/
+ppc trends → /blog/ppc-trends/
+law firm marketing → /industries/law-firms/",10,Get a free PPC proposal (form above the fold + sticky CTA),'ppc for lawyers': 5 guides/articles,"SERP is informational: build this page as a service page with guide-depth content (definitions, process, examples, FAQs) – thin sales copy will not rank.",Not started
+PPC-S08,1,P1 – High,PPC / Paid Advertising,Google Ads,Service Page,Service,/services/ppc-management/google-ads-agency/,/services/ppc-management/,Google Ads Agency,Google Ads Agency | Dazzlit,"Google Ads Agency from Dazzlit: data-driven PPC built to grow traffic, leads and revenue. See results and get a free proposal.",google ads agency,google ads management; google ads management services; google ads marketing agency; google ad agency; google ads services; google ads specialist; google ads management agency; google ppc agency,12100,16,38690,40,Informational,BOFU – hire / buy,"1,500–2,200",Service + Offer + FAQPage + BreadcrumbList,"H2 1. Google Ads Agency: what you get
+H2 2. Google Ads Specialist
+H2 3. Google PPC Agency
+H2 4. Google Ads Newsletter
+H2 5. Our Google Ads Agency process
+H2 6. Deliverables & reporting
+H2 7. Results / case study
+H2 8. Pricing & engagement models
+H2 9. Why Dazzlit
+H2 10. FAQs
+H2 11. CTA","How much does PPC cost?
+How long does PPC take to show results?
+How do you report on PPC performance?","Topic entities: Google Ads, Microsoft Ads, Quality Score, CPC, CTR, ROAS, Performance Max, match types, negative keywords, ad extensions (assets), bidding strategies, conversion tracking, landing page experience, remarketing
+Page-specific terms: google ppc, ad specialist, ad newsletter, ad expert, ad customer","google ads for small business → /services/ppc-management/google-ads-for-small-business/
+google ppc → /resources/guides/google-ppc/
+google ad words → /resources/guides/google-ad-words/
+google ads cost → /blog/google-ads-cost/
+discover placement google ads → /blog/discover-placement-google-ads/
+how to advertise on google ads → /blog/how-to-advertise-on-google-ads/
+how does google ads work → /blog/how-does-google-ads-work/
+google adwords ppc campaign → /blog/google-adwords-ppc-campaign/
+how to run google ads → /blog/how-to-run-google-ads/
+how to check google ads spending → /blog/how-to-check-google-ads-spending/
+are google ads worth it → /blog/are-google-ads-worth-it/
+how to check competitors google ads → /blog/how-to-check-competitors-google-ads/
+ad copy generator → /resources/tools/ad-copy-generator/",10,Get a free PPC proposal (form above the fold + sticky CTA),"'google ads agency': 2 agency/service pages, 1 'best agencies' lists, 1 Reddit/YouTube/Quora, 1 brand-owned pages",,Not started
+PPC-S10,1,P1 – High,PPC / Paid Advertising,Display & Programmatic,Service Page,Service,/services/ppc-management/programmatic-advertising-agency/,/services/ppc-management/,Programmatic Advertising Agency,Programmatic Advertising Agency | Dazzlit,"Programmatic Advertising Agency from Dazzlit: data-driven PPC built to grow traffic, leads and revenue. See results and get a free proposal.",programmatic advertising agency,programmatic advertising company; programmatic advertising services; programmatic advertising companies; programmatic ad agencies; programmatic agency; programmatic ad agency; programmatic marketing agency,2900,8,9660,20,Informational,BOFU – hire / buy,"1,500–2,200",Service + Offer + FAQPage + BreadcrumbList,"H2 1. Programmatic Advertising Agency: what you get
+H2 2. Our Programmatic Advertising Agency process
+H2 3. Deliverables & reporting
+H2 4. Results / case study
+H2 5. Pricing & engagement models
+H2 6. Why Dazzlit
+H2 7. FAQs
+H2 8. CTA","How much does PPC cost?
+How long does PPC take to show results?
+How do you report on PPC performance?","Topic entities: Google Ads, Microsoft Ads, Quality Score, CPC, CTR, ROAS, Performance Max, match types, negative keywords, ad extensions (assets), bidding strategies, conversion tracking, landing page experience, remarketing","programmatic advertising → /resources/guides/programmatic-advertising/
+retargeting ads → /resources/guides/retargeting-ads/
+ppc agency → /services/ppc-management/
+google ppc → /resources/guides/google-ppc/
+case studies → /case-studies/
+contact dazzlit → /contact/",3,Get a free PPC proposal (form above the fold + sticky CTA),Not checked (P2/P3 or new page),,Not started
+PPC-S11,1,P1 – High,PPC / Paid Advertising,Paid Search Strategy,Service Page,Service,/services/ppc-management/sem-agency/,/services/ppc-management/,SEM Agency,SEM Agency | Dazzlit,"SEM Agency from Dazzlit: data-driven PPC built to grow traffic, leads and revenue. See results and get a free proposal.",sem agency,search engine marketing agency; search engine marketing services; paid search agency; paid search marketing agency; seo and ppc; seo ppc agency; ppc and seo; seo ppc services,4400,11,25600,31,Informational,BOFU – hire / buy,"1,500–2,200",Service + Offer + FAQPage + BreadcrumbList,"H2 1. SEM Agency: what you get
+H2 2. Search Engine Marketing Agency
+H2 3. Paid Search Agency
+H2 4. SEO and PPC
+H2 5. Our SEM Agency process
+H2 6. Deliverables & reporting
+H2 7. Results / case study
+H2 8. Pricing & engagement models
+H2 9. Why Dazzlit
+H2 10. FAQs
+H2 11. CTA","How much does PPC cost?
+How long does PPC take to show results?
+How do you report on PPC performance?","Topic entities: Google Ads, Microsoft Ads, Quality Score, CPC, CTR, ROAS, Performance Max, match types, negative keywords, ad extensions (assets), bidding strategies, conversion tracking, landing page experience, remarketing
+Page-specific terms: seo ppc, search engine, paid search, ppc seo","b2b paid search agency → /services/ppc-management/b2b-paid-search-agency/
+search engine marketing → /resources/guides/search-engine-marketing/
+ppc in seo → /resources/guides/ppc-in-seo/
+seo vs sem → /blog/seo-vs-sem/
+ppc and seo working together → /blog/ppc-and-seo-working-together/",4,Get a free PPC proposal (form above the fold + sticky CTA),"'sem agency': 3 guides/articles, 1 agency/service pages, 1 job listings",,Not started
+PPC-S14,1,P1 – High,PPC / Paid Advertising,Local Services Ads,Service Page,Service,/services/ppc-management/google-local-services-ads/,/services/ppc-management/,Google Local Services Ads,Google Local Services Ads | Dazzlit,"Google Local Services Ads from Dazzlit: data-driven PPC built to grow traffic, leads and revenue. See results and get a free proposal.",google local services ads,google local service ads,5400,2,27600,69,Navigational,BOFU – hire / buy,"1,500–2,200",Service + Offer + FAQPage + BreadcrumbList,"H2 1. Google Local Services Ads: what you get
+H2 2. Our Google Local Services Ads process
+H2 3. Deliverables & reporting
+H2 4. Results / case study
+H2 5. Pricing & engagement models
+H2 6. Why Dazzlit
+H2 7. FAQs
+H2 8. CTA","How much does PPC cost?
+How long does PPC take to show results?
+How do you report on PPC performance?","Topic entities: Google Ads, Microsoft Ads, Quality Score, CPC, CTR, ROAS, Performance Max, match types, negative keywords, ad extensions (assets), bidding strategies, conversion tracking, landing page experience, remarketing","google maps ads → /resources/guides/google-maps-ads/
+ppc agency → /services/ppc-management/
+google ppc → /resources/guides/google-ppc/
+case studies → /case-studies/
+contact dazzlit → /contact/",3,Get a free PPC proposal (form above the fold + sticky CTA),'google local service ads': 5 brand-owned pages,Supporting only (navigational/jobs SERP): google local service ads.,Not started
+SMM-S01,1,P1 – High,Social Media Marketing,SMM Services,Service Page,Audience service,/services/social-media-marketing/social-media-marketing-for-small-business/,/services/social-media-marketing/,Social Media Marketing for Small Business Services,Social Media Marketing for Small Business Services | Dazzlit,"Social Media Marketing for Small Business Services from Dazzlit: data-driven social media marketing built to grow traffic, leads and revenue. See results…",social media marketing for small business,social media for small business marketing; social media marketing agency for small business; social media management for small business; social media marketing services for small businesses; small business social media marketing; social media marketing companies for small business; social media marketing for small businesses; small business social media marketing agency,3600,9,13400,39,Informational,BOFU – hire / buy,"1,500–2,000",Service + Offer + FAQPage + BreadcrumbList,"H2 1. Social Media Marketing for Small Business Services: what you get
+H2 2. Our Social Media Marketing for Small Business process
+H2 3. Deliverables & reporting
+H2 4. Results / case study
+H2 5. Pricing & engagement models
+H2 6. Why Dazzlit
+H2 7. FAQs
+H2 8. CTA","How much does social media marketing cost?
+How long does social media marketing take to show results?
+How do you report on social media marketing performance?","Topic entities: content calendar, engagement rate, reach, impressions, social listening, community management, influencers, UGC, Reels/short-form video, algorithm, hashtags, brand voice, social analytics, platforms (Instagram, TikTok, LinkedIn, Facebook, X)","social media management pricing → /services/social-media-marketing/social-media-marketing-pricing-and-packages/
+b2b social media agency → /services/social-media-marketing/b2b-social-media-agency/
+healthcare social media marketing → /services/social-media-marketing/social-media-marketing-for-healthcare-and-medical-practices/
+real estate social media marketing → /services/social-media-marketing/social-media-marketing-for-real-estate/
+social media marketer → /resources/guides/social-media-marketer/
+social media marketing → /blog/social-media-marketing/
+manage social media tools → /blog/manage-social-media-tools/
+seo social media marketing → /blog/seo-social-media-marketing/",10,Get a free social media marketing proposal (form above the fold + sticky CTA),"'social media marketing for small business': 4 guides/articles, 1 Reddit/YouTube/Quora","SERP is informational: build this page as a service page with guide-depth content (definitions, process, examples, FAQs) – thin sales copy will not rank.",Not started
+SMM-S14,1,P1 – High,Social Media Marketing,Community Management,Service Page,Service,/services/social-media-marketing/social-media-manager/,/services/social-media-marketing/,Social Media Manager Services,Social Media Manager Services | Dazzlit,"Social Media Manager Services from Dazzlit: data-driven social media marketing built to grow traffic, leads and revenue. See results and get a free proposal.",social media manager,,22200,1,22200,47,Informational,BOFU – hire / buy,"1,500–2,200",Service + Offer + FAQPage + BreadcrumbList,"H2 1. Social Media Manager Services: what you get
+H2 2. Our Social Media Manager process
+H2 3. Deliverables & reporting
+H2 4. Results / case study
+H2 5. Pricing & engagement models
+H2 6. Why Dazzlit
+H2 7. FAQs
+H2 8. CTA","How much does social media marketing cost?
+How long does social media marketing take to show results?
+How do you report on social media marketing performance?","Topic entities: content calendar, engagement rate, reach, impressions, social listening, community management, influencers, UGC, Reels/short-form video, algorithm, hashtags, brand voice, social analytics, platforms (Instagram, TikTok, LinkedIn, Facebook, X)","social media management → /services/social-media-marketing/
+influencer marketing → /resources/guides/influencer-marketing/
+case studies → /case-studies/
+contact dazzlit → /contact/",1,Get a free social media marketing proposal (form above the fold + sticky CTA),Not checked (P2/P3 or new page),,Not started
+SMA-S03,1,P1 – High,Social Media Advertising,Facebook Ads,Service Page,Service,/services/social-media-advertising/facebook-ads-agency/,/services/social-media-advertising/,Facebook Ads Agency,Facebook Ads Agency | Dazzlit,"Facebook Ads Agency from Dazzlit: data-driven paid social built to grow traffic, leads and revenue. See results and get a free proposal.",facebook ads agency,facebook ads management; facebook ad agency,5400,3,10700,49,Informational,BOFU – hire / buy,"1,500–2,200",Service + Offer + FAQPage + BreadcrumbList,"H2 1. Facebook Ads Agency: what you get
+H2 2. Our Facebook Ads Agency process
+H2 3. Deliverables & reporting
+H2 4. Results / case study
+H2 5. Pricing & engagement models
+H2 6. Why Dazzlit
+H2 7. FAQs
+H2 8. CTA","How much does paid social cost?
+How long does paid social take to show results?
+How do you report on paid social performance?","Topic entities: Meta Ads Manager, Pixel & Conversions API, audiences (lookalike, custom), creative testing, CPM, CPA, ROAS, ad formats, campaign objectives, frequency, attribution window, TikTok Ads, LinkedIn Campaign Manager","facebook advertising → /resources/guides/facebook-advertising/
+facebook ad examples → /resources/examples/facebook-ad-examples/
+facebook ads cost → /blog/facebook-ads-cost/
+how to run facebook ads → /blog/how-to-run-facebook-ads/
+how do facebook ads work → /blog/how-do-facebook-ads-work/
+facebook ads report template → /resources/templates/facebook-ads-report-template/",5,Get a free paid social proposal (form above the fold + sticky CTA),"'facebook ads agency': 2 brand-owned pages, 1 'best agencies' lists, 1 Reddit/YouTube/Quora, 1 agency/service pages",,Not started
+WEB-S01,1,P1 – High,Web Design & Development,Web Design Services,Service Page,Industry service,/services/web-design-development/web-design-for-law-firms/,/services/web-design-development/,Web Design for Law Firms,Web Design for Law Firms | Dazzlit,"Web Design for Law Firms from Dazzlit: data-driven web design built to grow traffic, leads and revenue. See results and get a free proposal.",law firm web design,lawyer web design; attorney web design; law firm website development,4400,4,10200,34,Informational,BOFU – hire / buy,"1,500–2,000",Service + Offer + FAQPage + BreadcrumbList,"H2 1. Web Design for Law Firms: what you get
+H2 2. Lawyer Web Design
+H2 3. Law Firm Website Development
+H2 4. Our Law Firm Web Design process
+H2 5. Deliverables & reporting
+H2 6. Results / case study
+H2 7. Pricing & engagement models
+H2 8. Why Dazzlit
+H2 9. FAQs
+H2 10. CTA","How much does web design cost?
+How long does web design take to show results?
+How do you report on web design performance?","Topic entities: UX/UI, responsive design, mobile-first, Core Web Vitals, accessibility (WCAG), information architecture, CMS (WordPress, Shopify), wireframes, prototypes, hosting, site speed, conversion-centred design, technical SEO
+Page-specific terms: lawyer web, website develop","web design services for small business → /services/web-design-development/web-design-services-for-small-business/
+b2b web design agency → /services/web-design-development/b2b-web-design-agency/
+web design → /resources/guides/web-design/
+responsive web design → /resources/guides/responsive-web-design/
+web design trends → /blog/web-design-trends/
+responsive web design techniques → /blog/responsive-web-design-techniques/
+how to design a website → /blog/how-to-design-a-website/
+law firm marketing → /industries/law-firms/",4,Get a free web design proposal (form above the fold + sticky CTA),"'law firm web design': 3 guides/articles, 1 agency/service pages, 1 'best agencies' lists",,Not started
+WEB-S02,1,P1 – High,Web Design & Development,Web Design Services,Service Page,Audience service,/services/web-design-development/web-design-services-for-small-business/,/services/web-design-development/,Web Design Services for Small Business,Web Design Services for Small Business | Dazzlit,"Web Design Services for Small Business from Dazzlit: data-driven web design built to grow traffic, leads and revenue. See results and get a free proposal.",web design services for small business,small business web design; web design for small business,2900,3,9200,35,Informational,BOFU – hire / buy,"1,500–2,000",Service + Offer + FAQPage + BreadcrumbList,"H2 1. Web Design Services for Small Business: what you get
+H2 2. Our Web Design Services for Small Business process
+H2 3. Deliverables & reporting
+H2 4. Results / case study
+H2 5. Pricing & engagement models
+H2 6. Why Dazzlit
+H2 7. FAQs
+H2 8. CTA","How much does web design cost?
+How long does web design take to show results?
+How do you report on web design performance?","Topic entities: UX/UI, responsive design, mobile-first, Core Web Vitals, accessibility (WCAG), information architecture, CMS (WordPress, Shopify), wireframes, prototypes, hosting, site speed, conversion-centred design, technical SEO","law firm web design → /services/web-design-development/web-design-for-law-firms/
+b2b web design agency → /services/web-design-development/b2b-web-design-agency/
+web design → /resources/guides/web-design/
+responsive web design → /resources/guides/responsive-web-design/
+web design trends → /blog/web-design-trends/
+responsive web design techniques → /blog/responsive-web-design-techniques/
+how to design a website → /blog/how-to-design-a-website/",3,Get a free web design proposal (form above the fold + sticky CTA),"'web design services for small business': 2 'best agencies' lists, 1 guides/articles, 1 Reddit/YouTube/Quora, 1 agency/service pages",,Not started
+WEB-S04,1,P1 – High,Web Design & Development,Web Development,Service Page,Service,/services/web-design-development/web-development/,/services/web-design-development/,Web Development,Web Development | Dazzlit,"Web Development from Dazzlit: data-driven web design built to grow traffic, leads and revenue. See results and get a free proposal.",web development,website development; web development company; web development services; website development company; web development agency; website developers; website development services; website developer,1500000,33,1647960,50,Informational,BOFU – hire / buy,"1,500–2,200",Service + Offer + FAQPage + BreadcrumbList,"H2 1. Web Development: what you get
+H2 2. Website Development
+H2 3. Web Design and Development
+H2 4. Custom Web Development
+H2 5. Our Web Development process
+H2 6. Deliverables & reporting
+H2 7. Results / case study
+H2 8. Pricing & engagement models
+H2 9. Why Dazzlit
+H2 10. FAQs
+H2 11. CTA","How much does web design cost?
+How long does web design take to show results?
+How do you report on web design performance?","Topic entities: UX/UI, responsive design, mobile-first, Core Web Vitals, accessibility (WCAG), information architecture, CMS (WordPress, Shopify), wireframes, prototypes, hosting, site speed, conversion-centred design, technical SEO
+Page-specific terms: website develop, design develop, website design, web design, custom website","website developers for small business → /services/web-design-development/website-developers-for-small-business/
+web development website inspiration → /resources/examples/web-development-website-inspiration/
+web design vs web development → /blog/web-design-vs-web-development/",3,Get a free web design proposal (form above the fold + sticky CTA),"'web development': 3 guides/articles, 1 Reddit/YouTube/Quora, 1 job listings","SERP is informational: build this page as a service page with guide-depth content (definitions, process, examples, FAQs) – thin sales copy will not rank.",Not started
+WEB-S06,1,P1 – High,Web Design & Development,WordPress Development,Service Page,Service,/services/web-design-development/wordpress-development/,/services/web-design-development/,WordPress Development,WordPress Development | Dazzlit,"WordPress Development from Dazzlit: data-driven web design built to grow traffic, leads and revenue. See results and get a free proposal.",wordpress development,wordpress website developer; wordpress web design company; wordpress website development; wordpress website development company; wordpress website development services,1900,6,12000,47,Informational,BOFU – hire / buy,"1,500–2,200",Service + Offer + FAQPage + BreadcrumbList,"H2 1. WordPress Development: what you get
+H2 2. WordPress Website Developer
+H2 3. WordPress Web Design Company
+H2 4. Our WordPress Development process
+H2 5. Deliverables & reporting
+H2 6. Results / case study
+H2 7. Pricing & engagement models
+H2 8. Why Dazzlit
+H2 9. FAQs
+H2 10. CTA","How much does web design cost?
+How long does web design take to show results?
+How do you report on web design performance?","Topic entities: UX/UI, responsive design, mobile-first, Core Web Vitals, accessibility (WCAG), information architecture, CMS (WordPress, Shopify), wireframes, prototypes, hosting, site speed, conversion-centred design, technical SEO
+Page-specific terms: wordpress website, website develop, wordpress web, web design","wordpress website design → /resources/guides/wordpress-website-design/
+web design company → /services/web-design-development/
+ui ux design → /resources/guides/ui-ux-design/
+case studies → /case-studies/
+contact dazzlit → /contact/",2,Get a free web design proposal (form above the fold + sticky CTA),"'wordpress development': 3 guides/articles, 1 brand-owned pages, 1 Reddit/YouTube/Quora","SERP is informational: build this page as a service page with guide-depth content (definitions, process, examples, FAQs) – thin sales copy will not rank.",Not started
+WEB-S07,1,P1 – High,Web Design & Development,Shopify Development,Service Page,Service,/services/web-design-development/shopify-development-services/,/services/web-design-development/,Shopify Development Services,Shopify Development Services | Dazzlit,"Shopify Development Services from Dazzlit: data-driven web design built to grow traffic, leads and revenue. See results and get a free proposal.",shopify development services,shopify developer; shopify development; shopify development company; shopify website development; bigcommerce developer; shopify web development company; shopify store development services; shopify website development services,3600,10,19780,36,Informational,BOFU – hire / buy,"1,500–2,200",Service + Offer + FAQPage + BreadcrumbList,"H2 1. Shopify Development Services: what you get
+H2 2. Shopify Website Development
+H2 3. Bigcommerce Developer
+H2 4. Shopify Web Development Company
+H2 5. Our Shopify Development Services process
+H2 6. Deliverables & reporting
+H2 7. Results / case study
+H2 8. Pricing & engagement models
+H2 9. Why Dazzlit
+H2 10. FAQs
+H2 11. CTA","How much does web design cost?
+How long does web design take to show results?
+How do you report on web design performance?","Topic entities: UX/UI, responsive design, mobile-first, Core Web Vitals, accessibility (WCAG), information architecture, CMS (WordPress, Shopify), wireframes, prototypes, hosting, site speed, conversion-centred design, technical SEO
+Page-specific terms: shopify website, website develop, shopify store, bigcommerce develop, shopify web","shopify web design → /resources/guides/shopify-web-design/
+how to build a shopify store → /blog/how-to-build-a-shopify-store/
+how to delete a shopify store → /blog/how-to-delete-a-shopify-store/
+how to close shopify store → /blog/how-to-close-shopify-store/",2,Get a free web design proposal (form above the fold + sticky CTA),"'shopify developer': 3 brand-owned pages, 1 Reddit/YouTube/Quora, 1 guides/articles",,Not started
+WEB-S08,1,P1 – High,Web Design & Development,eCommerce Website Development,Service Page,Service,/services/web-design-development/ecommerce-website-development/,/services/web-design-development/,eCommerce Website Development,eCommerce Website Development | Dazzlit,"eCommerce Website Development from Dazzlit: data-driven web design built to grow traffic, leads and revenue. See results and get a free proposal.",ecommerce website development,ecommerce development services; ecommerce web design company; ecommerce web design services; ecommerce website development company; ecommerce website development services; ecommerce web development services; ecommerce website developer; magento website development,5400,13,24100,36,Informational,BOFU – hire / buy,"1,500–2,200",Service + Offer + FAQPage + BreadcrumbList,"H2 1. eCommerce Website Development: what you get
+H2 2. eCommerce Web Design Company
+H2 3. eCommerce Web Development Services
+H2 4. Magento Website Development
+H2 5. Our eCommerce Website Development process
+H2 6. Deliverables & reporting
+H2 7. Results / case study
+H2 8. Pricing & engagement models
+H2 9. Why Dazzlit
+H2 10. FAQs
+H2 11. CTA","How much does web design cost?
+How long does web design take to show results?
+How do you report on web design performance?","Topic entities: UX/UI, responsive design, mobile-first, Core Web Vitals, accessibility (WCAG), information architecture, CMS (WordPress, Shopify), wireframes, prototypes, hosting, site speed, conversion-centred design, technical SEO
+Page-specific terms: ecommerce web, web design, web develop, magento website, magento web","ecommerce web design → /resources/guides/ecommerce-web-design/
+web design company → /services/web-design-development/
+ui ux design → /resources/guides/ui-ux-design/
+case studies → /case-studies/
+contact dazzlit → /contact/
+website project plan template → /resources/templates/website-project-plan-template/
+website launch checklist → /resources/checklists/website-launch-checklist/
+website accessibility checklist → /resources/checklists/website-accessibility-checklist/",8,Get a free web design proposal (form above the fold + sticky CTA),"'ecommerce website development': 3 guides/articles, 1 'best agencies' lists, 1 Reddit/YouTube/Quora","SERP is informational: build this page as a service page with guide-depth content (definitions, process, examples, FAQs) – thin sales copy will not rank.",Not started
+MED-S09,1,P1 – High,Media Production,Graphic Design,Service Page,Service,/services/media-production/graphic-design-services/,/services/media-production/,Graphic Design Services,Graphic Design Services | Dazzlit,"Graphic Design Services from Dazzlit: data-driven video production built to grow traffic, leads and revenue. See results and get a free proposal.",graphic design services,branding agency; brand marketing agency; creative marketing agency; branding and marketing agency; branding marketing agency,8100,6,30300,68,Informational,BOFU – hire / buy,"1,500–2,200",Service + Offer + FAQPage + BreadcrumbList,"H2 1. Graphic Design Services: what you get
+H2 2. Branding Agency
+H2 3. Brand Marketing Agency
+H2 4. Creative Marketing Agency
+H2 5. Our Graphic Design Services process
+H2 6. Deliverables & reporting
+H2 7. Results / case study
+H2 8. Pricing & engagement models
+H2 9. Why Dazzlit
+H2 10. FAQs
+H2 11. CTA","How much does video production cost?
+How long does video production take to show results?
+How do you report on video production performance?","Topic entities: pre-production, scripting, storyboard, shoot, post-production, editing, motion graphics, animation, colour grading, sound design, formats & aspect ratios, video SEO, distribution, UGC","b2b branding agency → /services/media-production/b2b-branding-agency/
+logo design → /resources/guides/logo-design/
+video production → /services/media-production/
+motion graphics → /resources/guides/motion-graphics/
+case studies → /case-studies/
+contact dazzlit → /contact/",3,Get a free video production proposal (form above the fold + sticky CTA),"'graphic design services': 2 'best agencies' lists, 2 guides/articles, 1 agency/service pages",,Not started
+CM-S07,1,P1 – High,Content Marketing,Copywriting,Service Page,Service,/services/content-marketing/copywriting-services/,/services/content-marketing/,Copywriting Services,Copywriting Services | Dazzlit,"Copywriting Services from Dazzlit: data-driven content marketing built to grow traffic, leads and revenue. See results and get a free proposal.",copywriting services,seo copywriting services; seo copywriting agency; copywriting agency; seo copywriting service; website copywriting services; seo copywriting company; web copywriting services,2400,8,13990,20,Informational,BOFU – hire / buy,"1,500–2,200",Service + Offer + FAQPage + BreadcrumbList,"H2 1. Copywriting Services: what you get
+H2 2. SEO Copywriting Services
+H2 3. SEO Copywriting Agency
+H2 4. Website Copywriting Services
+H2 5. Our Copywriting Services process
+H2 6. Deliverables & reporting
+H2 7. Results / case study
+H2 8. Pricing & engagement models
+H2 9. Why Dazzlit
+H2 10. FAQs
+H2 11. CTA","How much does content marketing cost?
+How long does content marketing take to show results?
+How do you report on content marketing performance?","Topic entities: content strategy, editorial calendar, pillar pages, topic clusters, search intent, buyer journey, content distribution, repurposing, E-E-A-T, content audit, conversion content, thought leadership, content ROI
+Page-specific terms: seo copywriting, website copywriting, web copywriting","copywriting → /resources/guides/copywriting/
+seo copywriting → /resources/guides/seo-copywriting/
+eugene schwartz copywriting quotes → /blog/eugene-schwartz-copywriting-quotes/
+copywriting vs content writing → /blog/copywriting-vs-content-writing/",3,Get a free content marketing proposal (form above the fold + sticky CTA),"'copywriting services': 2 agency/service pages, 2 guides/articles, 1 Reddit/YouTube/Quora",,Not started
+CM-S08,1,P1 – High,Content Marketing,SEO Content Writing,Service Page,Service,/services/content-marketing/seo-content-writing-services/,/services/content-marketing/,SEO Content Writing Services,SEO Content Writing Services | Dazzlit,"SEO Content Writing Services from Dazzlit: data-driven content marketing built to grow traffic, leads and revenue. See results and get a free proposal.",seo content writing services,content writing services; blog writing services; seo writing services; blog writing service; seo blog writing services; seo content writing agency; seo content marketing agency; seo content marketing services,3600,20,28110,24,Informational,BOFU – hire / buy,"1,500–2,200",Service + Offer + FAQPage + BreadcrumbList,"H2 1. SEO Content Writing Services: what you get
+H2 2. Website Content Writing Services
+H2 3. Our SEO Content Writing Services process
+H2 4. Deliverables & reporting
+H2 5. Results / case study
+H2 6. Pricing & engagement models
+H2 7. Why Dazzlit
+H2 8. FAQs
+H2 9. CTA","How much does content marketing cost?
+How long does content marketing take to show results?
+How do you report on content marketing performance?","Topic entities: content strategy, editorial calendar, pillar pages, topic clusters, search intent, buyer journey, content distribution, repurposing, E-E-A-T, content audit, conversion content, thought leadership, content ROI
+Page-specific terms: blog write, seo blog, website content, seo friendly, friendly content","seo content writing → /resources/guides/seo-content-writing/
+seo content marketing strategy → /blog/seo-content-marketing-strategy/
+content marketing agency → /services/content-marketing/
+content marketing → /resources/guides/content-marketing/
+case studies → /case-studies/
+contact dazzlit → /contact/
+content brief template → /resources/templates/content-brief-template/",3,Get a free content marketing proposal (form above the fold + sticky CTA),"'content writing services': 2 agency/service pages, 2 'best agencies' lists, 1 Reddit/YouTube/Quora",,Not started
+CM-S09,1,P1 – High,Content Marketing,B2B Content,Service Page,Audience service,/services/content-marketing/b2b-content-marketing/,/services/content-marketing/,B2B Content Marketing Services,B2B Content Marketing Services | Dazzlit,"B2B Content Marketing Services from Dazzlit: data-driven content marketing built to grow traffic, leads and revenue. See results and get a free proposal.",b2b content marketing,b2b content marketing agency; b2b content marketing services,5400,3,9600,35,Informational,BOFU – hire / buy,"1,500–2,000",Service + Offer + FAQPage + BreadcrumbList,"H2 1. B2B Content Marketing Services: what you get
+H2 2. Our B2B Content Marketing process
+H2 3. Deliverables & reporting
+H2 4. Results / case study
+H2 5. Pricing & engagement models
+H2 6. Why Dazzlit
+H2 7. FAQs
+H2 8. CTA","How much does content marketing cost?
+How long does content marketing take to show results?
+How do you report on content marketing performance?","Topic entities: content strategy, editorial calendar, pillar pages, topic clusters, search intent, buyer journey, content distribution, repurposing, E-E-A-T, content audit, conversion content, thought leadership, content ROI","whitepaper → /resources/guides/whitepaper/
+case study examples → /resources/examples/case-study-examples/
+b2b content marketing strategy → /blog/b2b-content-marketing-strategy/
+b2b content marketing trends → /blog/b2b-content-marketing-trends/
+why content marketing is important for b2b → /blog/why-content-marketing-is-important-for-b2b/
+what is b2b content marketing → /resources/guides/what-is-b2b-content-marketing/",3,Get a free content marketing proposal (form above the fold + sticky CTA),"'b2b content marketing': 4 guides/articles, 1 Reddit/YouTube/Quora","SERP is informational: build this page as a service page with guide-depth content (definitions, process, examples, FAQs) – thin sales copy will not rank.",Not started
+ECM-S02,1,P1 – High,eCommerce Management,Inventory & Fulfillment,Service Page,Service,/services/ecommerce-management/inventory-management/,/services/ecommerce-management/,Inventory Management,Inventory Management | Dazzlit,"Inventory Management from Dazzlit: data-driven eCommerce management built to grow traffic, leads and revenue. See results and get a free proposal.",inventory management,ecommerce order management; ecommerce inventory management; ecommerce order management system; order management system ecommerce; ecommerce order and shipment management; order management ecommerce; order management system for ecommerce,18100,8,22690,25,Informational,BOFU – hire / buy,"1,500–2,200",Service + Offer + FAQPage + BreadcrumbList,"H2 1. Inventory Management: what you get
+H2 2. eCommerce Order Management
+H2 3. eCommerce Inventory Management
+H2 4. Our Inventory Management process
+H2 5. Deliverables & reporting
+H2 6. Results / case study
+H2 7. Pricing & engagement models
+H2 8. Why Dazzlit
+H2 9. FAQs
+H2 10. CTA","How much does eCommerce management cost?
+How long does eCommerce management take to show results?
+How do you report on eCommerce management performance?","Topic entities: product catalog, product data/PIM, inventory, order management, fulfilment/3PL, returns, platform (Shopify, WooCommerce, BigCommerce), merchandising, pricing, site search, checkout, analytics
+Page-specific terms: ecommerce order, system ecommerce, ecommerce inventory, order shipment","3pl → /resources/guides/3pl/
+order fulfillment → /resources/guides/order-fulfillment/
+ecommerce inventory management software → /blog/ecommerce-inventory-management-software/
+inventory management template → /resources/templates/inventory-management-template/",4,Get a free eCommerce management proposal (form above the fold + sticky CTA),'inventory management': 5 guides/articles,"SERP is informational: build this page as a service page with guide-depth content (definitions, process, examples, FAQs) – thin sales copy will not rank.",Not started
+ECMK-S03,1,P1 – High,eCommerce Marketing,eCommerce PPC,Service Page,Service,/services/ecommerce-marketing/ecommerce-ppc-agency/,/services/ecommerce-marketing/,eCommerce PPC Agency,eCommerce PPC Agency | Dazzlit,"eCommerce PPC Agency from Dazzlit: data-driven eCommerce marketing built to grow traffic, leads and revenue. See results and get a free proposal.",ecommerce ppc agency,ecommerce ppc management; ecommerce ppc; ecommerce ppc management services,1900,4,5120,22,Informational,BOFU – hire / buy,"1,500–2,200",Service + Offer + FAQPage + BreadcrumbList,"H2 1. eCommerce PPC Agency: what you get
+H2 2. Our eCommerce PPC Agency process
+H2 3. Deliverables & reporting
+H2 4. Results / case study
+H2 5. Pricing & engagement models
+H2 6. Why Dazzlit
+H2 7. FAQs
+H2 8. CTA","How much does eCommerce marketing cost?
+How long does eCommerce marketing take to show results?
+How do you report on eCommerce marketing performance?","Topic entities: AOV, conversion rate, CAC, LTV, retention, email & SMS flows, abandoned cart, Google Shopping, Performance Max, product feeds, reviews & UGC, loyalty programs, DTC","ecommerce marketing agency → /services/ecommerce-marketing/
+sms marketing → /resources/guides/sms-marketing/
+case studies → /case-studies/
+contact dazzlit → /contact/",2,Get a free eCommerce marketing proposal (form above the fold + sticky CTA),"'ecommerce ppc agency': 4 guides/articles, 1 'best agencies' lists","SERP is informational: build this page as a service page with guide-depth content (definitions, process, examples, FAQs) – thin sales copy will not rank.",Not started
+REV-S02,1,P1 – High,Reviews Generation,Google Reviews,Service Page,Service,/services/review-generation/google-review-link/,/services/review-generation/,Google Review Link Services,Google Review Link Services | Dazzlit,"Google Review Link Services from Dazzlit: data-driven review generation built to grow traffic, leads and revenue. See results and get a free proposal.",google review link,google maps reviews; google reviews link; google reviews for business; google map reviews; manage google reviews; google review management; get more google reviews,4400,8,16060,48,Commercial,BOFU – hire / buy,"1,500–2,200",Service + Offer + FAQPage + BreadcrumbList,"H2 1. Google Review Link Services: what you get
+H2 2. Google Maps Reviews
+H2 3. Google Reviews for Business
+H2 4. Google Map Reviews
+H2 5. Our Google Review Link process
+H2 6. Deliverables & reporting
+H2 7. Results / case study
+H2 8. Pricing & engagement models
+H2 9. Why Dazzlit
+H2 10. FAQs
+H2 11. CTA","How much does review generation cost?
+How long does review generation take to show results?
+How do you report on review generation performance?","Topic entities: review requests, Google Business Profile reviews, star ratings, review velocity, review responses, Trustpilot/Yelp/G2, review policies (no incentives/fake reviews), testimonials, UGC, review schema
+Page-specific terms: google maps, maps review, google map, map review, manage google","google business reviews → /resources/guides/google-business-reviews/
+do google reviews help seo → /blog/do-google-reviews-help-seo/
+google ad preview tool → /blog/google-ad-preview-tool/
+google review management tool → /blog/google-review-management-tool/
+review request template → /resources/templates/review-request-template/
+online review statistics → /resources/statistics/online-review-statistics/
+google review qr code → /resources/tools/google-review-qr-code/",5,Get a free review generation proposal (form above the fold + sticky CTA),"'google review link': 2 brand-owned pages, 2 guides/articles, 1 Reddit/YouTube/Quora",,Not started
+LSEO-S02,1,P1 – High,Local SEO,Local SEO Services,Service Page,Audience service,/services/local-seo/white-label-local-seo-services/,/services/local-seo/,White Label Local SEO Services,White Label Local SEO Services | Dazzlit,"White Label Local SEO Services from Dazzlit: data-driven local SEO built to grow traffic, leads and revenue. See results and get a free proposal.",white label local seo services,white label local seo; local seo white label,2400,3,7900,19,Informational,BOFU – hire / buy,"1,500–2,000",Service + Offer + FAQPage + BreadcrumbList,"H2 1. White Label Local SEO Services: what you get
+H2 2. Our White Label Local SEO Services process
+H2 3. Deliverables & reporting
+H2 4. Results / case study
+H2 5. Pricing & engagement models
+H2 6. Why Dazzlit
+H2 7. FAQs
+H2 8. CTA","How much does local SEO cost?
+How long does local SEO take to show results?
+How do you report on local SEO performance?","Topic entities: Google Business Profile, map pack, NAP consistency, local citations, local reviews, proximity/relevance/prominence, service areas, location pages, local schema, Bing Places, Apple Business Connect","local seo packages → /services/local-seo/local-seo-pricing-and-packages/
+local seo services for small business → /services/local-seo/local-seo-services-for-small-business/
+local seo → /resources/guides/local-seo/
+local seo checklist → /resources/checklists/local-seo-checklist/
+local seo tools → /blog/local-seo-tools/
+local seo ranking factors → /blog/local-seo-ranking-factors/
+best local seo → /blog/best-local-seo/",3,Get a free local SEO proposal (form above the fold + sticky CTA),"'white label local seo services': 3 guides/articles, 2 agency/service pages",,Not started
+LSEO-S06,1,P1 – High,Local SEO,Industry Local SEO,Service Page,Industry service,/services/local-seo/seo-for-law-firms/,/services/local-seo/,SEO for Law Firms,SEO for Law Firms | Dazzlit,"SEO for Law Firms from Dazzlit: data-driven local SEO built to grow traffic, leads and revenue. See results and get a free proposal.",seo for lawyers,law firm seo; lawyer seo; seo for law firms; legal seo; attorney seo; law firm seo services; seo services for lawyers; seo for attorneys,9900,16,63000,35,Informational,BOFU – hire / buy,"1,500–2,000",Service + Offer + FAQPage + BreadcrumbList,"H2 1. SEO for Law Firms: what you get
+H2 2. Law Firm SEO
+H2 3. Legal SEO
+H2 4. Local SEO for Lawyers
+H2 5. Our SEO for Lawyers process
+H2 6. Deliverables & reporting
+H2 7. Results / case study
+H2 8. Pricing & engagement models
+H2 9. Why Dazzlit
+H2 10. FAQs
+H2 11. CTA","How much does local SEO cost?
+How long does local SEO take to show results?
+How do you report on local SEO performance?","Topic entities: Google Business Profile, map pack, NAP consistency, local citations, local reviews, proximity/relevance/prominence, service areas, location pages, local schema, Bing Places, Apple Business Connect
+Page-specific terms: seo law, legal seo, local seo, seo expert","seo for dentists → /services/local-seo/seo-for-dentists/
+healthcare seo services → /services/local-seo/seo-for-healthcare-and-medical-practices/
+seo for contractors → /services/local-seo/seo-for-home-services-and-contractors/
+seo for financial services → /services/local-seo/seo-for-financial-services/
+law firm marketing → /industries/law-firms/",8,Get a free local SEO proposal (form above the fold + sticky CTA),'seo for lawyers': 5 guides/articles,"SERP is informational: build this page as a service page with guide-depth content (definitions, process, examples, FAQs) – thin sales copy will not rank.",Not started
+LSEO-S07,1,P1 – High,Local SEO,Industry Local SEO,Service Page,Industry service,/services/local-seo/seo-for-dentists/,/services/local-seo/,SEO for Dentists,SEO for Dentists | Dazzlit,"SEO for Dentists from Dazzlit: data-driven local SEO built to grow traffic, leads and revenue. See results and get a free proposal.",seo for dentists,dental seo; dentist seo; dental seo company; dental seo services; local seo for dentists; seo for dentist; dental seo agency; seo for dental,5400,11,34600,30,Informational,BOFU – hire / buy,"1,500–2,000",Service + Offer + FAQPage + BreadcrumbList,"H2 1. SEO for Dentists: what you get
+H2 2. Local SEO for Dentists
+H2 3. Dental Practice SEO
+H2 4. Our SEO for Dentists process
+H2 5. Deliverables & reporting
+H2 6. Results / case study
+H2 7. Pricing & engagement models
+H2 8. Why Dazzlit
+H2 9. FAQs
+H2 10. CTA","How much does local SEO cost?
+How long does local SEO take to show results?
+How do you report on local SEO performance?","Topic entities: Google Business Profile, map pack, NAP consistency, local citations, local reviews, proximity/relevance/prominence, service areas, location pages, local schema, Bing Places, Apple Business Connect
+Page-specific terms: local seo, dentist practice, practice seo","seo for lawyers → /services/local-seo/seo-for-law-firms/
+healthcare seo services → /services/local-seo/seo-for-healthcare-and-medical-practices/
+seo for contractors → /services/local-seo/seo-for-home-services-and-contractors/
+seo for financial services → /services/local-seo/seo-for-financial-services/
+dental marketing agency → /industries/dental/",8,Get a free local SEO proposal (form above the fold + sticky CTA),"'seo for dentists': 4 guides/articles, 1 agency/service pages","SERP is informational: build this page as a service page with guide-depth content (definitions, process, examples, FAQs) – thin sales copy will not rank.",Not started
+LSEO-S08,1,P1 – High,Local SEO,Industry Local SEO,Service Page,Industry service,/services/local-seo/seo-for-healthcare-and-medical-practices/,/services/local-seo/,SEO for Healthcare & Medical Practices,SEO for Healthcare & Medical Practices | Dazzlit,"SEO for Healthcare & Medical Practices from Dazzlit: data-driven local SEO built to grow traffic, leads and revenue. See results and get a free proposal.",healthcare seo services,medical seo; healthcare seo; seo for doctors; healthcare seo agency; seo for healthcare; seo for chiropractors; seo services for healthcare,3600,8,25900,25,Informational,BOFU – hire / buy,"1,500–2,000",Service + Offer + FAQPage + BreadcrumbList,"H2 1. SEO for Healthcare & Medical Practices: what you get
+H2 2. Medical SEO
+H2 3. SEO for Doctors
+H2 4. SEO for Chiropractors
+H2 5. Our Healthcare SEO Services process
+H2 6. Deliverables & reporting
+H2 7. Results / case study
+H2 8. Pricing & engagement models
+H2 9. Why Dazzlit
+H2 10. FAQs
+H2 11. CTA","How much does local SEO cost?
+How long does local SEO take to show results?
+How do you report on local SEO performance?","Topic entities: Google Business Profile, map pack, NAP consistency, local citations, local reviews, proximity/relevance/prominence, service areas, location pages, local schema, Bing Places, Apple Business Connect
+Page-specific terms: medical seo, seo doctor, seo chiropractor","seo for lawyers → /services/local-seo/seo-for-law-firms/
+seo for dentists → /services/local-seo/seo-for-dentists/
+seo for contractors → /services/local-seo/seo-for-home-services-and-contractors/
+seo for financial services → /services/local-seo/seo-for-financial-services/
+healthcare digital marketing agency → /industries/healthcare/",8,Get a free local SEO proposal (form above the fold + sticky CTA),"'seo for doctors': 4 guides/articles, 1 Reddit/YouTube/Quora",,Not started
+LSEO-S09,1,P1 – High,Local SEO,Industry Local SEO,Service Page,Industry service,/services/local-seo/seo-for-home-services-and-contractors/,/services/local-seo/,SEO for Home Services & Contractors,SEO for Home Services & Contractors | Dazzlit,"SEO for Home Services & Contractors from Dazzlit: data-driven local SEO built to grow traffic, leads and revenue. See results and get a free proposal.",seo for contractors,seo for plumbers; seo for construction companies; seo services for plumbers,3600,4,10480,20,Informational,BOFU – hire / buy,"1,500–2,000",Service + Offer + FAQPage + BreadcrumbList,"H2 1. SEO for Home Services & Contractors: what you get
+H2 2. SEO for Plumbers
+H2 3. SEO for Construction Companies
+H2 4. Our SEO for Contractors process
+H2 5. Deliverables & reporting
+H2 6. Results / case study
+H2 7. Pricing & engagement models
+H2 8. Why Dazzlit
+H2 9. FAQs
+H2 10. CTA","How much does local SEO cost?
+How long does local SEO take to show results?
+How do you report on local SEO performance?","Topic entities: Google Business Profile, map pack, NAP consistency, local citations, local reviews, proximity/relevance/prominence, service areas, location pages, local schema, Bing Places, Apple Business Connect
+Page-specific terms: seo plumber, seo construction","seo for lawyers → /services/local-seo/seo-for-law-firms/
+seo for dentists → /services/local-seo/seo-for-dentists/
+healthcare seo services → /services/local-seo/seo-for-healthcare-and-medical-practices/
+seo for financial services → /services/local-seo/seo-for-financial-services/
+digital marketing for home services → /industries/home-services/",8,Get a free local SEO proposal (form above the fold + sticky CTA),'seo for contractors': 5 guides/articles,"SERP is informational: build this page as a service page with guide-depth content (definitions, process, examples, FAQs) – thin sales copy will not rank.",Not started
+AI-S06,1,P1 – High,AI Services,AI Consulting & Integration,Service Page,Service,/services/ai-services/ai-consulting/,/services/ai-services/,AI Consulting,AI Consulting | Dazzlit,"AI Consulting from Dazzlit: data-driven AI marketing built to grow traffic, leads and revenue. See results and get a free proposal.",ai consulting,ai development company; ai integration services,8100,3,14400,57,Informational,BOFU – hire / buy,"1,500–2,200",Service + Offer + FAQPage + BreadcrumbList,"H2 1. AI Consulting: what you get
+H2 2. AI Development Company
+H2 3. AI Integration Services
+H2 4. Our AI Consulting process
+H2 5. Deliverables & reporting
+H2 6. Results / case study
+H2 7. Pricing & engagement models
+H2 8. Why Dazzlit
+H2 9. FAQs
+H2 10. CTA","How much does AI marketing cost?
+How long does AI marketing take to show results?
+How do you report on AI marketing performance?","Topic entities: generative AI, LLMs, prompts, AI agents, chatbots, workflow automation, AI content, AI governance, data privacy, integrations (APIs), personalization at scale, AI search visibility
+Page-specific terms: ai develop, ai integration","ai marketing agency → /services/ai-services/
+ai agents → /resources/guides/ai-agents/
+case studies → /case-studies/
+contact dazzlit → /contact/",1,Get a free AI marketing proposal (form above the fold + sticky CTA),"'ai consulting': 2 guides/articles, 1 Reddit/YouTube/Quora, 1 agency/service pages, 1 'best agencies' lists",,Not started
