@@ -1,0 +1,35 @@
+import { defineCollection, z } from 'astro:content';
+
+// One schema for every page collection. Every field comes from the CSV brief;
+// nothing here invents a URL, title, keyword or meta tag.
+const pageSchema = z.object({
+  pageId: z.string(),
+  url: z.string(),
+  title: z.string(),
+  metaTitle: z.string().max(60),
+  metaDescription: z.string().max(160),
+  primaryKeyword: z.string(),
+  secondaryKeywords: z.array(z.string()).default([]),
+  schema: z.array(z.string()).default([]),
+  parentPage: z.string(),
+  internalLinks: z
+    .array(z.object({ anchor: z.string(), url: z.string() }))
+    .default([]),
+  faqs: z.array(z.string()).default([]),
+  cta: z.string(),
+  wave: z.number(),
+  status: z.string(),
+  pageType: z.string(),
+  pageSubtype: z.string(),
+  pillar: z.string(),
+  topic: z.string(),
+  priority: z.string(),
+  targetWords: z.string(),
+  searchIntent: z.string(),
+  funnelStage: z.string(),
+});
+
+export const collections = {
+  core: defineCollection({ type: 'content', schema: pageSchema }),
+  services: defineCollection({ type: 'content', schema: pageSchema }),
+};

@@ -1,7 +1,7 @@
 # STATUS – Dazzlit platform
 
 **Last updated:** 16 Nov 2026
-**Current phase:** Phase 1, Foundations — steps 1–3 done (Astro scaffold, design tokens, shared components). Design and homepage are approved; development has started.
+**Current phase:** Phase 1, Foundations — steps 1–4 done (Astro scaffold, design tokens, shared components, CSV scaffolder). Design and homepage are approved; development has started.
 **Live site:** not yet. dazzlit.com still runs the old WordPress install on Hostinger.
 
 ## Where we are
@@ -36,11 +36,10 @@
 | **Total** | **91** | **167** | **465** | **342** | **1,065** | |
 
 ## Next actions
-1. **Owner:** review the shared components on GitHub (`develop` branch) and confirm step 4 can start.
+1. **Owner:** review the scaffolder and Wave 1 content skeletons on GitHub (`develop` branch) and confirm step 5 can start.
 2. **Owner:** generate the Wave 1 photos from `docs/PHOTO_BRIEF.md` (F-02b). No photos are in the scaffold yet.
 3. **Owner + Claude:** add the dazzlit.com zone to Cloudflare and create the Pages project (F-04). DNS isn't switched until go-live.
-4. **Claude:** CSV → content scaffolder (F-06), then the 15 page templates (F-07), then Wave 1, one cluster at a time.
-5. **Claude:** design tokens and the 15 page templates, then Wave 1, asking for proof assets at the start of each session (F-07, F-10, F-02c).
+4. **Claude:** CI checks, forms, legal/utility pages, analytics and consent (Phase 1, steps 5–7), then the 15 page templates (F-07), then Wave 1, one cluster at a time.
 
 ## Open decisions
 - **D-08:** API providers. Deferred until development is finished.
@@ -49,6 +48,7 @@
 ## Recent sessions
 | Session | Date | What happened | Register |
 |---|---|---|---|
+| S-11 | 16 Nov 2026 | Phase 1, step 4: CSV → content scaffolder, Wave 1 skeletons (69 pages) verified; build passes; pushed to GitHub `develop` only | R-035 |
 | S-10 | 16 Nov 2026 | Phase 1, steps 2–3: shared components from the homepage mockup; build passes; pushed to GitHub `develop` only (`main` stays at step 1) | R-034 |
 | S-09 | 16 Nov 2026 | Phase 1, step 1: Astro scaffold (Astro 5.18.2, Tailwind 4.3.5, TS 5.9.3), brand tokens, self-hosted fonts, logo/favicons, BaseLayout, temporary index page; build passes; pushed to GitHub `main` + `develop` | R-033 |
 | S-08 | 16 Nov 2026 | Plan confirmed ready to build (v3.2); handoff pack for building with another AI model | R-032 |
@@ -61,6 +61,7 @@
 | S-01 | 28–29 Sep 2026 | Setup, keyword research, validation, content plan v1 (864 pages) | R-001 – R-013 |
 
 ## Changelog
+- **2026-11-16:** Phase 1 step 4 done: CSV scaffolder built, Wave 1 skeletons (69 pages) generated and verified against the CSV, pushed to `develop` only.
 - **2026-11-16:** Phase 1 steps 2–3 done: shared components built and pushed to `develop` only. `main` stays at the step 1 scaffold until the owner reviews.
 - **2026-11-16:** Phase 1 step 1 done: Astro scaffold built and pushed to `dazzlitco/Dazzlit-Platform` (`main` + `develop`). Owner instruction recorded: no placeholder markers in code; invented items are reported at the end of each session instead (D-17). **Not pushed:** `.github/workflows/build.yml` (GitHub App returns 403 for workflow files via the API) and PNG/ICO logo files (the push tool only accepts UTF-8 text files). SVG logos and `favicon.svg` are in the repo; the PNG favicons/app icons and the CI workflow need to be added via the GitHub website or a git push with a personal token.
 - **2026-11-16:** Plan v3.2 (approved homepage referenced); AI builder instructions and handoff pack; pages split by wave + sitemap.csv.

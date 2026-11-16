@@ -25,6 +25,18 @@ must not be changed without the owner's approval.
 Fonts are self-hosted via `@fontsource/plus-jakarta-sans` and
 `@fontsource/dm-sans` — no Google Fonts request at runtime.
 
+## Content scaffolder
+
+```bash
+npm run scaffold -- --wave 1
+```
+
+`scripts/scaffold-from-csv.mjs` turns `../data/pages-by-wave/wave-N.csv` into
+Markdown files under `src/content/` (front-matter from the CSV brief, body
+is only the H2 headings from the outline). It fails on duplicate URLs,
+missing H1/meta tags, meta tags over length, or internal links not in
+`../data/sitemap.csv`. Body copy is written in Phase 2, one cluster at a time.
+
 ## Status
 
 This is the Phase 1 scaffold only. The homepage is built in Phase 2 from
