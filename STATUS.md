@@ -22,7 +22,7 @@
 | GitHub repository | ✅ Provided 16 Nov 2026: `dazzlitco/Dazzlit-Platform` (public, was empty). Scaffold pushed to `main` + `develop` in session S-09 (F-03). |
 | Cloudflare | ⏳ Not set up yet (F-04) |
 | Photography | ⏳ Prompts ready in `docs/PHOTO_BRIEF.md`; owner to generate the Wave 1 images (F-02b) |
-| Build | ✅ Scaffold built locally 16 Nov 2026: Astro 5.18.2, Tailwind 4.3.5, TypeScript 5.9.3; `npm run build` passes, 1 page. No content pages yet. |
+| Build | ✅ Scaffold built locally 16 Nov 2026: Astro 5.18.2, Tailwind 4.3.5, TypeScript 5.9.3; `npm run build` passes, 1 page. No content pages yet. Two files could not be pushed via the GitHub App (see Changelog): `.github/workflows/build.yml` and the PNG/ICO logo files — the SVG logos and `favicon.svg` are in the repo. |
 
 ## Page plan
 | Wave | Core | Service | Resource | Blog | Total | When |
@@ -60,7 +60,7 @@
 | S-01 | 28–29 Sep 2026 | Setup, keyword research, validation, content plan v1 (864 pages) | R-001 – R-013 |
 
 ## Changelog
-- **2026-11-16:** Phase 1 step 1 done: Astro scaffold built and pushed to `dazzlitco/Dazzlit-Platform` (`main` + `develop`). Owner instruction recorded: no placeholder markers in code; invented items are reported at the end of each session instead (D-17).
+- **2026-11-16:** Phase 1 step 1 done: Astro scaffold built and pushed to `dazzlitco/Dazzlit-Platform` (`main` + `develop`). Owner instruction recorded: no placeholder markers in code; invented items are reported at the end of each session instead (D-17). **Not pushed:** `.github/workflows/build.yml` (GitHub App returns 403 for workflow files via the API) and PNG/ICO logo files (the push tool only accepts UTF-8 text files). SVG logos and `favicon.svg` are in the repo; the PNG favicons/app icons and the CI workflow need to be added via the GitHub website or a git push with a personal token.
 - **2026-11-16:** Plan v3.2 (approved homepage referenced); AI builder instructions and handoff pack; pages split by wave + sitemap.csv.
 - **2026-11-07 (approved):** Homepage v2 approved; it is the build template for the homepage and shared components.
 - **2026-11-07 (v2):** No section dropped: case studies, comparison table, FAQs and the rest added; tools stay on dedicated pages.
