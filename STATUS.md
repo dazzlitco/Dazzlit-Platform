@@ -42,7 +42,7 @@
 
 ## Open decisions
 - **D-08:** API providers. Deferred until development is finished.
-- **D-10:** CRM and email provider. Needed before the proposal form goes live (F-25).
+- **D-10:** CRM and email provider. Owner chose D1 + email for now (16 Nov 2026); CRM choice deferred, so no CRM is wired yet (F-25).
 
 ## Recent sessions
 | Session | Date | What happened | Register |

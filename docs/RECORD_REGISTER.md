@@ -79,7 +79,7 @@ Dates for R-001 to R-013 come from file timestamps and the earlier session summa
 | D-07 | 2026-11-04 | Platform: static coded site (Astro → HTML/CSS/JS) in GitHub, hosted on Cloudflare Pages instead of WordPress/Elementor on Hostinger. | Confirmed by owner 2026-11-04 |
 | D-08 | 2026-11-04 | APIs (paid SEO data, LLM, PageSpeed, email checks) are configured after development is finished; tools are built with their UI and a stub/lead-form fallback until then. Provider choice for the 7 paid-data tools still open. | Decided: defer – provider open |
 | D-09 | 2026-11-04 | Design system: Dazzlit brand identity (navy #10162B, violet #7047EB, orange #FF7849, ivory #FAFAFD; geometric display + neutral body) and the Dazzlit homepage design lead; patterns adopted from Thrive, WebFX, NP Digital and Infidigit. Violet primary buttons; orange for accents only. Headline font, logo files, photography and proof still to settle. | Approved by owner 2026-11-04 |
-| D-10 | 2026-11-04 | CRM and transactional email provider. | Open |
+| D-10 | 2026-11-04 | CRM and transactional email provider. | Open — owner chose D1 + email for now (16 Nov 2026); CRM choice deferred, no CRM wired yet |
 | D-11 | 2026-11-04 | Headline font: Plus Jakarta Sans (body: DM Sans). | Decided |
 | D-12 | 2026-11-04 | Logo: the owner's own D-chevron logo (new concepts A–C not used); vectorised to SVG in brand colours. | Decided |
 | D-13 | 2026-11-04 | Photography: AI-generated skyline/architecture images in the violet-orange dusk style (docs/PHOTO_BRIEF.md). | Decided – images to be generated |
